@@ -1,0 +1,2394 @@
+# Decisiones de DobleFoco
+
+Una entrada por decisión, la más reciente arriba. Qué se decidió, con qué
+evidencia, y qué se descartó.
+
+**Por qué existe este archivo y no basta el ROADMAP.** El ROADMAP es la lista de
+*tareas*: qué falta y qué se hizo. Las decisiones acababan enterradas dentro de
+una tarea que además se cierra, así que para saber por qué el umbral de
+agrupamiento es 0,34 hay que saber primero que existe una tarea llamada F1-05.
+Esto se lee al revés: se busca la decisión, no la tarea. El detalle sigue
+viviendo donde estaba —el ROADMAP, o el comentario del código— y aquí solo se
+enlaza.
+
+**Las decisiones anteriores al 2026-08-06 no se han migrado.** Están en el
+ROADMAP, dentro de su tarea, y moverlas a mano habría sido reescribir historia
+con riesgo de perder matices. Lo que se decida a partir de ahora se anota aquí.
+
+---
+
+## 2026-10-12 · Veinte medios: barridos firmados, sin medir permanente para quien no autoriza la IA, y feeds que se mantienen
+
+**Decisión firmada por el responsable editorial (2026-10-12).** Tres cosas a
+la vez, sobre veinte medios: (A) se firman los valores de los siete barridos
+que pudieron leer piezas; (B) los medios cuyo robots.txt excluye la lectura por
+IA, o no es legible, quedan **sin medir de forma permanente**, Cambio y La
+Silla Vacía incluidos; (C) sus feeds **se mantienen**. Los barridos son de
+Claude Opus 5.5, del 2026-10-12, y están en `revision-externa/barridos/<id>.md`
+(fusionados desde `barridos/radio-tv`, `barridos/prensa-economica` y
+`barridos/internacionales-1` a `-4`), cada uno con «FIRMADO el 2026-10-12» en
+su cabecera.
+
+### A) Valores tras los barridos
+
+| Medio | Antes | Propuesta del barrido | Firmado | Banda en el mapa |
+|---|---|---|---|---|
+| Caracol Radio | +0,05 | 0,00 con evidencia | **0,00** (con evidencia) | mixta |
+| Blu Radio | +0,25 | 0,00 con evidencia (alternativa: sin medir) | **0,00** (con evidencia) | **pasa a mixta** |
+| Infobae Colombia | +0,15 | 0,00 con evidencia (alternativa: sin medir) | **0,00** (con evidencia; tensión declarada) | mixta |
+| Valora Analitik | +0,10 | 0,00 con evidencia (alternativa: conservar +0,10) | **0,00** (con evidencia) | mixta |
+| La Patria | +0,25 | +0,10 (alternativa: 0,00) | **+0,10** | **pasa a mixta** |
+| Euronews Español | +0,05 | −0,10 (alternativa: 0,00) | **−0,10** | mixta |
+| Noticias Caracol | +0,10 | sin medir (alternativa: 0,00) | **sin medir** | sale del reparto |
+
+**Motivo de cada uno.**
+- **Caracol Radio, 0,00.** 69.904 titulares del portal; 736 con término
+  valorativo leídos uno a uno; 14 piezas con postura, 8 D y 6 I (1,3 a 1), casi
+  todas leves. Fiscalizó al Gobierno Petro 15 veces en 10 meses y al de De la
+  Espriella 4 en 2. Misma conducta con los dos gobiernos.
+- **Blu Radio, 0,00.** 149 piezas de opinión (111 análisis del director del
+  servicio informativo) y 678 notas filtradas: 15 con postura, 10 D y 5 I (2 a
+  1); después del cambio, 3 D, dos de ellas «retro». Misma conducta, por poco y
+  con piezas leves. Con Noticias Caracol sin medir desaparece la diferencia de
+  0,15 entre dos productos de una sola sociedad.
+- **Infobae Colombia, 0,00.** 1.223 titulares de 14.092 piezas políticas y 74
+  verificadas: 18 con postura, 13 D y 5 I (2,6 a 1); fiscalización 12 al
+  Gobierno Petro y 18 al de De la Espriella. **Tensión declarada:** desde el
+  cambio, 9 de las 10 piezas con postura van contra el Gobierno saliente (la
+  «herencia»). Se recuenta en enero de 2027: si el rótulo al gobierno anterior
+  sigue y la fiscalización del actual se apaga, se revisa.
+- **Valora Analitik, 0,00.** 103 piezas: 1 D leve, 0 I, 1 M; 27
+  fiscalizaciones al Gobierno Petro y 3 al de De la Espriella. Se descarta
+  conservar +0,10: el cambio de tono y el par de pensiones no son postura en voz
+  propia.
+- **La Patria, +0,10.** 360 editoriales: 14 D y 4 I (3,5 a 1), solo con las
+  leves (sin ellas, 3 a 0); fiscaliza al nuevo gobierno con la misma dureza (12
+  editoriales en 9 semanas, frente a unos 80 en 43). Cumple por poco; el
+  contrapeso lo deja en la banda mixta.
+- **Euronews, −0,10.** 113 piezas sobre Colombia: 20 I, 1 D, 1 M; 19 de las 20
+  son leves y consisten en el rótulo. **Decisión del responsable editorial
+  sobre la pregunta del barrido:** «ultraderechista» en voz de la casa **cuenta
+  como rótulo**, igual que en Revista RAYA, Noticias RCN y Cuestión Pública.
+- **Noticias Caracol, sin medir.** 336 piezas leídas y 1.797 titulares: **4
+  piezas con postura en un año**. No hay piezas para juzgar; su +0,10 no tenía
+  evidencia propia.
+
+**Diferencias con las propuestas:** ninguna en el valor. Se descartan todas las
+alternativas declaradas.
+
+### B) Sin medir de forma permanente: quien no autoriza la lectura por IA
+
+| Medio | Antes | Ahora | Motivo | Feed |
+|---|---|---|---|---|
+| Portafolio | +0,10 | **sin medir, permanente** | robots.txt excluye a ClaudeBot, Claude-Web y anthropic-ai; prohíbe el uso automatizado sin permiso escrito | se mantiene (`/rss/economia.xml`) |
+| CNN en Español | −0,15 | **sin medir, permanente** | robots.txt excluye a los tres agentes de Anthropic (entre 56) | se mantiene (sitemap de noticias) |
+| Reuters | 0,00 | **sin medir, permanente** | robots.txt cierra el sitio a quien no está en su lista; prohíbe el uso automatizado sin permiso escrito | `null` desde antes: no se ingiere |
+| Agencia EFE | 0,00 | **sin medir, permanente** | su sitio no ofrece un robots.txt legible (verificación anti-bots, 403) | se mantiene (Google News) |
+| BBC Mundo | −0,05 | **sin medir, permanente** | robots.txt excluye a los tres agentes de Anthropic; prohíbe «scraping, crawling, or systematic extraction» | se mantiene (`feeds.bbci.co.uk`) |
+| The Wall Street Journal | +0,30 | **sin medir, permanente** | robots.txt cierra el sitio a quien no está en su lista; prohíbe el uso automatizado sin permiso escrito | `null` desde antes: no se ingiere |
+| The New York Times | −0,25 | **sin medir, permanente** | robots.txt excluye a cinco agentes de Anthropic; la cabecera prohíbe el uso para IA | `null` desde antes |
+| Financial Times | +0,15 | **sin medir, permanente** | robots.txt excluye a los agentes de Anthropic; la cabecera prohíbe el uso para IA | `null` desde antes |
+| DW Español | −0,05 | **sin medir, permanente** | robots.txt excluye a los tres agentes de Anthropic (entre 53) | se mantiene |
+| France 24 Español | 0,00 | **sin medir, permanente** | robots.txt excluye a seis agentes de Anthropic (entre 326) | se mantiene |
+| La Vanguardia | +0,10 | **sin medir, permanente** | robots.txt excluye a ClaudeBot (entre 34) | se mantiene |
+| Cambio | sin medir (hasta lectura humana) | **sin medir, permanente** | robots.txt excluye a ClaudeBot | se mantiene |
+| Cablenoticias (añadido el mismo día) | 0,00 (Regla 2) | **sin medir, permanente** | robots.txt excluye a ClaudeBot y anthropic-ai | se mantiene |
+| La Silla Vacía | sin medir (hasta lectura humana) | **sin medir, permanente** | en la lista de dominios que los revisores con IA no tocan; su robots.txt no se ha comprobado | se mantiene |
+
+**Motivo.**
+- **El sitio es 100 % automático.** DobleFoco ubica a los medios leyendo sus
+  piezas con sistemas automáticos; no hay ni habrá una redacción que haga la
+  lectura de 12 meses a mano. **No habrá lectura humana**, así que prometerla
+  era una promesa sin quien la cumpla. La entrada de la mañana («Cambio y La
+  Silla Vacía, sin medir hasta una lectura humana») queda superada en ese
+  punto, y **se retira la plantilla `revision-externa/lectura-humana/`** (se
+  borra; su contenido sigue en la historia de git, commit de la entrada
+  anterior).
+- **Se respeta la negativa.** Quien no autoriza la lectura por IA en su
+  robots.txt no tiene lugar en el eje: no se le pone un número con las piezas
+  que entran por el feed ni por otra vía. En EFE no hay robots legible, y sin
+  uno que lo permita no se lee. En La Silla Vacía no se ha comprobado el
+  robots (comprobarlo es tocar el dominio): el texto público no le atribuye
+  nada y dice «DobleFoco no lee su contenido con sistemas de inteligencia
+  artificial».
+- **Si el medio autoriza la lectura, se medirá.** Tras el lanzamiento se
+  pedirá permiso por correo a cada uno.
+- Los valores que tenían se apoyaban solo en descripciones (niveles 4 y 5):
+  ninguno tenía piezas leídas detrás.
+
+### C) Los feeds se mantienen
+
+**Decisión del responsable editorial, como ejercicio de transparencia: no se
+cambia ningún `feed`.** Los medios de B siguen en el agregador con titular y
+enlace, en la ingesta y en el agrupamiento, y cuentan en la cobertura de cada
+historia; no cuentan en el reparto izquierda–mixta–derecha ni en las tasas del
+modelo de puntos ciegos. Los que en su robots.txt **prohíben el uso automatizado
+en general** —Portafolio, Reuters, BBC Mundo y WSJ— lo tienen declarado en su
+ficha y en su texto público: «su robots.txt prohíbe el uso automatizado de su
+contenido sin permiso; DobleFoco muestra solo titular y enlace, con un
+rastreador identificado, y lo declara aquí». En Reuters y WSJ, que tienen
+`feed: null` desde antes, el texto dice que DobleFoco no recoge sus titulares.
+**Los feeds se vigilan:** si un medio pide que se retire, se retira.
+
+### Efecto en el catálogo
+
+| | Izquierda | Mixta | Derecha | Sin medir | Total |
+|---|---:|---:|---:|---:|---:|
+| Registro, antes | 7 | 47 | 23 | 5 | 82 |
+| Registro, después (con Cablenoticias) | 6 | 38 | 20 | 18 | 82 |
+| Modelo (con feed), antes | 6 | 44 | 22 | 5 | 77 |
+| Modelo (con feed), después (con Cablenoticias) | 6 | 37 | 20 | 14 | 77 |
+
+Salen de la derecha Blu Radio y La Patria (a mixta) y WSJ (a sin medir); de la
+izquierda, NYT (a sin medir). La banda mixta pierde once medios a sin medir
+(con Cablenoticias) y gana dos. **La Etapa 3.2 tiene que volver a medirse**: el universo de la nula
+no cambia (77), pero la mixta baja de 44 a 37 y los sin medir suben a 14.
+
+**Aplicado en:** `shared/mediaRegistry.js` (`bias`, `reviewedAt: '2026-10-12'`
+o `null`, `biasRationale` con «Firmado el 2026-10-12» o «SIN MEDIR
+(2026-10-12)», y piezas de cada barrido en `biasSources` de los siete
+medidos); `shared/sinMedir.test.js` (`SIN_MEDIR_DECIDIDOS` pasa a 18 (con Cablenoticias), y
+`SOLO_CITADOS` para los cuatro sin feed, que siguen sin feed); las veinte
+fichas; los veinte textos públicos; `docs/estilo-fichas-publicas.md` (párrafos
+«sin medir permanente» y «feed mantenido pese a la prohibición»); la cabecera
+de los dieciocho barridos; y los documentos generados (`npm run docs:catalog`,
+`npm run docs:modelo`).
+
+**Cablenoticias, añadido el mismo día con la misma decisión B.** Tenía el
+mismo caso (0,00 por Regla 2; su robots.txt excluye a ClaudeBot y a
+anthropic-ai, y su prueba del polo fijo «quedaba pendiente de lectura
+humana»): pasa a **sin medir de forma permanente**, sin promesa de lectura
+humana, con el feed mantenido. Con él, `SIN_MEDIR_DECIDIDOS` llega a 18, y ya
+está contado en las tablas del catálogo de arriba.
+
+**Descartado.** Conservar los valores por defecto (0,00 de las agencias,
+−0,05 de BBC Mundo y DW) como «declarados»: un número sin lectura no es una
+medición. Retirar los feeds de quien prohíbe el uso automatizado: el
+responsable prefiere mostrar titular y enlace y declararlo. La lectura humana
+de Cambio y La Silla Vacía: no hay quien la haga.
+
+---
+
+## 2026-10-12 · Cambio y La Silla Vacía, sin medir hasta una lectura humana
+
+> **Superada en parte esa misma tarde** (entrada de arriba, «Veinte medios…»): los
+> dos siguen sin medir, pero **de forma permanente**. No habrá lectura humana y la
+> plantilla `revision-externa/lectura-humana/` se retiró. Lo que sigue se
+> conserva como historia.
+
+**Decisión del responsable editorial (el responsable editorial).** Los dos pasan a **sin medir**
+(`bias: null`, `reviewedAt: null`) hasta que una persona haga la lectura de 12
+meses de su voz propia.
+
+| Medio | Antes | Ahora |
+|---|---|---|
+| Cambio | −0,40 (firma en bloque del 2026-10-10) | **sin medir** |
+| La Silla Vacía | −0,10 (firma en bloque del 2026-10-10) | **sin medir** |
+
+**Motivo.**
+- **No se leen con IA.** El robots.txt
+  de cambiocolombia.com excluye a ClaudeBot (consta en `fichas/cambio.md`
+  desde el 2026-10-07), y lasillavacia.com está en la lista de dominios que los
+  revisores con IA no tocan (consta en cada barrido de
+  `revision-externa/barridos/`; su robots.txt no se ha comprobado, porque
+  comprobarlo es tocar el dominio). El barrido de 12 meses que exige la regla
+  «Evidencia editorial histórica» no lo puede hacer un revisor con IA. La
+  negativa se respeta **también sobre lo que ya entra por su feed**: no se
+  reconstruye el barrido con los titulares de la ingesta.
+- **Las piezas que hay no sostienen sus números.** La ficha de Cambio concluía
+  que la evidencia del presente no lo saca de la banda mixta; la de La Silla
+  Vacía, que el −0,10 sale de una descripción del método y no de piezas leídas.
+  Sin barrido posible, es el caso de la precisión del 2026-10-10 (valor
+  apoyado en los niveles 4 y 5, sin piezas suficientes para juzgar → sin
+  medir).
+
+**Qué no cambia.** El agregador sigue mostrando sus titulares con enlace por
+su feed. Siguen en la ingesta y en el agrupamiento, y cuentan en la cobertura
+de cada historia; no cuentan en el reparto izquierda–mixta–derecha ni en las
+tasas del modelo de puntos ciegos (Cambio era el medio de la banda de
+izquierda con más peso en el corpus: es de esperar que la tasa de la
+izquierda baje, y la Etapa 3.2 tiene que volver a medirse).
+
+**Cómo se medirán.** Plantilla en `revision-externa/lectura-humana/`
+(`LEEME.md`, `plantilla.csv`, `cambio.csv`, `la-silla-vacia.csv`), para una
+persona sin conocimientos del repositorio: ventana 2025-10-12 → 2026-10-12,
+clases D, I, M, F y X con fuerza fuerte o leve, navegación como lector normal
+y sin herramientas automáticas, 2-3 horas por medio. La clasificación humana la
+cuenta luego el equipo con la regla y las ramas de la precisión del 2026-10-10,
+y **queda como propuesta para firma**.
+
+**Aplicado en:** `shared/mediaRegistry.js`, `shared/sinMedir.test.js`
+(`SIN_MEDIR_DECIDIDOS`: Vorágine, Cuestión Pública, Razón Pública, Cambio y La
+Silla Vacía), las dos fichas, los dos textos públicos
+(`shared/resumenesPublicos/`), `docs/estilo-fichas-publicas.md`, y los
+documentos generados (`npm run docs:catalog`, `npm run docs:modelo`).
+
+---
+
+## 2026-10-12 · Cinco valores firmados tras los barridos de 12 meses
+
+**Decisión firmada por el responsable editorial (el responsable editorial).** Cinco medios cuyo
+valor solo se apoyaba en los niveles 4 y 5 pasan por el barrido de 12 meses
+(2025-10-11 → 2026-10-11) de la regla «Evidencia editorial histórica», con la
+precisión del 2026-10-10: el barrido manda. Los cinco barridos los hizo Claude
+Opus 5.5 el 2026-10-11 y están en `revision-externa/barridos/<id>.md`.
+
+| Medio | Antes | Propuesta del barrido | Firmado | Banda en el mapa |
+|---|---|---|---|---|
+| NTN24 | +0,35 (sin firmar) | +0,30 | **+0,30** | derecha |
+| KienyKe | sin medir | +0,25 | **+0,30** | derecha |
+| La FM | +0,35 | +0,25 | **+0,25** | derecha |
+| Noticias RCN | +0,25 | +0,15 (alternativa declarada: +0,20) | **+0,15** | **pasa a mixta** (umbral +0,20) |
+| Noticias Uno | −0,40 | sin medir, con tensión a la izquierda (alternativa: −0,30 o menos) | **−0,30** | izquierda |
+
+**Motivo de cada uno.**
+- **NTN24, +0,30.** 78 piezas con postura en voz de la casa (titulares y
+  entradillas sin atribución; no hay editoriales ni firmas): 77 a la derecha,
+  0 a la izquierda, 1 mixta; 13 antes del cambio y 64 después; 32 a 0 sin las
+  leves. Fiscalizó en voz propia a Petro 41 veces y a De la Espriella ninguna.
+  Cumple las cinco condiciones; sin endoso ni nivel 1 con posición, tope de
+  ±0,30. El +0,35 era una comparación con La FM.
+- **KienyKe, +0,30.** Radar K, 128 piezas leídas: 18 a la derecha y 2 a la
+  izquierda (9 a 1; 10 a 2 sin las leves), 12 antes y 6 después. Cumple las
+  cinco condiciones. El barrido proponía +0,25 por un contrapeso de peso medio
+  (la dirección aparece con la victoria). **El responsable lo sube al tope**
+  por su lectura directa de la portada del 2026-10-12: una foto de la primera
+  dama, dos columnas con imágenes generadas por IA de De la Espriella, otra de
+  Restrepo, una videocolumna con Daniel Briceño, una noticia de apoyo de EE. UU.
+  y dos piezas de De la Espriella sobre su gestión. Esa lectura confirma la
+  dirección del barrido. **«La Sala de Salas» se trata como columna de autor,
+  no como voz de la casa**: se cierra así el hueco del §6 del barrido (29 de
+  sus 41 piezas sin firma visible, entre ellas un «arrasaremos» del
+  03-06-2026). No hay endoso y rige el tope de ±0,30. Sale de
+  `SIN_MEDIR_DECIDIDOS` (`shared/sinMedir.test.js`): quedan Vorágine,
+  Cuestión Pública y Razón Pública.
+- **La FM, +0,25.** «Carta del director», 186 ediciones: 11 a la derecha y 1
+  en sentido contrario (11 a 1), más 5 mixtas; 8 antes y 3 después. Cumple en
+  la lectura principal; el lado posterior llega a 3 solo con dos leves. No
+  llega al tope: leves, resúmenes de la emisión y no voz literal, sin endoso.
+  El +0,35 estaba por encima del tope sin endoso.
+- **Noticias RCN, +0,15.** 1.330 titulares del portal: 22 a la derecha y 4 a
+  la izquierda (5,5 a 1), 10 antes y 12 después. Fiscalizó en voz propia a
+  Petro 27 veces en 10 meses y a De la Espriella 2 en 2. Cumple en la lectura
+  principal, pero sin las leves se queda en 6 piezas. Magnitud baja: la postura
+  está en una palabra del titular y en el 2 % de lo leído. **Con +0,15 cruza al
+  lado mixto del umbral de +0,20**: en el mapa deja de contar como derecha.
+- **Noticias Uno, −0,30.** Antes del cambio, 40 piezas con postura: 31 a la
+  izquierda, 2 a la derecha, 7 mixtas (15,5 a 1), todas de campaña; 12 piezas
+  fiscalizan al candidato De la Espriella y 0 a Cepeda. Después, **0 piezas
+  con postura clara**; con quien gobierna, la misma vara (20 a Petro, 17 a De
+  la Espriella). El barrido proponía «sin medir» con la tensión declarada
+  (dirección clara sin mínimos). **El responsable decide −0,30**, el máximo que
+  sostiene la lectura alternativa que cuenta como leves cinco piezas
+  posteriores al cambio (cuatro fiscalizaciones «con tono» y una sobre el
+  expresidente), por su conocimiento del contexto mediático. **Queda declarada
+  la fragilidad**: 0 piezas con postura clara después del 07-08-2026. Se
+  recuenta en diciembre de 2026 y febrero de 2027; si sigue sin aparecer
+  postura después del cambio, el valor se revisa.
+
+**Diferencias con las propuestas.** Dos: KienyKe (+0,25 → +0,30, por la
+lectura de portada, con el hueco de La Sala de Salas cerrado como columna de
+autor) y Noticias Uno («sin medir» → −0,30, por la lectura alternativa del
+propio barrido). En Noticias RCN se firma la propuesta principal y no la
+alternativa de +0,20. NTN24 y La FM, como se propusieron.
+
+**Aplicado en:** `shared/mediaRegistry.js` (`bias`, `reviewedAt: '2026-10-12'`,
+`biasRationale` y piezas del barrido en `biasSources`; NTN24 estrena
+`biasSources`, que la firma exige), las cinco fichas, la cabecera de los cinco
+barridos («FIRMADO el 2026-10-12») y los cinco textos públicos
+(`shared/resumenesPublicos/<id>.js`), que dejan de decir que el número no
+tiene detrás una lectura documentada. En el de KienyKe, la observación de
+portada se cuenta como «una revisión de la portada del 12 de octubre de 2026
+por la dirección editorial».
+
+**Descartado.** Mantener los valores anteriores (ninguno tenía piezas detrás,
+y por la precisión del 2026-10-10 el barrido manda); pasar del tope de ±0,30
+en NTN24 o KienyKe (no hay endoso en voz de la casa ni nivel 1 con posición);
+«sin medir» en Noticias Uno y La FM (lecturas estrictas que se declaran en sus
+barridos).
+
+---
+
+## 2026-10-11 · Propiedad: fuentes fidedignas y certificado solo cuando cierra una pregunta
+
+**Decisión del responsable editorial.** Se ajusta, el mismo día, la decisión de comprar un
+certificado de Cámara de Comercio por cada medio colombiano (entrada siguiente).
+La regla pasa a llamarse «DOCUMENTO DE PROPIEDAD Y FUENTES FIDEDIGNAS»
+(`PROTOCOLO_JUICIO_EDITORIAL.md`). La propiedad se documenta con cinco fuentes
+fidedignas, cada una por lo que prueba y citada con fecha: el RUES abierto de
+datos.gov.co (con `$select`, sin campos de identificación), SECOP I y II, lo que
+el medio declara de sí mismo («según el propio medio»), la prensa y los
+monitores atribuidos (MOM, SembraMedia) y, para los internacionales, los
+registros oficiales de su país. La ficha dice siempre qué prueba cada fuente y
+qué no prueba ninguna. El certificado de pago se compra solo cuando cierra una
+pregunta concreta: (a) Ltda., ESAL y otras cuyo certificado lista socios,
+fundadores o junta; (b) contradicción entre fuentes; (c) S.A. cuya junta
+importa para la historia; (d) contratos públicos relevantes con gobiernos que el
+medio cubre, con la propiedad en duda. Con conflicto de interés o contradicción,
+la autodeclaración no basta. Lo demás de la regla se mantiene: PDF fuera del
+repositorio, cita con cámara, fecha y código, registro sin datos personales,
+renovación anual del certificado que se tenga.
+
+**Por qué.** En una S.A. o una S.A.S. el certificado no trae a los accionistas:
+las acciones se transfieren en el libro de la sociedad, que no se inscribe. Para
+la mayoría de los 55 certificados de la versión anterior se habría pagado por
+saber lo que el RUES abierto ya dice (forma, estado, matrícula, representante),
+y la pregunta abierta, los accionistas, habría seguido abierta. El RUES abierto,
+además, lo puede verificar cualquiera, gratis y sin plazo, mientras que el
+código de un certificado solo deja verlo durante 60 días.
+
+**Costo.** La lista corta (`docs/certificados-camaras.md`, versión 2) queda en
+**18 certificados en 10 cámaras, ≈ $217.800** (1 UVB ≈ $12.100 cada uno, por
+confirmar), más 10 copias de constitución de precio por confirmar. La versión
+anterior sumaba ≈ $641.500 en 55 certificados principales, más 8 opcionales
+(≈ $96.800) y copias de constitución de 38 sociedades.
+
+**Qué queda pendiente.** Los textos públicos y las fichas que dicen que los
+accionistas de una S.A. o S.A.S. «los diría el certificado» se corrigen en su
+próxima revisión con la laguna declarada.
+
+---
+
+## 2026-10-11 · Documento de propiedad: un certificado de cámara por medio
+
+**Decisión del responsable editorial.** Se compran de una vez los certificados de Cámara de
+Comercio de todos los medios colombianos del catálogo
+(`docs/certificados-camaras.md`: 55 principales en 24 cámaras, unos $641.500),
+y rige la regla «DOCUMENTO DE PROPIEDAD» del protocolo: certificado de no más
+de 12 meses por medio, PDF solo en una carpeta privada fuera del repositorio
+(trae cédulas), cita con cámara, fecha y código de verificación, registro sin
+datos personales en `docs/certificados-registro.md`, renovación anual o al
+cambiar de dueño o representante.
+
+**Por qué.** 33 fichas tenían anotado que les faltaba el certificado para
+cerrar la propiedad, y las demás se apoyaban en fuentes de distinta edad.
+Un documento por medio, del mismo tipo y fechado, estandariza la prueba.
+
+**Salvedad.** En S.A. y S.A.S. ni el certificado ni las copias de
+constitución dicen quién tiene hoy las acciones (las cesiones van al libro de
+accionistas); por confirmar con abogado. La ficha dirá lo que prueba el
+documento y lo que no.
+
+---
+
+## 2026-10-11 · Tanda 2 de fichas públicas: KienyKe sin medir
+
+**Decisión del responsable editorial.**
+- KienyKe pasa de +0,30 a **sin medir**: sus fuentes (Media Ownership
+  Monitor, La Silla Vacía, Wikipedia) tratan de la propiedad, y la regla 1 no
+  deja situar a un medio por su dueño. Mismo criterio que Razón Pública y
+  Vorágine. Se medirá cuando se lea su cobertura. Su factualidad (0,75) queda
+  sin fuente declarada.
+- Las entradas de El Nuevo Día, Lente Regional y Prensa Libre Casanare dejan
+  de decir «de forma provisional»: están firmadas.
+- Correcciones de `biasRationale`: Archipiélago (sus contratos con la
+  Gobernación son de 2020-2023; el de 2018 fue con la Alcaldía de
+  Providencia), Boyacá Digital (el medio no dice que la supervisión sea
+  humana) y La República (+0,15 es orientación mixta, no centroderecha).
+
+---
+
+## 2026-10-11 · Fichas con texto público, sin nombre del responsable y en usted
+
+**Decisión del responsable editorial.**
+- El sitio no nombra al responsable. Las decisiones se atribuyen a la dirección
+  editorial. Mientras el sitio no guarde datos de lectores (el correo del
+  boletín se queda en el navegador), tampoco lo nombra «Qué hacemos con sus
+  datos»; el responsable del tratamiento se publicará antes del primer envío
+  del boletín. El método público lo llama «el responsable editorial» y su
+  historial se reemplazó por un único commit.
+- Cada ficha tiene un texto público (`shared/resumenesPublicos/`) escrito con
+  `docs/estilo-fichas-publicas.md`: entrada neutral con la cifra, cuatro
+  bloques y el detalle técnico plegado y ordenado por apartados. Se escribe
+  por tandas (`docs/tandas-fichas-publicas.md`); cada texto lo coteja un
+  segundo revisor contra la ficha, cifra por cifra.
+- El sitio trata de usted en todo.
+
+**Por qué.** El texto técnico estaba escrito para auditar, no para leer: con
+mayúsculas sostenidas, rutas de archivo y jerga del método. La entrada debía
+ser hechos y no juicios, con prueba de simetría política. El informe legal
+del 2026-10-11 concluye que una persona natural responsable del tratamiento
+tiene que dar su nombre en la política, pero hoy no hay tratamiento de datos
+de lectores.
+
+**Correcciones al cotejar la tanda 1.** Siete fichas firmadas en bloque
+aclaran que su «sin firmar» es historia; El Heraldo deja de decir que es el
+único endoso presidencial del catálogo; Semana deja de preguntar por la compra
+de El Heraldo, que se cayó en 2023.
+
+---
+
+## 2026-10-10 · Firma en bloque del catálogo
+
+**Decisión del responsable editorial.** Firma como responsable editorial los medios del catálogo
+que tienen número, tras el ciclo 2. En sus palabras: «Como observador
+independiente también con criterio veo razonables las calificaciones y
+evidentemente es una cuestión subjetiva al no existir una forma completamente
+exacta de medir el bias.»
+
+**Qué significa** (protocolo, §6): ha leído la evidencia, el argumento y la
+objeción, y sostiene el número públicamente y sujeto a réplica. No significa
+que el número sea correcto. Significa que hay alguien a quien preguntarle por
+qué.
+
+**Cómo se hizo.**
+- 67 medios firmados el 2026-10-10. Con los 8 que ya lo estaban, son **75 de
+  79** con número.
+- Cada uno cita de 2 a 6 fuentes públicas en `biasSources`, sacadas de su
+  ficha, de su barrido o de su ficha de propiedad. Las consultas a
+  datos.gov.co van con `$select` y no hay enlaces que muestren documentos.
+- Las fichas cambian solo su fila **Firma**, y los `biasRationale` que decían
+  «sin firmar» pasan a «Firmado el 2026-10-10», con lo que les falta dicho.
+
+**Sin firmar:**
+- **Los 3 «sin medir»** (Vorágine, Cuestión Pública y Razón Pública): no hay
+  número que sostener.
+- **Telemedellín, Canal Capital, NTN24 y LeticiaHoy**: no tienen ficha ni dos
+  fuentes públicas que citar. Se firman cuando las tengan.
+
+**Lo que no cambia.** Las re-mediciones con fecha, la revisión posterior del
+10-11 y los recuentos de diciembre siguen en pie. Un número firmado se mueve
+igual que antes: con barrido y decisión escrita.
+
+---
+
+## 2026-10-10 · Tandas 8 y 9 del ciclo 2: el barrido manda sobre los números sin evidencia
+
+Decisiones del responsable editorial, con las ocho resoluciones y los ocho barridos delante
+(`revision-externa/respuestas/` y `revision-externa/barridos/`).
+
+**El patrón.** Los números de los medios de investigación y de Las2Orillas se
+pusieron en el alta por su misión declarada o por comparación con otros medios,
+nunca con un barrido. Medidos ahora, ninguno se sostenía tal como estaba. El
+protocolo decía que «un barrido que no llega no deshace nada», así que un
+número sin evidencia sobrevivía mientras uno con evidencia topaba en ±0,30.
+**Precisión nueva:** si el valor solo se apoya en los niveles 4 y 5, el barrido
+manda. Si cumple, el valor pasa al del barrido. Si muestra la misma conducta con
+los dos gobiernos, pasa a 0,00 con evidencia. Si no llega, pasa a «sin medir».
+
+| Medio | Antes | Ahora |
+|---|---|---|
+| Revista RAYA | sin medir (la ficha decía −0,55) | **−0,30**: 35 piezas a la izquierda (22 antes y 13 después), sin contrapeso pleno |
+| Volcánicas | −0,50 | **−0,25**: cumple solo contando todas las leves, incluidas las 3 de después del 07-08, que se declaran dudosas; sin ellas el lado de después tiene 2 piezas y no llega. Se cuentan, como en El Informador y a diferencia de Abra Noticias, por decisión del responsable editorial |
+| CasaMacondo | −0,35 | **0,00 con evidencia**: 0 piezas con postura en la voz de la casa |
+| Las2Orillas | −0,35 | **0,00 con evidencia**: 1,6 a 1 hacia la derecha, con la misma conducta con los dos gobiernos |
+| RTVC | sin medir | **+0,30, gubernamental** (ver abajo) |
+| Razón Pública | −0,40 | **sin medir** |
+| Vorágine | sin medir (la ficha decía −0,50) | sin medir |
+| Cuestión Pública | sin medir (la ficha decía −0,45) | sin medir |
+
+**RTVC: excepción para los medios del Gobierno nacional.** El barrido confirma
+la previsión del 08-08: antes del 07-08 tenía 34 piezas pro-Petro, y después 8
+pro-De la Espriella. Sigue a quien gobierna y no tiene línea propia. El responsable editorial decide
+que un medio así **toma la dirección del gobierno que lo controla**, con la
+magnitud tope y la marca «gubernamental». Se revisa en cada cambio de gobierno.
+Los canales de gobiernos locales siguen en 0,00. La regla está escrita en el
+protocolo.
+
+**Endoso explícito, definido.** Es que el medio pida el voto o declare su
+apoyo a un candidato con nombre, en su propia voz. La columna de la directora
+de Cuestión Pública del 16-06 no lo es: está firmada, niega el apoyo y va en
+una sección que «no compromete al medio».
+
+**El «sin medir» del 2026-09-16, que no estaba aquí.** El responsable editorial dejó sin medir a
+Vorágine, Cuestión Pública, Revista RAYA y RTVC (commit `fa77249`), porque su
+volumen no daba para medir. Las cabeceras de sus fichas siguieron mostrando el
+número viejo, y los envíos de esta tanda lo copiaron. Desde hoy, antes de armar
+un envío se compara la cabecera de la ficha con el registro.
+
+**Pauta pagada sin rótulo: Las2Orillas.** Los documentos del contrato con la
+Registraduría (500 M y 200 M) prueban 37 artículos entregables publicados
+sin rótulo (la resolución contó 32; la aplicación encontró cinco URL partidas
+en los PDF). Es el caso de Ecos del Combeima. Sigue en el catálogo, sin firmar, con
+la tensión declarada. Revista RAYA publicó contenido pagado por MinEducación y
+el CNE con nota de alianza, y se declara como tensión.
+
+**`robots.txt`: dos excepciones escritas y una búsqueda.**
+- **CasaMacondo y Diario del Huila** excluyen `/feed/` para todos los agentes.
+  El responsable editorial decide **mantener sus feeds** como excepción escrita, anotada en el
+  registro y en las fichas. El principio de `shared/userAgent.js` sigue en pie
+  y estas son sus excepciones con nombre.
+- **Google News** veta `/rss` para todos los agentes, y por ahí entran 8 medios
+  (Noticias Caracol, Blu, RCN, La FM, NTN24, EFE, CNN en Español y RAYA). Se
+  busca para cada uno un feed propio que su `robots.txt` permita. Mientras
+  tanto se mantienen, con la excepción anotada.
+
+**Colombia Informa (−0,55)** se apoya también en su misión más un mes de
+corpus: la precisión del 2026-10-10 le alcanza. Se aplica en su re-medición de
+mediados de octubre, con barrido; hasta entonces conserva su valor y su ficha
+lo declara.
+
+---
+
+## 2026-10-10 · Tanda 7 del ciclo 2: tres altas, un medio mal ubicado y la regla de los enlaces
+
+Decisiones del responsable editorial, con las cinco resoluciones delante
+(`revision-externa/respuestas/opus-5-5-*.md`).
+
+- **El Informador (Santa Marta): alta en +0,45, sin firmar.** El verificador
+  leyó el cuerpo de los 360 editoriales sin firma de 12 meses. 100 toman postura
+  a la derecha: 67 antes del 07-08 y 33 después. Hay 5 contrapesos, una
+  proporción de 20 a 1. El 21-06-2026 publicó un endoso explícito a De la
+  Espriella. Con endoso, el tope de ±0,30 no aplica (§1 del protocolo); el
+  resumen de la regla 3 en el §5 omitía esa salvedad, y se corrige el mismo día.
+  Queda por encima de El Colombiano (+0,35), que no endosa, y por debajo de El
+  Nuevo Siglo (+0,55), porque aquí faltan los socios. Barrido en
+  `revision-externa/barridos/el-informador.md`.
+- **El Isleño (San Andrés): alta en 0,00 provisional.** Su editora está en el
+  RUES (Casa Editorial Welcome S.A.S.). Publica un editorial semanal sin
+  postura nacional, y su línea local es la contraria a la de Archipiélago Press
+  respecto del gobernador. El dominio va en punycode (`xn--elisleo-9za.com`).
+- **Sucre Noticias: alta en 0,00 provisional, con `ownerType: null`.** Su dueño
+  no consta, pero Sucre era el único departamento con medios en la web que el
+  catálogo dejaba en blanco. La regla 3 frena un número firmado, no un alta en
+  0,00, y así entraron LeticiaHoy y Quindío Noticias. Si pasa más de 30 días
+  sin publicar, se decide la baja.
+- **El Manduco es de Quibdó (Chocó), no del Guaviare.** El error venía del alta
+  del 2026-08-09. El Guaviare nunca tuvo medio en el catálogo, y la cobertura
+  queda en **30 de 33**: sale el Guaviare y entra Sucre. **El feed se
+  reactiva**, porque la retirada del 2026-09-02 partió de premisas inexactas: el
+  medio sí publicó en agosto, y la auditoría ya había visto volver la fuente el
+  17-09 sin que nadie reactivara el feed.
+- **Ecos del Combeima: sigue sin alta, con los motivos reescritos.**
+  - Murió su fundador el 14-03-2025, y no consta quién controla hoy la
+    sociedad.
+  - La Alcaldía y la Gobernación le pagan **pauta informativa**: 736 M en 12
+    meses, con entrevistas y menciones en vivo.
+  - El Tolima ya tiene a El Nuevo Día.
+
+  La afiliación a Blu Radio deja de ser el motivo, porque no está probado que
+  siga hoy.
+- **Enlaces que llevan a documentos de identidad (regla nueva, en el
+  protocolo, «Datos personales»).** Las consultas a datos.gov.co se enlazan con
+  `$select`, limitado a los campos citados. Las constancias de contratos.gov.co
+  y los procesos de SECOP II se citan como texto. Ningún enlace muestra la
+  cédula de nadie, tampoco la del representante legal de una sociedad. Se
+  aplicó al catálogo entero:
+  - 99 consultas en fichas y 95 en `shared/`;
+  - 97 en las respuestas, donde, dentro del texto literal del revisor, el
+    enlace se retira con una nota.
+
+  La fuente sigue siendo auditable.
+
+**Tres precisiones de la revisión posterior:**
+
+- **El Isleño entra sin feed.** La misma tarde, el feed seguía devolviendo
+  «Bot Verification» al agente de la ingesta. Se activa cuando se lea desde la
+  IP de la ingesta (`npm run check:feeds`).
+- **`group` de El Manduco: «Manduco Media Group»**, para no juntarlo con
+  Chocó 7 Días, que es de otro dueño. Ningún texto afirma que sea una familia:
+  son siete cargos de un mismo apellido, y el parentesco es inferencia.
+- **Dónde está la línea entre El Nuevo Día y Ecos del Combeima.** El Nuevo Día
+  contrató 121,5 M con la Alcaldía de Ibagué y está en el catálogo. Ecos del
+  Combeima contrató 736 M en 12 meses con la Alcaldía y la Gobernación, y no
+  entra. La diferencia no es solo de grado (seis veces más): está en **qué
+  compran los contratos**. Los de Ecos compran entrevistas, menciones en vivo
+  y espacio en sus informativos. Eso es pauta informativa, y además no consta
+  quién controla la sociedad tras la muerte del fundador. Un medio en el
+  catálogo con contratos de publicidad institucional no es el mismo caso que
+  uno cuyo espacio informativo se vende.
+
+**Pendiente de código:** el mapa muestra el dominio de El Isleño en punycode.
+`fetchLogos.mjs` no deja bajar logos por medio ni lee `robots.txt`, así que los
+tres medios nuevos salen con monograma.
+
+---
+
+## 2026-10-10 · Tanda 6 del ciclo 2: tres 0,00 que se quedan y dos candidaturas que no entran
+
+Decisiones del responsable editorial, con las cinco resoluciones delante
+(`revision-externa/respuestas/opus-5-5-*.md`).
+
+- **Al Aire Noticias: 0,00 provisional.** Ahora se sabe quién es su
+  representante legal, que sale del RUES, pero no quiénes son sus socios. El
+  medio no publica opinión ni editoriales, y su cobertura política atribuye las
+  posturas a quien las dice, a los dos lados del 07-08. La cita «apoyo sin
+  restricciones» que la ficha atribuía a Lente Regional no era literal. Se
+  sustituye por la real: «su irrestricto apoyo para impulsar nuestra idea de
+  negocio».
+- **Telecafé: 0,00, con `verifiedAt`.** El canal no tiene voz editorial
+  propia. Su composición patrimonial, en un documento firmado por el propio
+  canal, da el 98,5 % a las tres gobernaciones, y **RTVC no es socio**. La
+  gerencia va por turno de cuatro años y hoy le corresponde a Caldas. Su
+  contratación pública, unos 56.000 millones en 12 meses, entra en la línea del
+  protocolo. El contrato de «cubrimiento periodístico» con la Cámara de
+  Comercio de Dosquebradas es pauta informativa pagada y queda como tensión.
+- **El Morichal: 0,00, firmado.** No hay editoriales en 12 meses, la opinión es
+  de columnistas invitados y la Redacción fiscaliza a gobiernos de los dos
+  signos. El responsable editorial da por suficiente un nivel 1 documentado con 40 días de nivel 2.
+  Se nombra a los seis fundadores solo con nombre y papel. Se quitan de la
+  ficha la nacionalidad, el origen étnico y el lugar de nacimiento de personas
+  naturales, porque son datos personales sin fuente viva.
+- **Diario de Cundinamarca: candidatura descartada.** Está inactivo desde el
+  22-07-2026. Tiene nivel 1 localizado, y su director tiene un vínculo
+  contractual con la Alcaldía de Soacha que el medio no declara. Se nombra
+  así, como «vínculo contractual de su director», y no como «dependencia».
+- **Diario del Sur: candidatura sin alta.** La ficha cambia los motivos:
+  - la editora histórica está en liquidación pero con la matrícula activa, no
+    cancelada;
+  - otra sociedad activa factura publicidad en el periódico sin que conste
+    quién la controla;
+  - el feed que se conocía da 404.
+
+  Su robots.txt excluye a Claude. Eso bloquea la **revisión**, no la ingesta.
+- **Contratos públicos de personas naturales y omisiones de transparencia: se
+  anotan como tensión y desvelamiento**, con el mismo criterio que en la
+  tanda 4. Constan el contrato, la entidad, la fecha y el valor. Nunca se
+  escribe la cédula ni una URL que la lleve, y no mueven el eje.
+
+---
+
+## 2026-10-10 · El código pasa a privado y el método queda público aparte
+
+**Decisión del responsable editorial.** `Steinhjk/doblefoco` pasa a privado. El protocolo, las
+decisiones, las fichas y las revisiones externas se publican en un repositorio
+aparte, `Steinhjk/doblefoco-metodo`, con `scripts/publicarMetodo.mjs`.
+
+**Por qué.** El responsable editorial: «me gustaría que no puedan otros medios o personas con más
+inversión […] aprovechen […] la ingeniería y la conectividad con tantos
+medios». Pero la clasificación solo es creíble si se puede auditar, así que lo
+que la justifica sigue a la vista.
+
+**Medido antes de cerrar:**
+- Nadie miraba el repositorio: 0 visitas en 14 días. Las clonaciones eran de
+  nuestras propias tareas programadas.
+- Los minutos de Actions, unos 830 a 1.100 al mes, caben en los 2.000 gratuitos
+  de un repositorio privado.
+- El sitio no lee nada de GitHub.
+
+**El repositorio público arranca con historia limpia** y con los teléfonos y
+correos de personas enmascarados al copiar. Lo que estuvo publicado antes del
+cierre sigue en la historia del repositorio privado.
+
+---
+
+## 2026-10-09 · Reexamen de cinco fichas cerradas con la regla nueva
+
+Decisiones del responsable editorial, con los barridos delante (`revision-externa/barridos/`).
+
+- **El Diario (Pereira): de +0,20 a +0,25.** Hay 80 piezas con postura en sus
+  editoriales sin firma, con una proporción de 7 a 1. Desde el 07-08 son 9
+  favorables a 7 críticas, casi todas localistas, y queda declarado.
+- **Diario La Libertad: de 0,00 a +0,20.** Son 27 piezas con postura, 21 hacia
+  la derecha. Que haya cambiado quien escribe los editoriales es un indicio, no
+  un hecho.
+- **El Pilón: se queda en +0,20.** Su barrido no llega a la proporción de 3 a 1
+  (2,2 a 1), así que conserva el valor que tenía.
+- **Proclama del Pacífico: se queda en 0,00.** Después del cambio, 3 de sus 4
+  piezas solo fiscalizan, y fiscalizar no cuenta para el mínimo por lado. Su
+  inclinación a la izquierda queda como tensión. Se reconta en diciembre.
+- **Seguimiento: se queda en 0,00.** El barrido cubre como mucho la mitad de lo
+  publicado después del 07-08, porque el robots.txt veta el sitemap, y el
+  recuento estricto no llega. La centroderecha queda como tensión, y el barrido
+  de agosto a octubre se completa antes del 10-11.
+- **Las dos precisiones de la regla** (fiscalizar no cuenta por lado; un
+  barrido que no llega no deshace nada) van al protocolo.
+
+---
+
+## 2026-10-09 · La evidencia editorial histórica mueve el número, y la tanda 5 se decide con ella
+
+**Decisión del responsable editorial.** La asimetría sostenida en la voz de la casa, medida con un
+barrido del archivo del propio medio, cuenta como nivel 2 y puede mover el
+número sin esperar 90 días. Las cinco condiciones y el tope de ±0,30 están en
+`PROTOCOLO_JUICIO_EDITORIAL.md` («Evidencia editorial histórica»).
+
+**Por qué.** El responsable editorial: «90 días es mucho. No deberíamos esperar tanto teniendo
+evidencia histórica.» La compañía media no llega a 90 días, porque la base no
+los guarda, y además está saturada. En cambio, el archivo de cada medio tiene
+años de piezas fechadas, y en la tanda 5 los verificadores leyeron y contaron
+cientos de ellas por medio.
+
+**Aplicación simultánea.** El mismo día se reexaminan con el mismo barrido las
+fichas cerradas que se quedaron quietas por la regla 3 teniendo una dirección
+declarada:
+- Proclama del Pacífico;
+- El Pilón;
+- El Diario (Pereira);
+- Diario La Libertad;
+- Seguimiento.
+
+**Tanda 5, también decidido:**
+- **Valores.** Se aplican las lecturas (b) de las resoluciones, pero solo si
+  el barrido cumple los mínimos de la regla; si no, se quedan en 0,00. Las
+  propuestas:
+  - Archipiélago Press: +0,30;
+  - Vive el Meta: +0,25;
+  - Abra Noticias: −0,25;
+  - Chocó 7 Días: 0,00, ahora con evidencia;
+  - Prensa Libre Casanare: 0,00, porque no alcanza.
+- **`ownerType`.** Cuando el medio lo explota una persona natural y no se sabe
+  más, el `ownerType` es `null`, como en MiPutumayo. Así no se afirma un
+  carácter «familiar» que no consta.
+- **Historial de git.** El móvil del editor de Prensa Libre Casanare sigue en
+  el historial del repositorio público. **No se reescribe:** el propio medio lo
+  publica en su pie, y forzar el push de `main` rompe clones y PR. Ya no está
+  en ningún archivo vigente.
+- **Los certificados de Cámara de Comercio** cuestan $12.100 cada uno (2026).
+  En una S.A.S. es probable que no listen a los accionistas, así que se pide
+  uno de prueba antes de los demás. Corrige lo que se dijo en la tanda 4.
+
+**Los muertos dados por vigentes, otra vez.** La ficha de Chocó 7 Días daba
+como propietario a Iván Cañadas Garrido, que murió hacia enero de 2022. El
+propio medio publicó su primer aniversario el 08-01-2023. Es el tercero en el
+ciclo, después del fundador de El Diario (Boyacá) en la tanda 4.
+
+---
+
+## 2026-10-08 · Ciclo 2, tanda 4: los cinco se quedan en 0,00, con sus tensiones a la vista y revisión posterior
+
+Decisiones del responsable editorial, con las resoluciones verificadas delante
+(`respuestas/opus-5-5-{proclama-del-pacifico,lente-regional,el-diario-boyaca,miputumayo,periodismo-publico}.md`).
+
+1. **Los cinco se mantienen en 0,00, provisionales y sin firmar.** El responsable editorial pidió
+   antes el porqué, y es este:
+   - **Regla 3:** el número solo se mueve con evidencia de nivel 1 a 3, y
+     ninguno la tiene. La conducta medida de los cinco tiene 38 días (de 213 a
+     319 artículos), por debajo de los 90 del protocolo. Tampoco se conocen los
+     socios de ninguno, porque el RUES abierto no los publica.
+   - **Regla 2:** ante la duda, la banda mixta.
+   - **Proclama es el caso discutible.** Sus editoriales de enero a junio de
+     2026 favorecen a Cepeda de forma sostenida. Es nivel 5, igual que la
+     inclinación a la derecha de El Pilón (tanda 3), que tampoco movió su
+     número. Moverlo a uno y no al otro rompería la simetría. Su razón escrita
+     pasa a ser «0,00 por la regla 3, no por ausencia de evidencia».
+2. **Con revisión posterior, y los hallazgos importantes escritos de forma
+   explícita.** Cada ficha lleva una sección «Hallazgos del ciclo 2» que
+   separa lo que es hecho de lo que no entra como hecho. La revisión con fecha
+   está en `MINUTA.md`.
+3. **Tensiones declaradas en los cinco, como desvelamiento y no como
+   acusación:**
+   - **Proclama:** editoriales del 12-09 y del 07-10 que elogian al gobernador
+     del Cauca, su mayor contratante, sin declararlo.
+   - **Lente Regional:** contratista de la Gobernación del Caquetá en 2024. La
+     cubre en tono institucional en 2026, sin rótulo.
+   - **El Diario (Boyacá):** contrato con Samacá del 31-07-2026 y 11 piezas
+     sobre el municipio sin marca de contenido pagado.
+   - **MiPutumayo:** Publimayo SAS, ligada al director, vende «contenido
+     patrocinado» en el medio, y ninguna pieza lo rotula.
+   - **Periodismo Público:** banners vigentes de la Gobernación de
+     Cundinamarca y de su licorera, sin contrato visible en SECOP.
+4. **Los contratos a nombre personal de los representantes legales entran en
+   la ficha:**
+   - **Periodismo Público:** 16 contratos, unos $264 M entre 2018 y 2025: 14
+     con el mismo documento que el RUES y 2 con una variante del número (los
+     de la licorera del 26-01-2018 y el 04-03-2019). Cinco pagan un banner en
+     el sitio.
+   - **MiPutumayo:** los de la representante legal de Publimayo SAS, descrita
+     como tal y sin atribuirle ningún papel en la redacción.
+   - En ninguno de los dos casos se escribe el documento.
+5. **Cabos menores:**
+   - El armador de envíos reintenta antes de dar una fuente por rota y fecha
+     en hora de Colombia. La «fuente rota» de MiPutumayo era un falso
+     positivo.
+   - El `ownerType` de MiPutumayo pasa a `null`: «familiar» no tenía fuente.
+   - Se quita el teléfono de Lente Regional de `buscadoEn`.
+   - Se corrige el +0,20 que `MEDIOS_CANDIDATOS_DEPARTAMENTOS.md` aún daba a
+     El Diario (Boyacá).
+6. **Lo que NO entra como hecho:**
+   - que algún editorial fuera consecuencia de un contrato;
+   - que alguna pieza concreta sea pagada;
+   - las identidades por homonimia: la representante legal y la hija del
+     fundador en El Diario; la Corporación Humanista cancelada en Periodismo
+     Público; la editora de 2011 en MiPutumayo;
+   - los parentescos;
+   - los socios.
+
+**Un fallo de método de esta tanda, corregido el mismo día.** El envío se
+armó sin regenerar `data/conducta.json`, que solo tenía los cinco de la tanda
+3. Los revisores no recibieron las cifras de nivel 2, y dos verificadores
+concluyeron que Proclama y Lente Regional no estaban en la ingesta, lo cual es
+falso: los cinco se ingieren. Se midieron después (38 días) y no cambian
+ninguna propuesta, porque no llegan a los 90 días. **Antes de armar un envío:**
+`npm run conducta -- <ids> --json=data/conducta.json`.
+
+**El error tipo del ciclo 1 se repitió.** La ficha de El Diario (Boyacá) daba
+como vigente al fundador, Pedro Esaú Mendieta Palacios, que murió el
+10-05-2021 según el obituario del propio diario.
+
+---
+
+## 2026-10-08 · Ciclo 2, tanda 3: Diario del Norte y Telecaribe, y la regla de datos personales
+
+Decisiones del responsable editorial, con las resoluciones verificadas delante
+(`respuestas/opus-5-5-{diario-del-norte,diario-del-huila,el-pilon,cablenoticias,quindio-noticias}.md`).
+
+1. **Diario del Norte: el vínculo con Telecaribe se declara en las dos fichas.**
+   Ismael Darío Fernández Gámez es cofundador del diario, al que una pieza del
+   propio diario llama «propietario». Es esposo de su directora, Demis Pacheco,
+   y gerente general de Telecaribe, canal público, al menos desde mayo de 2024.
+   En 2026, el diario lo cubre sin decir el vínculo.
+   - Va como desvelamiento en la ficha de propiedad del diario y como nota en
+     la entrada de Telecaribe.
+   - No dispara aviso de quien dirige: las directrices dan la aprobación final
+     a la directora general.
+2. **Datos personales, regla fija del protocolo.** Nunca se escriben cédulas,
+   teléfonos ni direcciones particulares de personas naturales. Ver
+   `PROTOCOLO_JUICIO_EDITORIAL.md`.
+3. **Se aplican las correcciones de hecho de los cinco.** Ningún valor cambia
+   ni se firma.
+4. **Lo que NO entra como hecho:**
+   - **Quintero Castro (El Pilón) y las sociedades de carbón:** homonimia no
+     descartada. Ninguna de esas sociedades nombra al diario.
+   - **Duque Rengifo (Diario del Huila) y el pleito de D&R con el Municipio de
+     Neiva:** la identidad está confirmada por el RUES, pero no el enlace entre
+     el NIT y el pleito. Va como tensión.
+
+**De método:** el cupo de búsqueda web de la sesión se agotó durante la tanda
+(200/200). Lo que dependía de la prensa de terceros queda como laguna
+declarada en cada resolución. Las fuentes primarias sí se cotejaron: SECOP,
+RUES y los sitios de los medios.
+
+---
+
+## 2026-10-07 · Ciclo 2, tanda 2: la contratación pública entra en cada ficha, y La Nación declara el Malecón de su dueño
+
+Decisiones del responsable editorial, con las resoluciones verificadas delante
+(`respuestas/opus-5-5-{la-razon-cordoba,el-diario-pereira,la-nacion-neiva,seguimiento,el-nuevo-dia}.md`).
+
+1. **La contratación pública es una sección fija de cada ficha de propiedad.**
+   Va con el formato y las reglas de `PROTOCOLO_JUICIO_EDITORIAL.md`: SECOP I y
+   II por NIT, últimos 12 meses y total, siempre «contratado» y nunca «cobrado».
+   **Por qué:** cuatro de los cinco medios de la tanda contrataban con los
+   gobiernos locales que cubren, y ninguna ficha lo decía. **Descartado:**
+   anotarlo solo cuando un revisor lo encuentre.
+2. **La Nación (Neiva): se declara en su ficha de propiedad**, como
+   desvelamiento, que el editorial sin firma del 04-10-2026 respalda el Malecón,
+   un proyecto de su dueño, Felipe Olave, sin advertirlo. No procede aviso de
+   quien dirige: no consta candidatura ni cargo.
+3. **Se aplican las correcciones de hecho** de los cinco: sociedades, NIT,
+   representantes legales, la cabecera «Diario del Otún», los contratos y los
+   cambios del centinela. **Ningún valor cambia ni se firma.** La Razón (0,00),
+   El Diario (+0,20), La Nación (0,00), Seguimiento (0,00) y El Nuevo Día
+   (0,00) quedan sin firmar, cada uno por los motivos de su resolución.
+4. **El Nuevo Día:** no procede aviso de quien dirige. López Herrán preside la
+   junta, pero no consta autoridad editorial por estatuto ni cargo vigente. Se
+   declara como dato su contrato con la Alcaldía de Ibagué (feb.-sep. 2024),
+   seguido cuatro días después por los contratos de la Alcaldía con la S.A.S.
+
+**De método:** un revisor descargó una página de El Tiempo, cuyo `robots.txt`
+excluye a ClaudeBot. Desde ahora, comprobar el `robots.txt` antes de cada
+descarga es obligatorio (`revision-externa/ciclo-2-plan.md`). Lo que se apoyaba
+solo en esa descarga queda como no verificable.
+
+---
+
+## 2026-10-07 · Ciclo 2, tanda 1: el aviso de La Libertad se cierra, El País a −0,25 y el borde del espectro simétrico
+
+Decisiones del responsable editorial, tomadas con las resoluciones verificadas delante
+(`revision-externa/respuestas/opus-5-5-{diario-la-libertad,el-pais-es,cambio,boyaca-digital,valora-analitik}.md`).
+
+1. **Diario La Libertad: el aviso de la directora se cierra con `hasta:
+   '2026-06-21'`** y se reescribe como historia, sin borrarse.
+   - El anuncio del 12-10-2025 («voy para la contienda electoral») existió.
+     Pero era condicional, se apoyaba en «fuentes cercanas», no nombraba cargo
+     ni partido, y la contienda a la que apuntaba terminó el 21-06-2026 sin que
+     conste inscripción.
+   - El sitio decía en presente «Quien lo dirige es candidata». Era más de lo
+     que consta, que es la falta que la regla de quien dirige existe para no
+     cometer.
+2. **El borde del espectro es simétrico.** `getBand(-0.20)` pasa a «Izquierda
+   moderada», como ya lo contaba `classifySpectrum` en la barra. En el lado
+   negativo, cada umbral pertenece a la banda más alejada del centro, igual que
+   en el positivo.
+   - Hoy solo afectaba a El País.
+   - Los seis medios en +0,20 no cambian.
+3. **El País (España) pasa de −0,20 a −0,25**, sin firmar todavía.
+   - Por qué: cinco editoriales sobre Colombia (junio-agosto de 2026)
+     fiscalizan a los dos gobiernos, pero solo a De la Espriella lo llaman
+     «ultraderechista». Se saca del borde para que ninguna decisión dependa de
+     un empate en el umbral.
+   - **Descartados:** −0,20, en el borde, y −0,15, defendible por la regla 2
+     pero contra la evidencia directa.
+4. **Se aplican las correcciones de hecho** de los cinco medios de la tanda. No
+   se firma ninguno todavía:
+   - Cambio y La Libertad esperan una re-medición.
+   - Boyacá Digital espera el RUES.
+   - El País y Valora esperan sus correcciones.
+
+---
+
+## 2026-10-07 · Ciclo 2, decisiones del responsable editorial: VOZ −0,80 como juicio, Semana +0,70, correcciones de hecho y la regla de quien dirige ampliada
+
+Tomadas con la resolución verificada delante
+(`revision-externa/ciclo-2-conclusiones.md` y `respuestas/opus-5-5-*.md`).
+
+1. **Semanario VOZ: se firma −0,80, como juicio.** Los dos apoyos de la firma
+   del 22-09 cambiaron: no hay documento de que el PCC sea dueño, sino de control
+   orgánico sobre la Fundación Semanario VOZ, y el aislamiento no se reproduce
+   (3 de 4 historias compartidas). La dirección sale reforzada por el endoso de
+   2026 y la asimetría entre gobiernos. La magnitud se declara como juicio:
+   «magnitud por juicio; dirección por control orgánico del PCC, endoso y
+   asimetría verificados». **Descartado:** −0,70.
+2. **Semana: se firma +0,70** cuando estén aplicadas las correcciones. Los 133
+   videos salen reforzados, ahora con fuente primaria (La Silla Vacía,
+   26-06-2026). **Descartado:** +0,60. La regla 2 lo hacía defendible, y queda
+   declarado como tensión.
+3. **Se aplican las correcciones de hecho de los cinco medios**, cada una con
+   la fuente que verificó la resolución. No mueven ningún valor.
+4. **La regla de quien dirige se amplía** a quien tiene la máxima autoridad
+   editorial por estatuto, como la presidencia de la junta de Semana. Ver
+   `PROTOCOLO_JUICIO_EDITORIAL.md`. Hoy no tiene efecto en ningún medio, porque
+   no consta candidatura ni cargo vigente.
+
+**Siguen abiertos:**
+- **Colombia Informa:** −0,55. Se firma tras la re-medición del ~15-10.
+- **El Nuevo Siglo (+0,55) y El Colombiano (+0,35):** se refirman juntos. La
+  respuesta provisional a qué los separa: El Nuevo Siglo pidió el «Sí» antes
+  del balotaje (19-06) y El Colombiano celebró después (22-06). Falta confirmar
+  que El Colombiano no publicó un endoso previo.
+
+---
+
+## 2026-10-07 · El ciclo 2 de revisión externa lo hace Claude Opus 5.5, con sus límites escritos
+
+**Decisión del responsable editorial.** El revisor de las fichas en este ciclo es **Claude Opus
+5.5** (`claude-opus-5-5`), con acceso a la red, en lugar de un modelo de otra
+casa. Primero los cinco del ciclo 2 que bloquean la puerta del 27-10 (VOZ,
+Colombia Informa, Semana, El Nuevo Siglo y El Colombiano). Después, todas las
+fichas que nunca pasaron por revisión. Más adelante, si hay medios, un segundo
+ciclo con otro modelo.
+
+**Por qué.** Práctico: se perdió el acceso a Kimi y no hay presupuesto ahora
+para otra suscripción. Y el responsable editorial considera que el razonamiento de Opus 5.5 basta
+para atacar las fichas con criterio.
+
+**Lo que esta decisión NO cambia, y conviene leer antes de usar sus
+resultados:**
+- **El revisor es de la misma casa que el modelo que escribió las fichas.**
+  `revision-externa/LEEME.md` lo explica: los modelos se equivocan de forma
+  correlacionada. Por eso, en este ciclo más que en ninguno, **el acuerdo no
+  cuenta como aval**: una ficha a la que Opus no objeta no queda validada,
+  queda sin objeción.
+- **Valen las objeciones con fuente comprobable**, igual que las de Kimi. Cada
+  una se verifica abriendo la fuente antes de aceptarla.
+- **La firma sigue siendo del responsable editorial.** Las IAs son el examen, no el examinador.
+- **El revisor no ve el repositorio ni la base**: recibe el mismo envío que
+  habría recibido Kimi (`PROMPT.md` + `CONTEXTO.md` + conducta + ficha). Así la
+  respuesta es comparable con la del ciclo 1 y repetible por otro modelo.
+- Las respuestas se guardan literales en `respuestas/opus-5-5-<medio>.md` y en
+  la cabecera de cada una se declara que el revisor es de la misma casa.
+
+**Descartado por ahora:** esperar a tener otro proveedor. Habría dejado la
+línea 4 de la puerta del 27-10 sin poder cumplirse.
+
+---
+
+## 2026-09-28 · Analítica de Vercel, el responsable editorial como responsable de los datos, y el panel de los no noticiosos entra en el MVP
+
+Tres decisiones del plan del MVP que eran del responsable editorial, dictadas juntas con sus
+opciones delante.
+
+1. **M1.2: la analítica es Vercel Analytics.** Sin cookies ni perfilado, como
+   las otras dos opciones. Pesó que el sitio ya vive en Vercel: no hace falta
+   un servidor más, y el script y sus envíos van al mismo origen, así que la
+   CSP no se abre a nadie.
+   - **Descartado:** Plausible, que cuesta dinero al mes. Umami, que sería una
+     pieza más que mantener en Fly. Google Analytics ya estaba descartado desde
+     el plan: no encaja en un sitio que habla de manipulación.
+   - **Se declara en `/transparencia/datos`**, y con ella se desbloquea `utm_*`
+     en el texto que se comparte (decisión del 15-09).
+2. **M1.3: el responsable del tratamiento (Ley 1581) es el responsable editorial, como
+   persona natural.** Aparece con su nombre, la finalidad y un canal de
+   contacto en `/transparencia/datos`. Si más adelante hay una empresa, se
+   cambia el nombre y nada más.
+3. **M1.8: el panel de los no noticiosos entra en el MVP**, con el estilo
+   actual. Cuando llegue el frente estético se rehace con él. Hasta entonces,
+   los seis siguen nombrados en la nota del mapa.
+   - **Descartado:** dejarlo para después del MVP, que era la recomendación.
+     El responsable editorial prefirió que al salir se vean.
+
+---
+
+## 2026-09-24 · El techo sube a 9 000, y el enlace de una historia recompuesta lleva a su sucesora
+
+El responsable editorial, con las cifras y los costos delante: «Ambas».
+
+1. **`MAX_ARTICLES` pasa de 8 000 a 9 000** (M0.4 del plan del MVP, opción A).
+   La cifra del 29 % que se manejaba el 22-09 era engañosa. Medido el 24-09,
+   el techo expulsaba 5 560 de 13 560 artículos, pero **4 956 eran cable
+   internacional sin cobertura**, que sale a propósito por la decisión del
+   2026-08-07. El recorte real eran **604 piezas prioritarias, casi todas
+   nacionales**: lo nacional se veía en ~67 h y no en 72.
+   - **Costo:** cero en dinero. Agrupar ~1 000 artículos más cuesta un 12 % de
+     tiempo (16,8 s frente a 15,0 s, medido en local), con memoria de sobra.
+   - **De paso, el aviso `RECORTADA POR EL TECHO` pasa a contar solo lo
+     prioritario.** Contando el total habría saltado en todos los ciclos.
+   - **Descartado:** bajar el techo por ciclo de Infobae (B). Sería una regla
+     sobre quién publica, y la de agosto la evitó a propósito. Solo declararlo
+     (D) no arreglaba nada.
+   - **Queda para medir, no descartado:** acortar la gracia de 12 h del cable
+     (C). Hay 1 066 piezas de cable que solo son prioritarias por ella, 903 de
+     Infobae. Antes hay que saber cuánto tarda un medio colombiano en cubrir un
+     hecho internacional.
+2. **El enlace a una historia que el agrupamiento recompuso redirige a su
+   sucesora**, la historia viva que se quedó con más artículos suyos. Sale del
+   arreglo del mismo día (PR #53): las recompuestas multifuente se quedaban
+   vivas y duplicadas; ahora se borran, y su enlace se habría muerto en horas.
+   - **Costo:** una tabla y una migración, que el responsable editorial corre antes de fusionar.
+   - **Descartado:** solo corregir el texto de «Noticia no encontrada»
+     (dejaría morir enlaces compartidos después del lanzamiento) y dejarlo
+     como estaba.
+
+Dónde: `MAX_ARTICLES` y `pruneArticles` en `server/services/ingestDaemon.js`;
+la redirección, en su PR.
+
+---
+
+## 2026-09-23 · Amazonas entra con LeticiaHoy; Guainía y Vaupés se declaran sin medio con sitio
+
+El responsable editorial pidió buscar al menos un medio para cada uno de los tres departamentos.
+Con lo encontrado delante, decidió: «que vaina que hayan deptos sin medios por
+web. Entonces sí, continuemos con lo propuesto».
+
+1. **Amazonas: alta de LeticiaHoy** (`leticia-hoy`), solo con el feed de su
+   sección Leticia. Entra con sus tres debilidades dichas: sin dueño
+   documentado (`ownerType: null`, con dónde y cuándo se buscó), notas cortas
+   sin fuentes citadas, y cadencia irregular. **El catálogo pasa a 30 de 33
+   departamentos con medio propio.**
+2. **Guainía y Vaupés: se declaran sin medio propio con sitio web.** La razón
+   no es «solo hay radio», como decía el documento de agosto. Es que su
+   periodismo digital local vive en Facebook y WhatsApp: lo nombra, medio por
+   medio, el censo «Desiertos de noticias locales» de la Fundación Gabo y la
+   FLIP.
+   **Descartado**: contar para Guainía las piezas de El Morichal (de Vichada),
+   que cambiaría la regla de «medio propio».
+
+Detalle y dónde se buscó: `COBERTURA_DEPARTAMENTAL.md`, 2026-09-23.
+
+---
+
+## 2026-09-22 · La primera tanda de firma de la izquierda: VOZ en −0,80 y Colombia Informa en −0,55
+
+El responsable editorial las decidió el 2026-09-22 con cada ficha delante, al preparar la tarea
+M1.1 del plan del MVP. De 59 fichas, estas eran las únicas dos de izquierda
+cuya propia propuesta es firmar. **Todavía no están firmadas.** Falta la
+revisión externa del §3 del protocolo, y `reviewedAt` se escribe al firmar, no
+antes.
+
+### 1 · Semanario VOZ: −0,80, con la magnitud declarada como juicio
+
+Su ficha dejaba dos salidas defendibles ante su CONTRA: firmar −0,80 aceptando
+por escrito que la magnitud es juicio, o bajar a −0,70 y declarar que el
+catálogo no distingue por debajo de eso. **El responsable editorial sostiene −0,80.** La dirección
+es medida: la propiedad declarada del Partido Comunista y el aislamiento de
+cero socios. La distancia exacta entre −0,65 y −0,80 es **juicio editorial**, y
+la ficha lo dice así.
+
+**Descartado:** −0,70. La regla 2 (ante la duda, hacia la mixta) se escribió
+para la duda entre bandas, y aquí la banda no está en duda.
+
+### 2 · Colombia Informa: se firma −0,55 ahora, sin esperar a octubre
+
+El −0,55 lo dictó el responsable editorial el 2026-09-16: la banda fuerte la empujaba la misión
+declarada, que es nivel 4, sobre un mes con catástrofe. Hoy se decide
+**firmarlo ya**, y convertir la re-medición de mediados de octubre, con un mes
+sin catástrofe, en la condición de revisión extraordinaria de la ficha.
+
+**Descartado:** esperar a octubre sin firma. Dejaría la banda de izquierda sin
+ninguna ficha firmada hasta noviembre. −0,55 es el valor prudente según la
+regla 2, y la re-medición puede moverlo en cualquier dirección.
+
+### 3 · Semana: el rumbo es la banda Derecha (≥ +0,60)
+
+El responsable editorial, el mismo día: «hay suficiente evidencia empírica para posicionarlo
+indiscutiblemente a la derecha», y al preguntarle qué número: **subir a la
+banda Derecha**, que hoy está vacía. **Es un rumbo, no una firma.** La
+evidencia reunida ese día está en `fichas/semana.md`, sección «Evidencia
+añadida el 2026-09-22». Lo que pasa las reglas: el medio y la familia del
+dueño financiaron el 88 % de la recolección de firmas de Vicky Dávila; la
+amplificación de 133 videos de campaña sin marcarlos, que es una sola fuente
+todavía sin comprobar; y la asimetría medida con el gobierno entrante. Lo que
+se descartó con motivo: la biografía de Dávila, el crédito de GNB (le prestó
+también a Petro en 2018 y 2022) y el recuento de menciones. Quedan abiertos el
+número dentro de la banda, la ficha de El Nuevo Siglo y la revisión externa.
+
+**Puesta al día, el mismo día.** Con la ficha de El Nuevo Siglo delante, el responsable editorial
+decidió los números que van a la revisión externa:
+
+- **Semana: +0,70.** Es la propuesta que se lleva a la revisión, no un valor
+  publicado: el registro sigue en +0,45 hasta la firma. La ficha tiene que
+  argumentar por qué +0,70 y no el borde de +0,60 que pide la regla 2, y el
+  CONTRA lo dice.
+- **El Nuevo Siglo: se mantiene +0,55 hasta la revisión**, que tiene que
+  contestar si hoy existe un vínculo orgánico con el Partido Conservador. Es la
+  regla 3 aplicada en los dos sentidos: sin nivel 1 a 3, el número no se mueve,
+  tampoco hacia abajo.
+- **El Colombiano (+0,35, firmado el 18-08) vuelve a revisión junto con El
+  Nuevo Siglo.** La ficha de El Nuevo Siglo lo usó como vara de medir, así que
+  los dos se calibran juntos. **Su firma sigue en pie** mientras la revisión no
+  la cambie. Es una revisión por réplica (§7), no una retirada.
+
+---
+
+## 2026-09-08 · Las historias archivadas por recomposición se borran, y un «aceptado» caduca
+
+Dos decisiones del responsable editorial, tomadas con lo medido delante y anotadas el mismo día.
+
+### 1 · Qué se hace con las 1 554 páginas huérfanas del archivo
+
+**Se borran, aplicando hacia atrás el mismo criterio de madurez que usa el
+motor desde hoy.** `npm run archivo:huerfanas`, en seco primero.
+
+**La evidencia:** de las 1 975 historias archivadas entre el 2 y el 8 de
+septiembre, 1 554 (79 %) se sellaron con su artículo más nuevo por debajo de las
+48 h. De esas, 864 comparten artículo con otra historia —recomposición
+demostrada, el mismo artículo colgando de dos páginas— y las otras 690 dejaron
+de producirse con sus piezas frescas, que tampoco es haber envejecido.
+
+**Lo que se descartó, y por qué:**
+
+- **Dejarlas.** El archivo arrancaría con cuatro de cada cinco páginas
+  duplicando una historia viva, cada una con su URL y anunciada en el sitemap.
+- **Desarchivarlas y que el ciclo las vuelva a juzgar.** Está medido que no
+  sirve: sus artículos acabarán madurando y entonces el ciclo las archivaría
+  igual, duplicando otra vez la historia que las absorbió.
+
+**El precio, dicho:** lo que Google haya indexado en estos seis días pasará a
+404. Se acepta: son páginas que no debían existir.
+
+### 2 · Un «aceptado» del libro de hallazgos calla a la vigilancia, pero caduca
+
+**La vigilancia respeta `aceptado`** —es lo que esa palabra significa desde que
+se escribió: «se marca en el libro con el motivo escrito y deja de avisar, sin
+desaparecer»— **y deja de respetarlo cuando pasa su fecha de revisión.**
+
+**Por qué hacía falta decidirlo:** Telecaribe lleva 26 días sin publicar y está
+aceptado desde el 2026-09-02, pero la vigilancia no leía el libro y lo acusaba
+cada seis horas. Dos vigilantes que se contradicen sobre el mismo medio no son
+el doble de vigilancia.
+
+**La caducidad es lo que impide que esto sea un botón de silencio.** El campo
+`revisarEl` en `hallazgos.json`; pasada esa fecha se vuelve a acusar diciendo
+que el plazo venció.
+
+**La fecha no se inventó:** Telecaribe ya la tenía escrita en su propia nota
+—«si el 13 de octubre de 2026 sigue sin publicar, deja de ser un silencio y pasa
+a ser una baja que hay que decidir»—, solo que en prosa. Vorágine, W Radio y El
+Manduco se quedan sin plazo porque su motivo es estructural, y la auditoría los
+lista aparte. **Queda una fecha por poner:** la nota de Vorágine dice «se revisa
+si la cadencia grabada muestra más de 30 días sin publicar», que es una regla y
+no una fecha, y hoy no la comprueba nadie.
+
+**Lo que se descartó:** seguir acusando pese al aceptado —dejaría la vigilancia
+en rojo permanente y enseña a ignorar el aspa, que es como muere un vigilante—.
+
+---
+
+## 2026-09-02 · El aviso de dueño compartido sale de la página de la noticia
+
+**Decisión del responsable editorial.** El bloque que avisaba de que dos medios de una historia
+responden ante el mismo dueño se retira del detalle de la noticia. **Motivo
+suyo:** la concentración por dueño no le parece tan relevante en el ecosistema
+mediático de hoy.
+
+**Lo que se va y lo que se queda.** Se va el bloque entero —la cabecera con el
+conteo, las líneas de «X e Y pertenecen a Z» y la nota—, junto con el
+componente y su hoja de estilos. **Las fichas de propiedad no se tocan**: el
+mapa de medios sigue diciendo de quién es cada medio, con sus fuentes y su
+fecha, y ahí sigue viéndose la concentración del catálogo entero.
+
+**Lo que se pierde, dicho sin adornos.** Quien lee una noticia cubierta por
+trece medios ya no verá que dos de ellos son de la misma casa; para saberlo
+tiene que ir al mapa. Era el único sitio donde la propiedad aparecía junto a
+una cobertura concreta.
+
+**Lo que lo hacía discutible, y por eso la decisión no es arbitraria:** el
+aviso saltaba en cuanto DOS medios compartían dueño, y con catorce fuentes su
+propia cabecera decía «13 medios, 12 dueños distintos» —o sea, anunciaba una
+concentración que en ese caso casi no existía—. Se ofreció calibrarlo para que
+solo apareciera cuando la pluralidad real cayera de verdad; el responsable editorial prefirió
+retirarlo.
+
+**Lo que NO se borró:** `gruposCompartidos()` en `shared/mediaOwnership.js`, con sus
+quince pruebas y una nota que explica por qué se queda sin consumidor. El día
+que la propiedad vuelva a la página de la noticia, está lista.
+
+---
+
+## 2026-09-02 · La sesión de decisiones: los ocho puntos de la Etapa 1, decididos
+
+**Decididos por el responsable editorial en una sola sesión**, sobre `SESION_DECISIONES.md`, que
+tenía cada punto con lo medido y una recomendación marcada como tal. Se anotan
+aquí en el momento, como pide la regla. Lo que cada una desencadena está en
+`PLAN_PRODUCTO_FINAL.md` (Etapa 3) y la cuenta la lleva `MINUTA.md`.
+
+**1 · Archivo: opción C.** Retención interna de **30 días sin páginas
+permanentes**: las piezas viven 30 días en la base para estimar; la portada y
+las URL siguen siendo de 72 h. Gratis dentro del plan actual y reversible.
+**Queda anotado en el plan revisar si se hace B** —archivo permanente con
+página por historia, ficha fechada y buscador, 25 USD/mes al año vista— cuando
+haya 90 días de serie. B no se descarta: se aplaza con fecha.
+
+**2 · Regla uniforme por cadencia.** La ventana de cada medio **se deriva de su
+propio ritmo, con la misma fórmula para todos**. Se implementa cuando
+`cadencia_piezas` tenga 30 días de serie (hacia el 1 de octubre de 2026), no
+antes. Lo que NO se hace: alargar la retención a mano para nadie.
+
+**3 · El punto ciego dice la verdad de sí mismo.** La rama de la izquierda se
+declara **no medible, con el número en pantalla** (falta en el 78 % de las
+historias de 10+ medios). El énfasis se adopta **con su ceguera direccional
+escrita** donde el lector la vea (23 disparos para la derecha, 0 para la
+izquierda). Las ramas 1 y 3 cambian el «15 % de n» por **un número fijo de
+medios**, que quita los saltos.
+
+**4 · Infobae: opción B.** Techo por feed: `ITEMS_PER_FEED` sigue en 15 por
+defecto y los feeds que publican más de 15 piezas en 30 minutos llevan un valor
+propio. Hoy es Infobae; se mide si Semana también. Se declara en la metodología.
+
+**5 · La regla de quien dirige.** Se avisa cuando quien dirige la redacción
+tiene **candidatura o cargo público vigente**, con fecha y fuente; el aviso
+caduca con el cargo. No se avisa por afinidad, militancia pasada ni opinión.
+**Se publican los dos casos con fecha:** Diario La Libertad y La Nación
+(Neiva). Es desvelamiento, no acusación.
+
+**6 · Fichas: primero los 11 de izquierda, por tandas.** Tandas de 3 o 4 para
+que cada una sea revisable; después los más leídos que falten; al final el
+resto por departamento. La ficha la sigue firmando el responsable editorial.
+
+**7 · `aceptado` se estrena con Vorágine, y solo con él.** Nota: investigación,
+cadencia lenta (una pieza cada 3,3 días, medido). **Del resto —Telecaribe, El
+Manduco, W Radio, Telecafé— hay que decidir si se borran del catálogo o se
+reintenta el feed por otra vía.** Primero se reintenta (Etapa 4); lo que no
+tenga vía se trae aquí para decidir si sale.
+
+**8 · Las tres dudas cortas.** (a) Historias sin imagen: **marcador con el logo
+del medio**, claramente no fotográfico; nunca una foto relacionada. (b) La
+cifra de patrocinio **se queda en la plantilla y fuera de todo lo público**.
+(c) Cuando un medio escriba: **contacto en `/transparencia` con el mismo correo
+del boletín, `doblefoco.co@gmail.com`**; acuse en 5 días y respuesta en 15; la
+objeción y la respuesta se publican junto a la ficha, con fecha, cambie o no la
+clasificación; la reclasificación sigue el protocolo de juicio editorial.
+
+---
+
+## 2026-09-02 · El motor tiene hostname propio: `api.doblefoco.co`
+
+**Decisión del responsable editorial.** Ante I-6 —el hostname estaba en la CSP y no existía en el
+DNS— eligió crearlo en vez de retirarlo. Certificado en Fly, registros A y AAAA
+en Porkbun (que lleva el DNS de `doblefoco.co`; Vercel solo recibe el tráfico).
+El cliente, los rewrites de Vercel, la CSP, el proxy de desarrollo y los scripts
+que miden la API apuntan ahí desde la PR #8.
+
+**Por qué.** Despega al cliente del hostname de Fly: si el motor se muda, cambia
+el DNS y no el cliente. Los workflows de despliegue y de desfase siguen mirando
+`doblefoco.fly.dev` a propósito, porque auditan la máquina y no el DNS.
+
+**Lo que se descartó.** Retirarlo de la CSP: más barato hoy, pero deja al
+cliente atado al proveedor.
+
+---
+
+## 2026-09-01 · La cadencia por medio se graba desde el feed, y desde hoy
+
+**Decisión.** Tarea 2.1 del plan de producto (2-A / T2-3). Dos tablas nuevas,
+`cadencia_piezas` y `cadencia_huecos`, escritas en cada ciclo de ingesta, y la
+columna `ingest_runs.cadencia_nuevas` para ver si el archivo sigue creciendo.
+**Solo acumulan.** Nada las lee todavía, y esa es la decisión: la regla uniforme
+por cadencia que pide 1-B necesita 30–90 días de serie, grabar es barato y
+esperar es lo caro. Se implementó y se estrenó el mismo día.
+
+**Por qué del feed y no de `articles`.** Una pieza publicada hace más de 72 h se
+poda antes de llegar a la base; para un medio lento, eso es toda su producción.
+El primer ciclo lo demostró: de 924 piezas observadas, **123 ya estaban fuera
+de la ventana**, de 18 medios, y **tres medios tenían todas sus piezas fuera**
+—Casa Macondo, La Patria y Telecaribe—. Son los mudos de 1-B, y `articles` no
+los verá nunca. La observación se toma en el bucle del feed, antes de cualquier
+descarte.
+
+**Qué se guarda y qué no.** Medio, hash del enlace (el mismo `articles.id`, para
+poder cruzarlos mientras la pieza viva), la fecha que declara el medio, la
+primera vez que se vio, y la regla del filtro editorial si la dejó fuera del
+índice. Ni titular, ni enlace, ni extracto: la retención de 72 h sigue rigiendo
+el contenido. La fecha ausente o insostenible se guarda como NULL, no como
+«ahora» —la misma regla que `parsePublishedAt`—.
+
+**Lo que se descartó, y por qué.**
+- *Un job diario sobre `articles`, como el del archivo de conducta.* No ve a los
+  lentos, que son el motivo de la tarea.
+- *El agregado diario (día, medio, piezas).* Obliga a decidir hoy la métrica
+  que se necesitará en noviembre; con las piezas se calcula cualquiera —mediana
+  de intervalo, días con publicación, huecos— sobre cualquier ventana. Es el
+  mismo argumento con el que la conducta guarda el par y no el agregado.
+- *Grabar solo lo indexable.* Un horóscopo también es una publicación; si la
+  cadencia debe contarlo o no se decide al leer, y para eso está la columna.
+
+**Los huecos se declaran por medio.** Solo los fallos: un feed que no respondió
+en un ciclo deja una fila (medio, ciclo, error). Los ciclos que corrieron ya
+están en `ingest_runs`. Sin esto, tres ciclos de avería nuestra se leerían como
+tres ciclos sin publicar, y la cadencia mediría nuestra avería como conducta
+del medio.
+
+**Coste.** Una sentencia por ciclo, y solo con lo que el proceso no había
+archivado ya —una memoria acotada evita reintentar las ~500 piezas que los
+feeds reexponen—. Las tablas entran en la copia de seguridad y en la
+restauración: son irreemplazables por la misma razón que la conducta.
+
+**Dónde.** Bloque 12 bis de `server/db/schema.sql`, `server/db/cadenciaStore.js`,
+y `observarPieza` en el daemon de ingesta.
+
+---
+
+## 2026-08-18 · El eje mide la relación con un polo fijo, no con quien gobierne
+
+**Decisión del responsable editorial.** Izquierda y derecha son posiciones ideológicas, no posturas
+frente al gobierno de turno. **Fiscalizar al poder deja de contar como evidencia
+de orientación**, en cualquiera de las dos direcciones. La regla queda escrita en
+`PROTOCOLO_JUICIO_EDITORIAL.md` §1, como «regla del polo fijo».
+
+**Qué la forzó.** Es la pregunta transversal 2 del ciclo 1 de revisión externa, y
+era la única de las cinco que seguía abierta. El catálogo la respondía de tres
+formas incompatibles a la vez:
+
+| Medio | Valor | Razonamiento escrito |
+|---|---|---|
+| Chocó 7 Días | 0,00 | «denunciar al poder es el oficio y no una orientación» |
+| Noticias Uno | −0,40 | «su vigilancia al establecimiento lo sitúa a la izquierda» — el contrario |
+| La Silla Vacía | −0,10 | el mismo que Noticias Uno, sin escribir |
+
+Y el ciclo 1 lo empeoró en vez de aclararlo: el revisor externo aportó cinco
+piezas fechadas de Noticias RCN críticas con el gobierno saliente. Si esas piezas
+firman su +0,25, **la misma lógica aplicada a Noticias Uno da el signo contrario
+con la misma clase de evidencia**. Sin decidir esto, cuatro fichas quedaban
+bloqueadas y las tres primeras se contradecían en público.
+
+**Por qué polo fijo y no poder vigente.** Con la otra respuesta, un medio cambiaría
+de signo cada cuatro años sin haber cambiado de línea, y el eje mediría al gobierno
+en vez de al medio. Un lector que consulta el mapa quiere saber de qué lado está un
+medio, no a quién le tocó gobernar cuando se hizo la ficha.
+
+**Lo que NO se descarta, y es la parte fina.** La regla no deja sin clasificar a
+los medios beligerantes: descarta la crítica al gobierno de turno y admite **la
+asimetría sostenida a través de un cambio de gobierno**. Quien fiscaliza duro a
+unos y a otros hace periodismo; quien fiscalizaba y pasa a celebrar cuando llega su
+lado ha revelado una posición. Tampoco toca los endosos editoriales, el encuadre
+asimétrico entre candidatos ni la cobertura del propio accionista, que siguen
+siendo evidencia de primer orden.
+
+**La transición de agosto de 2026 es la ocasión de comprobarlo**, y por eso la
+regla llega ahora y no en enero: cualquier medio clasificado por su dureza con el
+gobierno saliente queda sujeto a la única prueba que vale, que es cómo trata al
+entrante.
+
+**Consecuencias, ninguna aplicada todavía** —mover un valor sigue siendo un acto de
+firma, y va aparte:
+
+- **Noticias Uno (−0,40)** — su justificación es enteramente «vigilancia al
+  establecimiento». Bajo la regla no queda nada que sostenga el valor más extremo
+  del catálogo colombiano. Apunta a **0,00**.
+- **La Silla Vacía (−0,10)** — mismo caso, y su propia justificación ya decía
+  «analítico más que militante». Apunta a **0,00**.
+- **Chocó 7 Días (0,00)** — confirmado, y por primera vez con el motivo escrito en
+  el protocolo en vez de en el criterio de quien redactó la ficha.
+- **Noticias RCN (+0,25)** — las cinco piezas del ciclo 1 son crítica al gobierno
+  saliente: **ya no bastan solas** para firmar el valor. Necesita evidencia de
+  asimetría, que la transición permite buscar.
+- **El Espectador (−0,20)** — sus editoriales critican al gobierno por vía
+  institucional; bajo esta regla no lo desplazan ni a un lado ni al otro. Refuerza
+  lo que el ciclo 1 ya encontró: ese número no tiene base.
+- **El Heraldo (+0,20)** — **no le afecta**. Un endoso editorial no es
+  fiscalización: es tomar partido.
+
+**Qué queda por hacer con esto.** Reescribir la justificación de las cuatro fichas
+afectadas y llevar la regla a `revision-externa/CONTEXTO.md`, que hoy ofrece esta
+tensión como cebo al revisor externo. Ambas cosas después de aprobar el texto.
+
+---
+
+## 2026-08-17 · El punto final de cada prueba de sesgo son las fichas para las IAs
+
+**Decisión del responsable editorial.** Ninguna medición de sesgo se da por cerrada dentro de casa.
+**El cierre de cada prueba de sesgo es el paso por las IAs externas, con la ficha
+del medio delante.** El circuito de `revision-externa/` deja de ser un pendiente
+que va detrás del trabajo y pasa a ser **el último paso del trabajo**.
+
+**Qué cambia, en concreto:**
+
+- Una ficha **no está terminada cuando se escribe**, sino cuando ha pasado por el
+  circuito y sus objeciones están resueltas o declaradas. Hoy hay **56 fichas
+  escritas, cero firmadas y `respuestas/` vacía**: la distancia entre lo escrito y
+  lo auditado es todo el catálogo.
+- Las mediciones internas —`npm run conducta`, `npm run insistencia`,
+  `npm run analyze:cocoverage`— **no cierran nada por sí solas**. Aportan evidencia
+  que entra en la ficha; el veredicto viene después.
+- **Cada alta nueva entra en la cola.** Dar de alta un medio ya no termina en el
+  registro: termina cuando su ficha se ha contrastado.
+
+**Por qué, y por qué no se contradice con lo que ya estaba escrito.** El riesgo de
+un juicio editorial hecho en casa es que se valide solo. Esto no traslada el juicio
+a los modelos: sigue en pie que **se les pide objeción y no opinión**, y que **su
+acuerdo no cuenta como aval** —comparten datos de entrenamiento y se equivocan de
+forma correlacionada—. Lo que se publica es el desacuerdo. Y **la firma sigue siendo
+del responsable editorial**: las IAs son el examen, no el examinador.
+
+**Consecuencia sobre F1-13** («revisión editorial firmada de los valores de sesgo»):
+esta decisión es su método. F1-13 no se cierra ficha a ficha en el repositorio, se
+cierra al otro lado del circuito.
+
+Ver `revision-externa/LEEME.md` para el procedimiento y `revision-externa/pendientes.md`
+para la cola.
+
+---
+
+## 2026-08-14 · Ciencia no es un tema: es léxico dentro de Tecnología
+
+**No se crea un tema de Ciencia.** Decisión del responsable editorial, con la medida delante.
+
+**Lo que motivaba crearlo era un número engañoso.** La sesión anterior dejó
+anotado que «`eclipse` rinde 102 artículos y no hay tema de Ciencia». La cuenta
+era cierta; el argumento, no. Trazados los **142 artículos** con eclipse en el
+titular, los que se quedan sin tema **no son de ciencia**: una mujer que se ahoga
+en un embalse tras verlo, las gafas que acaban en vertederos, Björk y los
+skaters, el tráfico de vuelta que preocupa a la DGT, partidos aplazados.
+**El eclipse es un suceso, como el terremoto, y un suceso no es un tema.**
+
+**La ciencia real son ~12 artículos en 9 158** (0,13 %). Con tema propio sería el
+más pequeño del catálogo por un orden de magnitud, y quedaría casi vacío en
+cuanto el eclipse envejeciera. Es el mismo criterio con el que no se separó la
+meteorología de Desastres: copiar una división sin el contenido que la justifica
+deja una sección vacía.
+
+**Y el destino ya estaba decidido en el código**: `SECCION_URL_A_TEMA` y
+`CATEGORIA_MEDIO_A_TEMA` archivan `ciencia → tecnologia` desde que existen. Lo
+que faltaba era léxico, y la falta se notaba: la ciencia solo entraba si el medio
+había etiquetado la sección, y entraba **rescatada** con 2,5. Sin sección se caía
+entera —«Un telescopio detecta dos agujeros negros» no tenía una sola señal
+propia—.
+
+**Qué se descartó, medido** (ver `shared/topicClassifier.js` y sus pruebas):
+`cometa` —0 aciertos y 7 falsos, porque agosto es temporada de volar cometas—,
+`marte` sin frontera —se come «mar-tes»— y `eclipse`.
+
+**Se reabre** si el corpus crece y la ciencia con él. La medida se rehace con
+`npm run medir:termino`; no hace falta discutirlo de memoria.
+
+---
+
+## 2026-08-14 · Un término débil suelto SÍ decide, y la doc decía lo contrario
+
+Hallazgo del trabajo anterior, anotado aparte porque **vale para todo el léxico**.
+
+La cabecera de `TEMAS` describía los débiles como «suman, no deciden». Le faltaba
+media frase: **un débil en el titular vale 1,5 y `UMBRAL_RESCATE` es exactamente
+1,5**, así que un débil suelto, cuando ningún otro tema puntúa, se rescata y
+decide solo. Es por diseño —el rescate existe para eso—, pero invalida el
+criterio con el que se venían eligiendo términos débiles.
+
+**Lo destapó costar dos términos.** `nasa` y `ciencia` entraron primero como
+débiles fiándose de esa frase. Con ellos dentro, «Comunidad Nasa bloquea la vía
+Panamericana en el norte del Cauca» se clasificaba como Tecnología —**NASA es
+también el pueblo indígena Nasa del Cauca**— y «según la ciencia, las vacaciones
+mejor largas y cortas» también. Los dos quedaron fuera.
+
+**Al elegir un término débil hay que preguntarse qué archiva cuando es la ÚNICA
+señal del titular**, no solo si es ambiguo. La frase está corregida en el
+fichero, donde induce el error.
+
+---
+
+## 2026-08-13 · Un dueño histórico documentado no basta para marcar dueño compartido
+
+**Al dar de alta El Nuevo Día (Ibagué) NO se le asigna `controlGroup: 'galvis'`**,
+pese a que está documentado que la familia Galvis —dueña de Vanguardia, en este
+catálogo— fundó y controló el periódico.
+
+**La evidencia, y por qué no alcanza.** Galvis creó **Editorial Aguasclaras S.A.**
+en 1992 con empresarios tolimenses que tomaron el 30 %. Esa sociedad consta hoy
+como **EN LIQUIDACIÓN JUDICIAL, con la matrícula cancelada** (NIT 800052169), y el
+impreso cerró el 22-10-2023. Lo que publica hoy es **EL NUEVO DÍA DIGITAL S.A.S.**,
+otra sociedad, que no publica NIT, socios ni representante legal. **Ningún
+documento consultable enlaza una con otra.**
+
+**Qué se estaba decidiendo de verdad.** No es una duda de catalogación: con
+`controlGroup: 'galvis'`, la vista de concentración **afirmaría** ante el lector
+que Vanguardia y El Nuevo Día responden a la misma familia. Es una afirmación
+sobre personas identificables, y la sostendríamos con un hecho de 1992 sobre una
+empresa que ya no existe.
+
+**La regla que queda.** *La propiedad histórica documentada es una pista, no un
+grupo de control.* Para marcar dueño compartido hace falta evidencia de que la
+estructura está **vigente**; si no la hay, la pista se escribe en la ficha —donde
+se puede leer y refutar— y el campo se queda vacío.
+
+**Lo que se descartó.** Marcarlo «provisionalmente» y corregirlo si aparecía algo:
+un aviso de concentración no admite provisionalidad, porque el daño lo hace al
+mostrarse. Y también lo contrario, no anotar nada: eso borraría del expediente la
+única pista que existe.
+
+**Es simétrico con Pulzo**, donde tampoco se asignó grupo, y con la analogía
+descartada en EL DIARIO de Boyacá el día 12. La diferencia es que allí las fuentes
+se contradecían y aquí simplemente no llegan hasta hoy. Es además la **regla del
+presente** aplicada por primera vez para **no añadir** un vínculo.
+
+Detalle en `fichas/el-nuevo-dia.md` y en el comentario de `shared/mediaOwnership.js`.
+
+---
+
+## 2026-08-13 · La factualidad no medida se publica «sin medir», nunca «0%»
+
+Corrección de un defecto, anotada aquí porque toca una decisión anterior. El
+catálogo público imprimía **«factualidad 0%»** para los 18 medios con
+`factuality: null`.
+
+**Anulaba la decisión del 2026-08-09** que hizo válida la factualidad no medida.
+Aquella existe para no tener que inventar un número de rigor al dar de alta un
+medio; convertido en 0, el número inventado volvía por la puerta de atrás y encima
+era el más dañino posible.
+
+**La regla:** un valor ausente se muestra como ausente, con la misma palabra en
+todas las pantallas. La interfaz ya decía «sin medir» (`fmtPct` en `MediaMap.jsx`);
+ahora el catálogo también, y hay prueba que lo exige.
+
+**Lo que enseña sobre las comprobaciones:** `check:registry` no lo detectó porque
+compara el archivo generado contra `renderCatalog()` — y los dos producían el mismo
+0 %. **Una comprobación de coherencia no ve un error que está en el generador.**
+
+---
+
+## 2026-08-12 · Los regionales sin ficha de propiedad se quedan como desconocidos, y la tarea se anota
+
+**Decisión del responsable editorial.** Un medio regional del que no se ha podido establecer la
+propiedad **entra y se queda con `ownerType: null`** —desconocido, declarado con
+fecha— en vez de esperar a resolverlo. **Y la tarea de resolverlo queda anotada**,
+no cerrada.
+
+**Qué la motiva.** Es la generalización de la regla del 2026-08-11: la ausencia de
+dueño se declara. Ese día se aplicó a un medio (La Razón.co) y el 12 a tres más
+(EL DIARIO de Boyacá, Vive el Meta, Lente Regional). El responsable editorial la eleva a política:
+**por defecto, desconocido y anotado.** Deja de haber que decidir caso por caso si
+un medio se queda fuera por no saber de quién es.
+
+**Lo que NO autoriza.** No autoriza dejar de buscar, y no autoriza una ficha vacía:
+`check:registry` sigue exigiendo `consultadoEl`, `buscadoEn` y `falta` para
+aceptar un `ownerType: null`. La diferencia entre «desconocido» y «no lo hemos
+mirado» es esa lista, y sin ella el alta no pasa.
+
+**El coste que se asume.** Los certificados de Cámara de Comercio pendientes son
+ya once, todos trámite manual. La lista crece más rápido de lo que se cierra, y
+esta decisión hace explícito que se acepta: **es preferible un catálogo con huecos
+declarados a un mapa con departamentos en blanco.**
+
+Dónde vive el detalle: `AUSENCIA DECLARADA` en `shared/mediaOwnership.js`, y la
+lista de lo que falta en cada ficha.
+
+---
+
+## 2026-08-08 · Cambio sale de Google News; cinco medios se quedan y se dice por qué
+
+**Decisión.** Cambio pasa a su RSS propio. RTVC, Revista RAYA, La FM, Noticias
+RCN, Noticias Caracol y Blu Radio se quedan en Google News, y queda escrito qué
+se probó para que nadie repita la búsqueda.
+
+**Cambio: de 7 a 22 artículos en un ciclo.**
+
+```
+gnews    100 ítems ·  5/15 frescos · mediana 155,6 h
+propio    20 ítems · 15/15 frescos · piezas de hoy
+```
+
+Su feed **no está en ninguna ruta convencional**: vive en `/feeds/articulos/`.
+No habría aparecido probando rutas a ciegas — se encontró leyendo el
+`<link rel="alternate">` de su propio HTML, que pasa a ser el primer sitio donde
+mirar.
+
+**Publica con fechas de hasta dos días en el futuro** porque programa sus piezas.
+No hizo falta tocar nada: `parsePublishedAt` ya rechaza cualquier fecha a más de
+30 minutos vista, así que esas entradas entran cuando les llega su hora. Se
+comprueba en esa función y no en la ficha del medio, para que la regla valga para
+todos los feeds y no solo para este.
+
+**Los cinco que se quedan, con lo que se probó:** ninguno tiene feed propio por
+las tres vías (HTML declarado, Arc, rutas convencionales). Noticias Caracol y Blu
+Radio **declaran un `.atom` que devuelve la página, no un feed** — una pista
+falsa que cuesta media hora si no está anotada.
+
+**RTVC es distinto y ya estaba bien documentado.** Publica `rss.xml`, pero está
+abandonado: entrada más reciente de mayo de 2026 y de ahí salta a junio de 2024.
+Su ficha ya lo decía desde julio con esas mismas fechas; esta vez solo se
+reconfirmó. No había nada que arreglar.
+
+**Se anota en el helper `gnews()`**, no en una ficha suelta: es el sitio donde
+mira quien vaya a añadir un medio, y ahí queda tanto el coste de esa vía como el
+orden de búsqueda que sí funciona.
+
+---
+
+## 2026-08-08 · RTVC conserva su nombre, y se apunta una previsión antes de que ocurra
+
+**Decisión del responsable editorial.** La entidad recuperó su nombre legal —Inravisión, con
+redirección permanente desde rtvc.gov.co— pero en el catálogo **se sigue llamando
+RTVC**: es el nombre con el que el medio se presenta ante su audiencia, y aquí los
+medios se nombran como el lector los conoce, no como figuran en el registro
+mercantil.
+
+**Y una previsión suya, anotada A PROPÓSITO ANTES de que pase.** Espera que RTVC
+cambie de dirección en los próximos días y pase a cubrir la actualidad desde una
+posición oficialista con el gobierno que entró el 7 de agosto. Su valor de
+orientación (−0,35) se fijó bajo el gobierno anterior.
+
+**Por qué escribirla antes.** Si el ajuste llega y no hay constancia previa,
+sería imposible distinguir una corrección honesta de una racionalización a
+posteriori. Escrita antes, la previsión se puede contrastar: o el medio se
+mueve como se esperaba, o no, y las dos cosas enseñan algo. Queda en `notes` de
+su ficha de propiedad, marcada como **previsión declarada, no medición**.
+
+Es además el único medio del catálogo cuyo dueño —el Estado— cambia de manos en
+una fecha conocida, y por eso el único con caducidad prevista.
+
+---
+
+## 2026-08-08 · Orientación y sesgo son dos cosas distintas
+
+**Decisión del responsable editorial.** Separar dos conceptos que compartían una palabra:
+
+|  | Qué es | Cómo se establece |
+|---|---|---|
+| **Orientación** | Propiedad del **medio**: de dónde viene, a quién responde, qué considera noticia | Estructural. Se documenta |
+| **Sesgo** | Propiedad de una **pieza**: qué palabras elige, a quién cita | Frase por frase. **Todavía no se mide** |
+
+**Cómo surgió.** Yo buscaba un adjetivo mejor que «Sin línea marcada» y ofrecí
+cuatro; el responsable editorial propuso en cambio cambiar el marco. Su propuesta era mejor y resolvió
+el problema de raíz: el conflicto no estaba en la etiqueta sino en que un solo
+número tenía que decir a la vez algo del medio y algo del texto.
+
+**LO QUE ESTO CORRIGIÓ NO ES VOCABULARIO.** La interfaz decía «Sesgo medio de la
+cobertura» sobre un número que promedia **la orientación declarada de los medios
+que publicaron**. Eso afirmaba haber analizado la cobertura cuando lo que hicimos
+fue promediar quién la firmaba. Ahora dice «Orientación media de quienes lo
+publicaron», que es lo que el número contiene.
+
+**«Sin línea marcada» pasa a «Orientación mixta», y la primera era falsa.**
+Medidos los siete medios colombianos de esa banda, **seis pertenecen a grupos
+económicos**:
+
+```
+La Silla Vacía  −0,10   Juanita León y socios     ← el único independiente
+W Radio          0,00   Grupo Prisa
+El Tiempo       +0,05   Sarmiento Angulo (Aval)
+Caracol Radio   +0,05   Grupo Prisa
+Noticias Caracol +0,10  Santo Domingo (Valorem)
+Portafolio      +0,10   Sarmiento Angulo (Aval)
+La República    +0,15   Ardila Lülle
+```
+
+Portafolio y La República son **diarios económicos**: su línea es el capital,
+declarada y evidente. Decir de ellos que no tienen línea marcada era el falso
+balance que este proyecto existe para no producir. Lo que el número dice de
+verdad es que su orientación **no se sitúa en el eje izquierda-derecha**, no que
+no exista.
+
+**Se descartaron cuatro adjetivos** —«Fuera del eje», «Sin ubicar en el eje»,
+«Línea difusa», «Sin inclinación constante»— y toda la familia que suena a virtud
+(«no partidista», «línea propia», «transversal», «equidistante»): elogiar a El
+Tiempo por no tener bando es exactamente el falso equilibrio. También «mixta» y
+«oscilante» como descripciones de SESGO, porque afirmarían que la posición varía
+y el número no distingue variar de inclinarse siempre un poco hacia el mismo
+lado. Bajo el marco de ORIENTACIÓN, en cambio, «mixta» es una afirmación
+estructural y sí se sostiene.
+
+**Otros dos nombres cayeron con la taxonomía:**
+
+- `describeBias()` → **`describirOrientacionMedia()`**. Mantener el nombre viejo
+  habría dejado viva en el código la confusión que se acababa de quitar de la
+  pantalla.
+- «Solo medios con línea marcada» → **«Solo medios de izquierda y derecha»**
+  (constante `SOLO_EJE_MIN_SOURCES`). Si se afirma que todos los medios tienen
+  línea, distinguir a unos como «los que la tienen» se contradice con el resto
+  del sitio. La señal dice que el hecho solo interesó a medios situados en el
+  eje, y que ninguno de orientación mixta lo cubrió.
+
+**El campo se sigue llamando `bias`** en el registro, en la base y en la API. Es
+deliberado: renombrar `sources.bias` obliga a migrar la base y a romper la API por
+un cambio que el lector no ve. Lo que cambia es todo lo que el lector lee.
+
+**Y una copia que se retira**: `MediaMap.jsx` tenía su propio `SPECTRUM_LABEL`.
+Dos listas de etiquetas para el mismo concepto son dos listas que se separan, y
+esa pantalla es donde menos se habría notado.
+
+**De paso, el `shortName` de Caracol Radio.** Era «Caracol» a secas, y lo señaló
+El responsable editorial. «Noticias Caracol» es otra empresa de otro dueño —Prisa contra Santo
+Domingo—; en un sitio cuyo argumento central es quién posee qué, esa abreviatura
+invitaba justo a la confusión que el mapa existe para deshacer.
+
+---
+
+## 2026-08-08 · Responder no es alimentar: se auditan los 39 feeds
+
+**Decisión del responsable editorial**, tras el arreglo de los tres feeds: revisar los demás para
+asegurar los flujos. Se cambió lo que `check:feeds` considera un feed sano y se
+encontraron dos fallos que llevaban meses invisibles.
+
+**El criterio viejo era `items.length > 0`.** Con ese listón, el feed de W Radio
+estuvo meses en verde sirviendo piezas de hace cuatro años: devolvía 100 títulos,
+así que ✓. Ahora se mide sobre **los 15 ítems que el motor toma de verdad**:
+cuántos caen dentro de la ventana, la mediana de edad, si traen imagen, si el
+enlace apunta al medio, y **si el feed viene ordenado por fecha**.
+
+**Ese último dato es el que evita una acusación injusta.** Una mediana alta
+significa dos cosas opuestas según el orden:
+
+- **Cronológico y viejo** → el medio publica despacio. Vorágine saca una pieza
+  cada 74,7 h. Es su oficio, no una avería, y el informe lo dice en una sección
+  aparte titulada «publican despacio, y no es un fallo».
+- **Desordenado y viejo** → orden por relevancia: existen piezas más nuevas que
+  ese feed no nos está dando.
+
+Sin esa distinción, el informe habría señalado como rotos a Vorágine, Cuestión
+Pública, Razón Pública, Colombia Informa y Noticias Uno — justo el periodismo de
+investigación que el producto quiere conservar.
+
+**FALLO 1 — El Universal, y la causa es una query.** La misma ruta, con y sin
+`?outputType=xml`:
+
+```
+sin query   100 ítems ·   0 frescos · mediana 475,3 h  (veinte días)
+con query   100 ítems · 100 frescos · mediana  27,9 h
+```
+
+No es una regla de Arc: El Heraldo, Vanguardia y El País de Cali usan esa ruta
+sin query y sus cien ítems son recientes. Hay que medir instalación por
+instalación.
+
+**FALLO 2 — La Opinión: 133 fotografías bloqueadas en el navegador.** El medio
+migró a `laopinion.co` y el registro seguía diciendo `laopinion.com.co`. Sus
+imágenes se descargaban, **pasaban la validación** —`urlDeImagenValida` compara
+contra el dominio del propio artículo, no contra la CSP—, se guardaban en la
+base… y el navegador las bloqueaba al pintarlas, porque `laopinion.co` no estaba
+en el `img-src` de vercel.json.
+
+Es el peor tipo de fallo del catálogo: **invisible desde el servidor y total para
+el lector**. Ni un registro, ni un aviso, ni una prueba en rojo. Solo un hueco
+gris donde iba la foto.
+
+**POR QUÉ NO LO VIO LA PRUEBA QUE EXISTE PARA ESTO, que es la parte instructiva.**
+`src/services/csp.test.js` ya comprueba que la CSP cubre el dominio de todo medio
+con feed, y había saltado tres veces antes. Estaba en verde porque el registro
+decía `laopinion.com.co` y la CSP decía `laopinion.com.co`: **las dos listas
+coincidían y las dos estaban equivocadas.** Comparar dos copias del mismo dato no
+detecta que el dato haya dejado de ser cierto.
+
+Se llegó a escribir un `check:csp` que hacía justamente esa comparación otra vez.
+**Se retiró al descubrir que duplicaba la prueba existente** y que, por tanto,
+tampoco habría encontrado nada.
+
+**Lo que sí lo encuentra es contrastar el registro contra la REALIDAD**, no
+contra otra copia de sí mismo: la comprobación de dominio del enlace añadida a
+`check:feeds`, que mira a dónde apuntan de verdad los enlaces del feed y avisa
+cuando no coinciden con el `domain` declarado. Fue la que dio el aviso. Regla
+general que queda: una comprobación entre dos artefactos nuestros solo detecta
+desincronización; para detectar un dato caduco hay que ir a la fuente externa.
+
+**Constantes compartidas.** `ITEMS_PER_FEED` y `RETENTION_MS` se exportan desde
+`ingestDaemon.js` en vez de copiarse al script: una copia se habría
+desincronizado el día que cambien, y la comprobación mediría un motor imaginario.
+
+---
+
+## 2026-08-08 · Google News ordena por relevancia, y eso nos silenció medios
+
+**Decisión.** El Espectador, Caracol Radio y W Radio salen de Google News y pasan
+a su RSS propio.
+
+**Cómo apareció.** El responsable editorial preguntó por qué El Espectador termina pareciendo de
+izquierda teniendo los dueños que tiene. Al ir al corpus a contrastarlo con
+conducta observable, la respuesta fue que **no se puede contrastar**: aportaba 24
+artículos en 72 h, con coincidencias de dos y tres casos. No hay señal, hay ruido.
+
+```
+El Espectador ....  24        Semana ........... 695
+Noticias Caracol .   6        El Heraldo ....... 383
+Noticias RCN .....  23        El País (Cali) ... 271
+Noticias Uno .....   0        El Tiempo ........ 234
+W Radio ..........   2
+```
+
+El segundo diario nacional aportaba la décima parte que su par, y menos que
+cualquier regional. El patrón parte en dos el catálogo:
+
+| Vía | Medios | Artículos | Media |
+|---|---|---|---|
+| Feed directo | 20 | 2 672 | **134** |
+| Google News | 10 | 162 | **16** |
+
+**LA PRIMERA EXPLICACIÓN ERA FALSA, y conviene dejarlo escrito.** Supuse que
+Google devolvía pocos ítems o viejos que la ventana descartaba. Medido, devuelve
+100 y 82 están dentro de la ventana. La causa real es el ORDEN:
+
+```
+                 gnews         propio
+mediana edad     39,9 h         1,5 h
+con imagen        0/15         15/15
+enlace       news.google.com   elespectador.com
+```
+
+**Google ordena por relevancia, no por fecha.** Cada 30 minutos pedimos los 15
+«más relevantes» y devuelve casi los mismos, con mediana de casi dos días. Se
+deduplican contra lo que ya teníamos y no se acumula nada. Un feed cronológico
+trae en cada sondeo lo publicado desde el anterior. Eso explica de paso por qué
+esos medios nunca tenían foto —0 de 15— y por qué sus enlaces iban a Google.
+
+**El peor caso era W Radio**: mediana de **32 551 horas, casi cuatro años**, con
+1 de 15 ítems dentro de la ventana. No aportaba poco: servía archivo viejo con
+apariencia de actualidad, que es peor que estar mudo.
+
+**Los feeds existían y nadie los había buscado donde estaban.** Los tres usan
+Arc, el mismo gestor que El Heraldo, El Universal, Vanguardia, El País de Cali y
+Semana, que ya entraban por ahí. La ficha de W Radio incluso afirmaba «SIGUE SIN
+PUBLICAR RSS PROPIO» tras probar cinco rutas — ninguna era la de Arc.
+
+**Efecto medido en UN ciclo:** El Espectador 24 → 38, Caracol Radio 54 → 67,
+W Radio 2 → 4, y todos los nuevos con fotografía mientras que de los 24 viejos de
+El Espectador ninguno la tenía.
+
+**LO QUE ESTO CONTAMINA, y hay que decirlo antes de que alguien lo cite.**
+Publicamos que la izquierda es el **3,3 % del volumen**, y sobre esa cifra se
+reconstruyó la función de puntos ciegos. Esa cifra está medida sobre un corpus en
+el que la principal contraparte nacional de Semana aportaba una décima parte de
+lo que le corresponde. **No es un hecho limpio sobre el país: lleva dentro un
+artefacto de qué feeds nos funcionaban.** Habrá que volver a medirla en unos días
+y corregir lo que haga falta.
+
+**Quedan siete medios en Google News** —Noticias Caracol, Noticias RCN, Blu Radio,
+La FM, Cambio, RTVC y Revista RAYA—. Se probó Arc en todos: no lo tienen.
+Noticias Caracol y Blu Radio declaran un `.atom` en su HTML que devuelve la
+página, no un feed. Siguen pendientes.
+
+---
+
+## 2026-08-08 · También las instituciones tienen dueño
+
+**Decisión del responsable editorial**, que corrigió la mía. Yo propuse cerrar los cuatro medios
+que faltaban con la fórmula «no hay una persona: el dueño es un partido, el
+Estado, una fundación». Su respuesta: *«Todas las instituciones tienen dueño.
+Hasta de las org independientes deberíamos tratar de dar con las personas detrás
+de los medios.»*
+
+**Por qué tenía razón, y el argumento es más fuerte que el de completar fichas.**
+Nombrar a Alejandro Santo Domingo y a los Gilinski, y en cambio dejar en
+«institución» a quien dirige el medio público o el semanario de un partido, es
+**aplicar el escrutinio de forma desigual**. Esa asimetría es exactamente el
+sesgo que este mapa existe para no cometer. Una institución no disuelve la
+pregunta de quién manda: la traslada a un cargo, y el cargo lo ocupa alguien con
+nombre y apellido.
+
+**Lo que se documentó, cada uno con su fuente:**
+
+| Medio | Persona | Relación |
+|---|---|---|
+| RTVC | Hollman Felipe Morris Rincón | Gerente. Dirige, no posee |
+| RTVC | El presidente en ejercicio | Control efectivo: lo designa vía MinTIC |
+| Semanario VOZ | Jaime Caycedo Turriago | Secretario general del PCC, dueño del medio |
+| Semanario VOZ | Zabier Hernández Buelvas | Director. Dirige, no posee |
+| Razón Pública | Hernando Gómez Buendía | Fundador, director y editor general |
+| Razón Pública | Consejo editorial | Orientan sin poseer |
+
+**Se mantiene la regla de la tanda anterior: dirigir no es poseer**, y se dice
+cuál de las dos cosas es en cada línea. Sin esa distinción, nombrar a Morris
+insinuaría que el medio público es suyo.
+
+**Dos hallazgos que no se buscaban:**
+
+1. **RTVC ya no se llama RTVC.** `rtvc.gov.co` devuelve un 301 permanente a
+   `inravision.gov.co`: la entidad recuperó su nombre histórico, Inravisión. La
+   prueba es el propio redirect, comprobado hoy. **El catálogo sigue diciendo
+   RTVC** — cambiar el nombre visible de un medio es decisión editorial, no mía,
+   y queda anotado para que el responsable editorial decida.
+2. **La ficha de RTVC tiene fecha de caducidad conocida.** El período
+   presidencial terminó el 7 de agosto de 2026, o sea ayer. Quien designa al
+   gerente cambió de manos. Por eso **no se nombra al presidente concreto**: se
+   nombra el cargo. Un catálogo que envejece con el gobierno de turno es un
+   catálogo que miente a los pocos meses.
+
+**Colombia Informa pasa de «sin documentar» a «pendiente con procedimiento», que
+no es lo mismo.** Se encontró la razón social —**Corporación Colombia Informa,
+NIT 900.408.141-8**—, su financiación declarada y su articulación con la ALBA de
+los Movimientos Sociales. Lo que falta es un solo dato, el representante legal, y
+ya no por falta de rastro sino por un trámite: el certificado del RUES con ese
+NIT exige un formulario manual. **No se escribe ningún nombre hasta tenerlo.** Es
+el único medio colombiano cuyo hilo no termina todavía en una persona natural.
+
+**El linter dijo algo que ninguna prueba dijo.** Al documentar el último medio,
+`pending()` —la plantilla de ficha vacía— se quedó sin usos. Se retira en vez de
+silenciar el aviso: si algún día entra un medio sin documentar, que el hueco haya
+que escribirlo a mano y se note.
+
+**Dos pruebas se apoyaban en que existiera un medio sin documentar** y se rompieron
+al no haberlo. Se arreglaron **cambiando el sujeto, no el listón**: ahora usan un
+id inventado. Ataban una prueba sobre el reparto por dueños a un hecho sobre
+Colombia Informa, así que documentarlo rompía algo que no hablaba de él. La que
+contaba fichas vacías pasa a exigir **cero**, y es cuando más protege: el
+siguiente hueco entraría sin que nada más lo delate.
+
+---
+
+## 2026-08-08 · Distintivo de a quién responde cada redacción
+
+> **Actualizado el mismo día.** El reparto de abajo dice «1 sin documentar». Ya
+> no: ver la entrada «También las instituciones tienen dueño». Se deja el número
+> original porque era el correcto cuando se tomó esta decisión.
+
+**Decisión del responsable editorial.** El mapa debe dejar ver de un vistazo qué medios responden a
+un grupo económico y cuáles hacen periodismo independiente.
+
+**Cómo quedó, tras una corrección suya que mejoró el diseño.** La primera versión
+mostraba los cinco tipos de `ownerType` tal cual y destacaba solo `conglomerado`
+e `independiente`. El responsable editorial objetó, con razón: **`ownerType` responde «quién es el
+dueño» cuando la pregunta que importa es «qué naturaleza tiene ese interés»**, y
+tres de los cinco cajones —conglomerado, familiar e internacional— son la misma
+respuesta con distinto alcance.
+
+Así que se invierte: manda **«Grupo económico»** y el origen queda de apellido —
+nacional, regional, internacional—. `Público` e `Independiente` se quedan solos
+porque sí responden otra cosa.
+
+**Reparto resultante**, que ahora dice algo de un vistazo:
+
+```
+19  Grupo económico   (10 nacional · 7 regional · 2 internacional)
+ 9  Independiente
+ 1  Público
+ 1  sin documentar
+```
+
+**LO QUE ESTO AFIRMA Y LO QUE NO**, porque es lo que sostiene el cambio. NO se
+dice que las familias dueñas de diarios regionales tengan negocios ocultos en
+otros sectores: eso seguiría sin fuente y no se publica. Se dice que **controlar
+la empresa que publica un diario ya es un interés económico**, y eso consta en
+cada ficha. Es un cambio de qué cuenta como grupo económico, no una afirmación
+sobre patrimonios indocumentados. Donde SÍ hay negocios en otros sectores, están
+en `holdings` con su enlace.
+
+**Y la evidencia que respalda los dos casos que el responsable editorial señaló**, encontrada al
+revisar las fichas:
+
+- **Caracol Radio y W Radio**: «internacional» decía dónde está el dueño, no qué
+  es. Su ficha dice que el Grupo Prisa está «controlado desde 2003 por el
+  banquero de inversión Joseph Oughourlian», y que W Radio tiene además un 14,4 %
+  de Inversiones Ferines, de la familia Londoño.
+- **El Colombiano y La Opinión** figuraban como familiares y ya no lo son: al
+  primero un grupo de empresarios antioqueños le compró el **51 %** en 2022
+  —entre ellos Manuel Santiago Mejía, del grupo Corbeta— y al segundo el Grupo
+  Empresarial Catalítico el **100 %** en 2024.
+
+**Sin ficha verificada no se pinta distintivo: dice «sin documentar».** Un medio
+del que no se ha comprobado nada no es independiente por defecto ni conglomerado
+por defecto. Rellenarlo con una suposición sería la clase de afirmación sin
+fuente que `mediaOwnership.js` existe para impedir.
+
+**Reparto real** sobre los medios colombianos: 10 grupo económico · 9
+independientes · 7 familiares regionales · 2 internacionales · 1 público · 1 sin
+documentar.
+
+**Detalle**: el nombre del icono vive junto al tipo en `mediaOwnership.js`, no en
+la pantalla, para que no acabe habiendo un mapa de iconos distinto en cada sitio
+que lo muestre.
+
+---
+
+## 2026-08-08 · CI comprueba que la base se levanta desde cero
+
+**Decisión.** Un job de CI aplica `schema.sql` sobre un Postgres vacío en cada
+push, comprueba que es idempotente, y encima restaura un respaldo mínimo.
+
+**Por qué, y no en abstracto.** Los tres fallos que hacían el respaldo
+irrestaurable habrían saltado aquí automáticamente. Ninguno era detectable contra
+producción —allí las tablas ya existen— y el patrón reaparece cada vez que
+alguien añade un `ALTER` o un bloque `DO`.
+
+**El paso de restauración no sobra.** El esquema por sí solo no prueba que un
+respaldo sirva: hace falta recorrer el camino entero. Dos ciclos de prueba bastan
+para comprobar que el formato encaja y que el orden de tablas no viola ninguna
+clave foránea.
+
+**Salvaguarda**: el script exige `DATABASE_URL_PRUEBA`, distinta de la de
+producción, y se niega a arrancar sin ella. Lo primero que hace es `DROP SCHEMA`,
+así que no puede quedar a merced de un descuido de configuración.
+
+---
+
+## 2026-08-08 · El ciclo publica la ventana efectiva
+
+**Decisión.** Cada ciclo informa de **cuántas horas de historia cubre realmente
+el corpus** —la edad del artículo más antiguo que sobrevivió a la poda— en el
+registro y en la serie (`ingest_runs.ventana_horas`).
+
+**Por qué esta versión y no la apuntada en la auditoría.** Allí decía «avisar si
+el techo recortó», que solo se entera el día del problema. La ventana efectiva se
+publica **siempre**, incluso cuando todo va bien: un número que solo aparece al
+fallar no deja línea base, y encontrárselo por primera vez el día malo obliga a
+averiguar entonces si es raro o normal.
+
+**Lo que habría evitado.** Del 2026-07-30 al 2026-08-07 la ventana real bajó a
+~62 h con la retención declarada en 72. La tasa multifuente dejó de crecer el
+mismo día y pasaron **once días** hasta que alguien fue a mirar por qué. Ese
+número, publicado desde el primer ciclo, lo habría delatado en el acto.
+
+En la serie, además, el estrechamiento se ve **venir** a lo largo de semanas en
+vez de descubrirse cuando ya ocurrió. Queda nula en los ciclos anteriores, que es
+lo correcto: no se inventa hacia atrás un dato que no se midió.
+
+---
+
+## 2026-08-08 · El respaldo se restauró por primera vez, y no funcionaba
+
+**Qué se hizo.** Se descargó un artefacto REAL de la copia diaria (run
+31247573013), se levantó un Postgres desechable en Docker y se restauró ahí. No
+contra producción, obviamente.
+
+**Resultado: 671 ciclos restaurados**, del 2026-07-27 al 2026-08-08, con 88 501
+artículos acumulados. Restaurar dos veces no duplica: la segunda pasada inserta
+0 filas. El camino de vuelta funciona.
+
+**Pero solo después de arreglar dos fallos que lo hacían imposible.** Ninguno se
+veía contra producción, porque las tablas ya existían; los dos hacían que
+`schema.sql` fuera inaplicable **sobre una base vacía**, que es exactamente la
+situación de una recuperación real:
+
+1. El `ALTER TABLE stories` para admitir `'center'` estaba cien líneas antes de
+   que `stories` se creara. Lo había introducido yo el mismo día.
+2. **Anterior y peor**: el bloque de migración de `moderation` ponía las dos
+   condiciones en un solo `IF ... AND NOT EXISTS (SELECT 1 FROM moderation)`, y
+   PL/pgSQL prepara la expresión entera antes de evaluarla. Sin la tabla,
+   fallaba y se llevaba por delante el resto del archivo.
+3. Y una tercera: `moderation` referencia `admin_users`, que se creaba después.
+
+**Lo que esto significa.** Durante un tiempo indeterminado, el respaldo diario
+corría en verde, subía su artefacto, y **no se podía restaurar**. La confianza
+descansaba en que el script de volcado no daba error — y el que fallaba era el
+otro extremo, el que nadie había ejecutado nunca.
+
+**Regla que queda:** todo `ALTER` va después de su `CREATE`, y un bloque `DO` que
+consulte una tabla tiene que comprobar antes que exista. Y sobre todo: **un
+respaldo no está probado hasta que se restaura sobre una base vacía**. Conviene
+repetirlo cada vez que el esquema cambie de forma.
+
+---
+
+## 2026-08-08 · Estar en el catálogo no es lo mismo que aportar cobertura
+
+**Decisión.** El mapa distingue los medios que están publicando de los que no:
+círculo hueco en el gráfico, columna «Piezas (72 h)» en la tabla, y un aviso que
+lo explica.
+
+**Por qué.** El mapa los presentaba a todos por igual, y no lo son. Medido el
+2026-08-07, varios llevan días sin una sola pieza en la ventana —Vorágine publica
+una cada 74,7 h, Noticias Uno es un noticiero de fin de semana, W Radio no tiene
+RSS propio—. Enseñarlos junto a los que publican cientos de notas sugiere una
+comparación que no está ocurriendo.
+
+**No se retira a nadie**: su ficha de propiedad es contenido valioso por sí misma
+y el criterio del proyecto es no silenciar a ningún medio. Lo que cambia es que
+se dice cuáles están aportando, y el aviso aclara que **algunos publican poco por
+oficio —investigación, periodicidad semanal—, no por avería**. Sin esa frase, el
+círculo hueco se leería como una acusación de dejadez.
+
+**«Todavía no se sabe» se trata distinto de «no aporta».** Mientras cargan los
+datos, los círculos se pintan llenos. Marcar un medio como silencioso por no
+tener el dato aún sería afirmar algo por ignorancia.
+
+**Detalle de implementación**: los conteos se piden una vez en `MediaMap` y se
+pasan a `PanoramaMediatico`, que antes hacía su propia llamada al mismo
+endpoint. El componente sigue funcionando suelto si nadie se los pasa.
+
+---
+
+## 2026-08-08 · Un punto ciego solo se afirma si la ausencia sorprende
+
+**Decisión del responsable editorial.** Un espectro ausente solo se señala cuando esa ausencia es
+improbable dada la frecuencia con la que ese espectro aparece en el corpus:
+P(ausencia) ≈ (1 − q)^n < 0,05.
+
+**Por qué.** Medido sobre 4 807 historias, la función insignia del producto solo
+sabía decir una cosa:
+
+```
+puntos ciegos declarados ... 30 de izquierda, 0 de derecha
+tasa base de aparición ..... centro 54,0 % · derecha 43,2 % · izquierda 2,8 %
+de 35 historias con 4+ medios: 33 sin izquierda, 1 sin derecha
+```
+
+La izquierda faltaba en el 94 % de las historias evaluables **porque publica el
+3 % del volumen, no porque decidiera callar**. El aviso medía cadencia de
+publicación y lo presentaba como comportamiento editorial. Un lector que ve
+treinta «punto ciego de la izquierda» y ninguno de la derecha concluye algo que
+los datos no sostienen.
+
+**Efecto, dicho sin suavizar: la función queda en cero.**
+
+```
+                 antes   ahora        medios necesarios
+izquierda ....... 30       0          105 → imposible
+derecha .......... 0       0            6 → posible (máximo hoy: 7)
+```
+
+Los treinta avisos falsos desaparecen y no los sustituye ninguno verdadero. Se
+acepta a sabiendas: **un punto ciego que se afirma siempre no es un hallazgo, es
+una constante**, y publicar cero es más honesto que publicar treinta acusaciones
+que solo reflejan quién publica más.
+
+**Falla cerrado.** Sin tasas base, `analyzeCoverage` no afirma nada. Quien llame
+sin decir cada cuánto aparece cada espectro no obtiene una acusación por omisión.
+Eso obligó a pasarlas también en `feedStore`: sin ese cambio la función habría
+desaparecido del sitio en silencio, que es un modo de fallo peor que el que se
+estaba corrigiendo.
+
+**Lo que esto dejó a la vista, y se resolvió el mismo día.** El espectro cuya
+ausencia sí es significativa con 4 medios es el **centro**. Decisión del responsable editorial:
+se añade como señal propia, **«Solo medios con línea marcada»**.
+
+No se llama punto ciego y no lo es: **no afirma que nadie omitiera nada**. Dice
+que el hecho solo interesó a medios con posición declarada, y que ninguno de los
+que no la tienen lo cubrió. Con los medios sin línea marcada en el 54 % de las
+apariciones, que falten todos es raro y dice algo del hecho, no de quien calla.
+
+Va la última de las tres: si alguna vez se pudiera afirmar un punto ciego de
+izquierda o de derecha, esa afirmación es más fuerte y tiene prioridad.
+
+**Ajustada el mismo día tras ver la salida real.** Con 4 medios disparó seis
+veces y **dos eran fútbol**: un gol de Luis Díaz cubierto por cuatro medios de
+derecha. Cierto y vacío — revela qué medios tienen sección de deportes, no un
+encuadre. Sube a **6 medios**, y con eso sobrevive el caso que la justifica:
+«Uribe llegó a Cali para la investidura», 7 medios, ninguno sin línea marcada.
+
+**En una constante APARTE**, `SOLO_LINEA_MARCADA_MIN_SOURCES`. El responsable editorial señaló el
+riesgo antes de que ocurriera: `BLINDSPOT_MIN_SOURCES` vale 4 porque él lo bajó
+de 6 el 2026-07-30, y subirlo en global habría deshecho esa decisión de paso y en
+silencio para el punto ciego de izquierda y derecha.
+
+**Se descartó restringir la señal a temas políticos**, que era la otra vía para
+quitar el fútbol. Razón del responsable editorial: un hecho deportivo puede reflejar algo
+interesante el día menos pensado, y excluirlo por categoría lo dejaría fuera para
+siempre. Subir el listón **no excluye ningún tema, exige más evidencia**: si un
+día una noticia deportiva reúne seis medios y todos tienen línea marcada, la
+señal aparecerá.
+
+---
+
+## 2026-08-07 · Vigilancia del sitio y de los medios mudos
+
+**Decisión.** Un workflow cada 6 horas comprueba que `doblefoco.co` y la API
+responden, que la API no se declara «degradado», y que ningún medio con feed
+lleva **14 días o más** sin aportar un artículo.
+
+**El umbral es generoso a propósito.** El catálogo tiene medios que publican poco
+POR OFICIO: Vorágine saca una pieza cada 74,7 h —más despacio que la ventana de
+retención— y Noticias Uno es un noticiero de fin de semana. Un umbral de dos o
+tres días los marcaría cada semana, y un aviso que grita cuando no pasa nada
+enseña a ignorarlo. Es el mismo error que costó los correos falsos de Actions,
+y se evitó a propósito.
+
+**Hizo falta memoria durable.** `articles` retiene 72 horas, así que un medio
+ausente desde ayer y otro desde hace un mes son indistinguibles: los dos tienen
+cero filas. Se añadió `sources.last_article_at`, que rellena la propia
+comprobación —no el ciclo de ingesta, porque no vale un UPDATE por medio cada 30
+minutos para un umbral de 14 días—.
+
+**Los «sin registro» no cuentan como fallo.** La columna nació hoy y solo se
+rellena con lo que hay en la ventana de 72 h, así que un medio callado en ese
+momento aparece sin fecha sin que eso signifique avería. Un aviso que nace en
+rojo se ignora desde el primer día.
+
+**Lo que esto NO es**: un monitor de disponibilidad. Corre cada 6 horas y el cron
+de GitHub se retrasa; una caída de una hora puede pasar desapercibida. Detecta lo
+que hoy no se ve en absoluto —que algo lleve roto desde ayer—, y así está dicho
+en la cabecera del workflow para que nadie crea que hay una red que no existe.
+
+---
+
+## 2026-08-07 · El despliegue de Fly se comprueba solo
+
+**Decisión.** `/api/health` publica el commit y el número de feeds del código que
+corre; un workflow diario los compara con `main` y falla si hay desfase.
+
+**Por qué.** Empujar a `main` publica el cliente pero NO la API ni el motor: eso
+sale a mano. Olvidarlo no produce ningún error. Ya mordió dos veces, la peor con
+**seis días leyendo 37 feeds cuando el registro tenía 39** y tres secciones
+contando en cero.
+
+**Dos comprobaciones, no una.** El commit es más preciso pero exige que la imagen
+esté marcada; **el número de feeds funciona igual**, y fue así como se detectó el
+desfase la primera vez.
+
+**Si no se puede comprobar, se dice.** Un `fly deploy` a secas deja la imagen sin
+marcar y la comprobación responde «no verificable» en vez de dar el despliegue
+por bueno. Callar ahí daría confianza sin respaldo, que es justo el patrón que
+esto viene a romper.
+
+**Cambia la costumbre**: se despliega con `npm run deploy`, que pasa el commit y
+además **se niega a desplegar con cambios sin confirmar** —marcar la imagen con
+un commit cuyo contenido no es el desplegado convertiría la comprobación en una
+mentira—.
+
+**Nota de portabilidad**: va en un script y no en una línea de `package.json`
+porque `$(git rev-parse HEAD)` no se expande en Windows. Habría funcionado en un
+portátil y fallado en silencio en otro.
+
+---
+
+## 2026-08-07 · El algoritmo de sesgo se diseña desde cero y por fases
+
+**Decisión.** Antes de tocar un solo valor de `bias`, se escribe el método. Está
+en `DISENO_ALGORITMO_SESGO.md`: ocho fases, cada una con entregable propio y con
+permiso explícito para terminar en «no se puede».
+
+**Por qué.** Los tres medios que motivaron la conversación —Semana, Blu Radio, El
+Colombiano— ya están clasificados como derecha (+0,45, +0,25, +0,35, con
+`SPECTRUM_THRESHOLD` en 0,2). Lo que da impresión de centro es que la banda «Sin
+línea marcada» ocupa de −0,2 a +0,2, la más ancha del mapa. Subir sus valores a
+mano para que «se vean» más a la derecha habría sido mover la afirmación más
+fuerte del sitio sin evidencia, que es justo lo que F1-13 existe para impedir.
+
+**Lo que aporta el diseño nuevo.** Responde la pregunta 7a de
+`CONTEXTO_ALGORITMO_SESGO.md` —de dónde sale una etiqueta que no hayamos escrito
+nosotros— con la arquitectura que usan los tres trabajos de referencia del campo:
+**escala externa e independiente + conducta observable que anclas y medios
+comparten**. Nunca pedirle al corpus de medios que produzca la escala solo, que
+es lo que se intentó con la co-cobertura y por eso dio un bloque y cinco medios
+sueltos.
+
+**Se descartó**: subir los valores ahora; y también dar por sentado que el eje es
+izquierda-derecha. El número de dimensiones se decide mirando los valores
+propios, no antes.
+
+**Riesgo asumido y declarado**: la Fase 1 puede concluir que no existe el anclaje
+externo. Sería un resultado legítimo, y dejaría como respuesta honesta el juicio
+editorial declarado y sujeto a réplica.
+
+---
+
+## 2026-08-07 · El mapa mediático es solo colombiano
+
+**Decisión.** `MediaMap` y `PanoramaMediatico` muestran únicamente medios con
+`country === 'CO'`. Se retira la casilla «Solo medios colombianos», que venía
+activada pero podía apagarse.
+
+**Por qué.** La pregunta de esa página tiene un sujeto —la concentración de la
+propiedad en Colombia— y mezclar a la BBC con El Tiempo no hacía el retrato más
+completo, lo desdibujaba. En el reparto por dueños era peor que estético: el
+volumen de Euronews o El País de España entraba en el denominador, así que
+cuantos más medios extranjeros hubiera, **menos concentrado parecía el mercado
+colombiano**. Justo lo contrario de lo que el dato debe mostrar.
+
+**Qué NO cambia.** Los medios internacionales siguen en el catálogo y siguen
+aportando cobertura. No es retirar a nadie; es que esta página responde una
+pregunta sobre Colombia.
+
+**Dónde.** `src/pages/MediaMap.jsx`, `src/components/PanoramaMediatico.jsx`.
+
+---
+
+## 2026-08-07 · El techo expulsa por comparabilidad, no por antigüedad
+
+**Decisión.** Cuando el corpus supera `MAX_ARTICLES`, se expulsa primero la
+noticia **internacional que ningún otro medio del catálogo cubrió**, y solo
+después por edad. Con periodo de gracia de 12 h y solo cuando el techo aprieta:
+no se borra nada, se elige a quién dejar fuera cuando no cabe todo.
+
+**Evidencia.** Medido sobre el corpus de 72 h (5 794 artículos):
+
+| | |
+|---|---|
+| internacional | 42,8 % |
+| internacional que nadie más cubrió | **39,8 %** (2 305 artículos) |
+| corpus comparable restante | 3 489 — muy por debajo del techo de 8 000 |
+
+Infobae Colombia publica 1 897 piezas en 72 h y el **89,2 % son
+internacionales** —España, Argentina, México, Perú, Brasil—: su feed sirve el
+cable panhispánico, no noticia colombiana. Solo el **5 %** de lo suyo llega a
+compararse, frente al 25 % de El Tiempo o El Colombiano. Mientras tanto Vorágine
+publica una pieza cada 74,7 h, más despacio que la propia ventana, y quedaba
+excluido de forma sistemática. **El cable extranjero de un medio estaba
+desalojando al periodismo de investigación colombiano.**
+
+**Se aplica a todos por igual**, incluidos Euronews, DW, France 24 y El País de
+España. Lo que sobrevive de ellos es lo internacional *relevante* —lo que un
+medio colombiano también cubrió—, que es lo que pide F1-16. Una excepción por
+medio habría sido una regla sobre quién publica, no sobre qué se puede comparar.
+
+**No es un filtro de calidad**, y por eso no vive en `contentQuality.js`: no dice
+que esas piezas sean peores, dice que cuando no cabe todo se elige por
+comparabilidad.
+
+**Efecto colateral buscado.** Los medios lentos —Vorágine, Noticias Uno— vuelven
+a entrar sin necesidad de ninguna regla especial para ellos.
+
+**Se descartó**: una ventana de retención asimétrica que conservara más tiempo a
+los medios de bajo volumen. Compensaba el desequilibrio en vez de corregirlo, y
+habría sido una regla sobre quién publica.
+
+**Dónde.** `pruneArticles` en `server/services/ingestDaemon.js`.
+
+---
+
+## 2026-08-07 · F1-01: la serie no se estabilizó, topó
+
+**Decisión.** `MAX_ARTICLES` sube de 5 000 a 8 000. No se tocan
+`ITEMS_PER_FEED`, la retención ni el agrupamiento.
+
+**Evidencia.** 595 ciclos y 12 días. El corpus llegó a 5 000 el 2026-07-30 a las
+14:25 y se quedó ahí 348 ciclos; la tasa multifuente dejó de crecer el mismo día
+(34 → 150 → 302 → 346, y luego once días entre 330 y 351). El techo mordía antes
+que la retención: cubrir 72 h reales pedía 5 786 artículos, así que 790 (13,6 %)
+estaban dentro de la política de retención y no entraban al agrupamiento. La
+ventana efectiva era de ~62 h.
+
+Coste medido antes de decidir: 19,3 s de ciclo con 5 000 artículos, contra
+cadencia de 30 min y timeout de 10; worker con 512 MB para un conjunto de ~10 MB.
+
+**Pendiente.** Volver a leer la serie una semana después para ver dónde se
+estabiliza de verdad.
+
+**Dónde.** ROADMAP F1-01 (cerrada), constante en `ingestDaemon.js`.
+
+---
+
+## 2026-08-06 · Renderizar en servidor las páginas que no dependen de la base
+
+**Decisión.** `/mapa-medios`, `/transparencia` y `/sobre-nosotros` se renderizan
+en Fly. La portada, `/categorias` y `/tendencias` no, de momento.
+
+**Por qué.** Llegaban al buscador como 2 300 bytes con un `<div id="root">`
+vacío. Son las páginas con lo único que este proyecto publica y nadie más tiene
+reunido. Estas tres se construyen enteras desde el registro, así que
+`render(url)` las produce sin pasarles datos; las otras necesitan precargar las
+historias y es más trabajo.
+
+**Cuidado al continuar.** `obtenerPlantilla()` pide la plantilla a la raíz del
+sitio. El día que se renderice la portada, el servidor se llamaría a sí mismo en
+bucle: hay que cambiar antes de dónde sale la plantilla.
+
+**Orden de despliegue.** Primero `fly deploy`, después el merge a `main`. Al
+revés, Vercel manda la ruta a un servidor que aún no la conoce.
+
+---
+
+## 2026-08-06 · Cerrar la API pública de Supabase
+
+**Decisión.** RLS activada en las 14 tablas, permisos retirados a `anon` y
+`authenticated`, permisos por omisión revocados, y `public` fuera de los
+esquemas expuestos.
+
+**Por qué.** El aviso de Supabase decía «tabla de acceso público»; medido, era
+más: `anon` —el rol de la clave pública, la que se incrusta en un navegador—
+tenía SELECT, INSERT, UPDATE, DELETE y TRUNCATE en todas. Podía leer
+`admin_users` y borrar `ingest_runs`, la serie que no se reconstruye.
+
+**Dónde.** Bloque 12 de `server/db/schema.sql`, idempotente y en la migración.
+
+---
+
+## 2026-08-06 · Saltar por el cerrojo no es fallar
+
+**Decisión.** `ingest:once` sale con **0** cuando otro proceso tiene el cerrojo.
+El 1 queda para «no se pudo persistir». Y el cron de Actions baja de 30 min a
+2 h.
+
+**Por qué.** El motor de Fly y el cron corren los dos cada media hora; al
+cruzarse, uno se salta el ciclo —que es lo previsto— y mandaba un correo de
+fallo. Un aviso que grita cuando no pasa nada enseña a ignorarlo. A cadencia de
+30 min el cron no era un respaldo sino el mismo trabajo hecho dos veces, con 37
+medios recibiendo nuestras peticiones el doble de veces.
+
+**Además.** El proceso terminaba y no se moría: entre 51 s y 9 min de sockets
+abiertos, cuatro ejecuciones canceladas por el timeout en 36 h. Ahora sale
+explícitamente tras vaciar stdout.

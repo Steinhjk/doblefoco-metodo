@@ -1,0 +1,1214 @@
+CATÁLOGO DE MEDIOS CLASIFICADOS — DOBLEFOCO.CO
+======================================================================
+
+Este documento se genera automáticamente desde el catálogo que usa el
+motor (shared/mediaRegistry.js). No se edita a mano: lo que usted lee
+aquí es exactamente el valor con el que el sistema clasifica cada
+noticia. Si los dos pudieran divergir, esta página no serviría de
+nada.
+
+Generado: 2026-10-12
+Medios en el catálogo: 82
+
+ESTADO DE REVISIÓN: ninguno de estos valores ha pasado todavía por
+revisión editorial formal. Son juicios documentados —cada uno lleva
+escrita su justificación— que unifican los valores que antes estaban
+dispersos por el código, pero nadie los ha firmado. Se marcan como
+PROVISIONALES hasta que ocurra. Lo decimos aquí porque clasificar a un
+medio real es la afirmación más discutible que hace este sitio.
+
+FACTUALIDAD PROVISIONAL: ningún medio tiene la factualidad medida con
+un método escrito. El porcentaje que acompaña a cada uno es un valor
+provisional, a la espera de ese método; ver la metodología.
+
+----------------------------------------------------------------------
+IZQUIERDA  [−1.00 a −0.60)  —  1 medio
+----------------------------------------------------------------------
+
+  Semanario VOZ  ·  sesgo −0.80  ·  factualidad 85%
+    semanariovoz.com · Partido Comunista Colombiano · CO · RSS propio · revisado 2026-10-07
+    Magnitud por juicio; dirección por control orgánico del PCC,
+    endoso y asimetría verificados. Lo edita la Fundación Semanario
+    VOZ y el Comité Central del Partido Comunista Colombiano decide
+    sobre él; en 2026 piezas firmadas respaldaron la candidatura del
+    Pacto Histórico, y reprodujo sin contraste los logros del gobierno
+    saliente mientras critica al entrante.
+
+----------------------------------------------------------------------
+IZQUIERDA MODERADA  [−0.60 a −0.20)  —  5 medios
+----------------------------------------------------------------------
+
+  Colombia Informa  ·  sesgo −0.55  ·  factualidad 78%
+    colombiainforma.info · Comunicación popular · CO · RSS propio · revisado 2026-10-10
+    Agencia de comunicación popular ligada a procesos sociales y
+    campesinos; encuadre explícito desde movimientos de base.
+
+  Revista RAYA  ·  sesgo −0.30  ·  factualidad 89%
+    revistaraya.com · Investigación independiente · CO · vía Google News · revisado 2026-10-10
+    Fundación de periodistas de investigación (Bogotá), no noticiosa.
+    Izquierda moderada, −0,30, por el barrido de 12 meses de sus
+    secciones propias (10-10-2026): 35 piezas con postura en voz de la
+    casa, todas en la misma dirección —22 antes del 07-08 y 13
+    después—, frente a 3 contrapesos parciales; los mismos rótulos
+    («extrema derecha», «antiderechos») con la derecha en la oposición
+    y en el gobierno. Sin endoso de la casa: tope de ±0,30. TENSIÓN:
+    Inravisión (RTVC) le contrató $2.661.895.000 entre 2025 y 2026, y
+    publicó 7 piezas pagadas por el Ministerio de Educación que
+    elogian al gobierno saliente. Rectificación judicial ordenada el
+    30-07-2026 por su serie del «Proyecto Júpiter». Firmado el
+    2026-10-10 — ver fichas/revista-raya.md.
+
+  Noticias Uno  ·  sesgo −0.30  ·  factualidad 89%
+    noticiasuno.com · NTC Televisión · CO · RSS propio · revisado 2026-10-12
+    Noticiero de televisión de NTC Televisión, por Cablenoticias.
+    −0,30 por decisión del responsable editorial sobre el barrido de
+    12 meses de su sitio (2.056 piezas; 813 leídas por título y
+    entradilla; ningún vídeo visto). Antes del 07-08-2026, 40 piezas
+    con postura en voz propia: 31 hacia la izquierda (19 claras y 12
+    leves), 2 leves hacia la derecha y 7 mixtas (15,5 a 1), todas en
+    la campaña presidencial; 12 piezas fiscalizan al candidato De la
+    Espriella y ninguna a Cepeda. Después, 0 piezas con postura clara:
+    17 fiscalizan al nuevo gobierno y 3 a la izquierda que salió. Con
+    quien gobierna la vara es la misma (20 fiscalizaciones a Petro, 17
+    a De la Espriella). El barrido proponía «sin medir» con la tensión
+    hacia la izquierda (dirección clara sin mínimos). El responsable
+    decide −0,30, el máximo que sostiene la lectura alternativa que
+    cuenta como leves cinco piezas posteriores al cambio (cuatro de
+    fiscalización «con tono», como «empecinado», «presupuesto milagro»
+    o «quieren acabar la JEP», y una sobre el expresidente), por su
+    conocimiento del contexto mediático. FRÁGIL, y se declara: ninguna
+    pieza con postura clara después del cambio, Top Secret sin
+    publicar desde el 02-08-2026 y la locución sin medir. Sin endoso:
+    tope de ±0,30. Recontar en diciembre de 2026 y febrero de 2027.
+    Firmado el 2026-10-12 — ver fichas/noticias-uno.md y
+    revision-externa/barridos/noticias-uno.md.
+
+  Volcánicas  ·  sesgo −0.25  ·  factualidad 88%
+    volcanicas.com · Periodismo feminista independiente · CO · RSS propio · revisado 2026-10-10
+    Revista de periodismo feminista latinoamericano, proyecto de la
+    Fundación Hoja Blanca ONG (NIT 900414071, ACTIVA en el RUES), sin
+    propietarios, que se declara «no partidista». Izquierda moderada,
+    −0,25, por el barrido de su voz de la casa (10-10-2026): 17 piezas
+    con postura a la izquierda frente a 3 contrapesos parciales, 12
+    antes del 07-08 y 5 después (las 3 leves de después, dudosas).
+    Perfiles laudatorios de Cepeda y Quilcué y de escándalos de
+    Valencia y De la Espriella en la campaña, y rótulos al Gobierno
+    entrante; la directora se sitúa a la izquierda en su propio medio.
+    Sin endoso. Cumple los mínimos solo contando piezas leves. Firmado
+    el 2026-10-10 — ver fichas/volcanicas.md.
+
+  El País (España)  ·  sesgo −0.25  ·  factualidad 88%
+    elpais.com · Grupo PRISA · ES · RSS propio · revisado 2026-10-10
+    Diario español de referencia, situado en el eje colombiano por su
+    línea editorial sobre Colombia y no por la española. En cinco
+    editoriales sobre Colombia, de junio a agosto de 2026, fiscaliza a
+    los dos gobiernos: a Petro por sus acusaciones sin pruebas y su
+    «deriva intransigente», y a De la Espriella por la injerencia de
+    EE UU y el discurso xenófobo. Pero adjetiva de forma asimétrica:
+    De la Espriella es «el ultraderechista» y «el abogado de extrema
+    derecha»; Cepeda, «el izquierdista» o «su rival de izquierdas», y
+    ninguno habla de extrema izquierda. Valora además el legado de
+    Petro en desigualdad y pobreza. Son editoriales: dan dirección, no
+    distancia. Se fijó en −0,25 para sacarlo del borde del umbral de
+    −0,20; −0,15 era defendible ante la duda. Ver
+    fichas/el-pais-es.md.
+
+----------------------------------------------------------------------
+ORIENTACIÓN MIXTA  [−0.20 a +0.20)  —  38 medios
+----------------------------------------------------------------------
+
+  Euronews Español  ·  sesgo −0.10  ·  factualidad 87%
+    euronews.com · Paneuropeo · EU · RSS propio · revisado 2026-10-12
+    Edición en español de la cadena paneuropea Euronews. −0,10 por la
+    regla de evidencia editorial histórica: el barrido de 12 meses de
+    sus piezas sobre Colombia (113, leídas enteras) encuentra 22 con
+    postura en voz propia, 20 hacia la izquierda, 1 hacia la derecha y
+    1 mixta: 13 hacia la izquierda antes del 07-08-2026 y 7 después.
+    De las 20, 19 son leves y consisten sobre todo en un rótulo: la
+    casa llama «ultraderechista» o «de extrema derecha» a De la
+    Espriella, antes y después de que gobierne, y a Petro y a Cepeda
+    «izquierdistas», nunca «de extrema izquierda». Por decisión del
+    responsable editorial, «ultraderechista» cuenta como rótulo, igual
+    que en Revista RAYA, Noticias RCN y Cuestión Pública. Sin las
+    leves queda 1 a 0. Polo fijo: fiscalización pareja, 4 piezas al
+    Gobierno Petro y 6 al de De la Espriella. Rama de la precisión del
+    2026-10-10: cumple las cinco condiciones, solo con las leves, sin
+    endoso → valor del barrido con tope de ±0,30; la magnitud es baja
+    porque la postura está en una palabra. Firmado el 2026-10-12 — ver
+    fichas/euronews-es.md y revision-externa/barridos/euronews-es.md.
+
+  Las2Orillas  ·  sesgo +0.00  ·  factualidad 80%
+    las2orillas.co · Independiente · CO · RSS propio · revisado 2026-10-10
+    Portal nativo digital de análisis, columna y nota ciudadana, de la
+    Fundación Las Dos Orillas (ESAL). 0,00 CON EVIDENCIA, no por
+    defecto: el barrido de su voz de la casa (autor «Las Dos Orillas»,
+    469 piezas, 10-10-2025 a 10-10-2026) no encuentra asimetría hacia
+    la izquierda —9 piezas a la izquierda, todas antes del 07-08 y
+    solo 1 plena, frente a 14 leves a la derecha (5 antes y 9
+    después), 1,6 a 1, por debajo del mínimo— y sí la misma conducta
+    con los dos gobiernos: fiscaliza a quien manda (53 piezas con
+    Petro, 7 con De la Espriella) y trata bien sus medidas (5 y 9). El
+    −0,35 anterior era una colocación relativa sin evidencia. TENSIÓN
+    FUERTE: la Registraduría le contrató 500 M en 2025-2026 y 200 M en
+    2025 para divulgación «a través de sus medios», y los informes al
+    supervisor listan 37 artículos publicados como entregables,
+    ninguno con rótulo de patrocinio: pauta informativa pagada no
+    declarada. No da dirección en el eje. factuality 0,80 sin fuente
+    medida, por revisar. Firmado el 2026-10-10 — ver
+    fichas/las2orillas.md y revision-externa/barridos/las2orillas.md.
+
+  CasaMacondo  ·  sesgo +0.00  ·  factualidad 88%
+    casamacondo.co · Investigación independiente · CO · RSS propio · revisado 2026-10-10
+    Medio de periodismo investigativo, ambiental y cultural. Lo edita
+    CASA MACONDO - SOMOS HISTORIAS SAS (NIT 901747859, ACTIVA), con
+    una fundación hermana; sus Directrices hablan de trece socios. En
+    2025, el 83,3 % de sus ingresos vino de patrocinios de un especial
+    de libros (editoriales, fundaciones, una universidad); las
+    audiencias, el 4,1 %; ningún financiador de posición conocida.
+    Declara una práctica «emancipada de cualquier militancia
+    ideológica». Orientación mixta, 0,00 con evidencia (10-10-2026):
+    su casa fiscaliza a los dos gobiernos a ambos lados del 07-08-2026
+    y no celebra a ninguno. Tensión: las columnas de su editor general
+    atacaron al candidato de la derecha y no al de la izquierda en la
+    campaña, por debajo de los mínimos. Firmado el 2026-10-10 — ver
+    fichas/casa-macondo.md.
+
+  Telemedellín  ·  sesgo +0.00  ·  factualidad 85%
+    telemedellin.tv · Público municipal — Alcaldía de Medellín · CO · RSS propio · PROVISIONAL
+    Canal público del municipio de Medellín. Su dirección la designa
+    la Alcaldía, así que su línea sigue al gobierno local de turno.
+    Valor sin medir: entra en orientación mixta hasta tener conducta
+    observable.
+
+  Canal Capital  ·  sesgo +0.00  ·  factualidad 85%
+    canalcapital.gov.co · Público distrital — Alcaldía Mayor de Bogotá · CO · RSS propio · PROVISIONAL
+    Canal público del Distrito Capital. Su dirección la designa la
+    Alcaldía Mayor, así que su línea sigue al gobierno distrital de
+    turno. Valor sin medir.
+
+  Telecaribe  ·  sesgo +0.00  ·  factualidad 85%
+    telecaribe.co · Público regional — Caribe · CO · RSS propio · revisado 2026-10-10
+    Canal público regional del Caribe colombiano, participado por las
+    gobernaciones de la región. Valor sin medir.
+
+  Telecafé  ·  sesgo +0.00  ·  factualidad sin medir
+    telecafe.gov.co · Público regional — Eje Cafetero · CO · RSS propio · revisado 2026-10-10
+    Canal público regional del Eje Cafetero: sociedad entre entidades
+    públicas, con el 98,5 % de las tres gobernaciones del Eje y MinTIC
+    como socio menor. La gerencia la designa la junta por turno
+    departamental (hoy, Caldas). El 0,00 no es una medición: el canal
+    no tiene voz editorial propia visible —ni opinión ni editoriales,
+    y 0 piezas con postura en 12 meses (barrido por titulares,
+    2026-10-10)— ver fichas/telecafe.md.
+
+  El Espectador  ·  sesgo +0.00  ·  factualidad 88%
+    elespectador.com · Grupo Valorem · CO · RSS propio · revisado 2026-08-18
+    Orientación mixta: su línea es institucionalista y no se ordena en
+    el eje izquierda-derecha. Sus editoriales de 2026 critican al
+    gobierno de turno por vía institucional —defensa de la Corte y del
+    Banco de la República (01-02-2026), garantías electorales
+    (14-03-2026)— y fiscalizar al poder no es evidencia de
+    orientación. No respaldó a ningún candidato en la segunda vuelta.
+    En 2025 se transformó en entidad sin ánimo de lucro con objeto
+    declarado de acceso a la información y lucha contra la corrupción.
+
+  W Radio  ·  sesgo +0.00  ·  factualidad 87%
+    wradio.com.co · Grupo PRISA · CO · RSS propio · revisado 2026-10-10
+    Radio informativa con entrevistas a todo el arco político;
+    encuadre variable según franja. Es una descripción, sin piezas
+    leídas detrás. Desde el 13-01-2026 está fusionada con Caracol
+    Radio (Prisa Media); si la entrada se une a la de Caracol Radio,
+    queda como marca histórica o se mantienen las dos está pendiente
+    de decisión del responsable editorial — ver
+    fichas/caracol-radio.md.
+
+  Caracol Radio  ·  sesgo +0.00  ·  factualidad 85%
+    caracol.com.co · Grupo PRISA · CO · RSS propio · revisado 2026-10-12
+    Cadena radial de Prisa Media que desde el 13-01-2026 integra a W
+    Radio. 0,00 con evidencia por la regla de evidencia editorial
+    histórica: el barrido de 12 meses de su portal (69.904 titulares
+    de sus sitemaps; 736 con término valorativo leídos uno a uno; no
+    publica editoriales) encuentra 14 piezas con postura en titular o
+    entradilla, 8 hacia la derecha y 6 hacia la izquierda (1,3 a 1),
+    casi todas leves: 12 antes del 07-08-2026 y 2 después. Polo fijo:
+    fiscalizó en voz propia al Gobierno Petro 15 veces en 10 meses
+    (1,5 al mes) y al de De la Espriella 4 en 2 (2 al mes), con una
+    primicia sobre un documento reservado de Planeación; elogió al
+    Gobierno Petro cuatro veces («histórico», «récord») y al entrante
+    una. Rama de la precisión del 2026-10-10: no cumple los mínimos
+    (fallan ≥3 a cada lado en la misma dirección y la proporción 3 a
+    1) y documenta la misma conducta con los dos gobiernos → 0,00 con
+    evidencia. La emisión no se leyó. Firmado el 2026-10-12 — ver
+    fichas/caracol-radio.md y
+    revision-externa/barridos/caracol-radio.md.
+
+  Valora Analitik  ·  sesgo +0.00  ·  factualidad sin medir
+    valoraanalitik.com · Valora Inversiones S.A.S. · CO · RSS propio · revisado 2026-10-12
+    Medio digital de economía y mercados de Valora Inversiones S.A.S.
+    0,00 con evidencia por la regla de evidencia editorial histórica:
+    el barrido de 12 meses (103 piezas leídas; titulares y entradillas
+    sin atribuir, porque no publica editorial) encuentra casi ninguna
+    postura en voz propia —1 pieza hacia la derecha (leve), 0 hacia la
+    izquierda y 1 mixta— y mucha fiscalización del gobierno de turno:
+    27 piezas contra el Gobierno Petro en 43 semanas y 3 contra el de
+    De la Espriella en 9. Rama de la precisión del 2026-10-10: no
+    cumple los mínimos y documenta la misma conducta con los dos
+    gobiernos → 0,00 con evidencia. Tensión declarada, que la regla no
+    cuenta: el tono con el gobierno nuevo es más suave (relevo de
+    anuncios en serie) y el par de decretos de pensiones se contó con
+    fuentes distintas; se recuenta en enero de 2027. Lo que la ficha
+    discute es el conflicto de interés, no el eje. Firmado el
+    2026-10-12 — ver fichas/valora-analitik.md y
+    revision-externa/barridos/valora-analitik.md.
+
+  Infobae Colombia  ·  sesgo +0.00  ·  factualidad 80%
+    infobae.com · Infobae · AR · RSS propio · revisado 2026-10-12
+    Edición colombiana de Infobae (grupo de Daniel Hadad), con
+    redacción propia en Bogotá. 0,00 con evidencia por la regla de
+    evidencia editorial histórica: el barrido de 12 meses de su
+    sección /colombia/ (65.230 piezas; 14.092 de política nacional;
+    1.223 titulares leídos y 74 piezas verificadas en el sitio)
+    encuentra 18 piezas con postura en voz propia, 13 hacia la derecha
+    (2 fuertes y 11 leves) y 5 hacia la izquierda (leves): 2,6 a 1.
+    Antes del 07-08-2026, 4 y 4; desde el cambio, 9 de 10 contra el
+    Gobierno saliente (la «herencia»). Polo fijo: fiscalizó en voz
+    propia al Gobierno Petro 12 veces y al de De la Espriella 18 en
+    dos meses. Rama de la precisión del 2026-10-10: no cumple los
+    mínimos (proporción por debajo de 3 a 1) y documenta la misma
+    conducta con los dos gobiernos → 0,00 con evidencia. Tensión
+    declarada: si en enero de 2027 sigue rotulando al gobierno
+    anterior y deja de fiscalizar al actual, se revisa. La rapidez y
+    la verificación son asunto de la factualidad, no del eje. Firmado
+    el 2026-10-12 — ver fichas/infobae-co.md y
+    revision-externa/barridos/infobae-co.md.
+
+  Blu Radio  ·  sesgo +0.00  ·  factualidad 85%
+    bluradio.com · Grupo Valorem · CO · sitemap de noticias propio · revisado 2026-10-12
+    Cadena radial informativa de Caracol Televisión S.A. (Valorem), la
+    misma sociedad que produce Noticias Caracol. 0,00 con evidencia
+    por la regla de evidencia editorial histórica: el barrido de 12
+    meses (149 piezas de opinión, entre ellas 111 análisis del
+    director del servicio informativo, y 678 notas filtradas de 48.604
+    URL; no publica editoriales sin firma) encuentra 15 piezas con
+    postura en voz propia, 10 hacia la derecha y 5 hacia la izquierda
+    (2 a 1): 7 y 5 antes del 07-08-2026; 3 y 0 después, dos de ellas
+    críticas al gobierno saliente. El director elogió al Gobierno
+    Petro cuando acertó con Washington y respaldó sus bombardeos. Polo
+    fijo: fiscalización del Gobierno Petro con decenas de análisis;
+    con De la Espriella, una fiscalización leve en dos meses y la
+    serie del director se interrumpe el 26-08-2026. Rama de la
+    precisión del 2026-10-10: no cumple los mínimos y documenta la
+    misma conducta con los dos gobiernos → 0,00 con evidencia, por
+    poco y con piezas leves. La emisión no se leyó. Con Noticias
+    Caracol sin medir, desaparece la diferencia entre dos productos de
+    una sola sociedad. Firmado el 2026-10-12 — ver fichas/blu-radio.md
+    y revision-externa/barridos/blu-radio.md.
+
+  Proclama del Pacífico  ·  sesgo +0.00  ·  factualidad sin medir
+    proclamadelpacifico.com · Digital independiente · CO · RSS propio · revisado 2026-10-10
+    Medio digital de Santander de Quilichao (Proclama del Pacífico
+    EAT, NIT 817007121), incluido en el directorio de SembraMedia;
+    contratista de la Gobernación del Cauca, a cuyo gobernador
+    defiende en editoriales de 2026 sin declararlo. 0,00 porque el
+    barrido de 12 meses de su voz propia no cumple el mínimo de 3
+    piezas con postura a cada lado del cambio de gobierno: después del
+    07-08-2026 solo cuenta 1 (el rótulo «gobierno de derecha extrema»,
+    24-08); las otras 3 solo fiscalizan, y fiscalizar no cuenta para
+    ese mínimo. Tensión declarada: inclinación a la izquierda en el
+    barrido (53 piezas con postura, 42 a 9, 4,7 a 1; con Petro, 13
+    favorables o que lo disculpan frente a 9 críticas; 24 de encuadre
+    pro-Cepeda en campaña). El editorial del 21-06 no es endoso
+    explícito: llega después del voto y presenta la preferencia como
+    personal. Valor firmado el 2026-10-10; se reconta hacia diciembre
+    de 2026 — ver fichas/proclama-del-pacifico.md.
+
+  Chocó 7 Días  ·  sesgo +0.00  ·  factualidad sin medir
+    choco7dias.com · Regional Chocó · CO · RSS propio · revisado 2026-10-10
+    Medio digital de Quibdó (impreso hasta marzo de 2020), uno de los
+    dos del Chocó en el catálogo, con El Manduco; lo coordina Jorge
+    Salgado según el propio medio, y su propiedad no consta tras la
+    muerte del editor y propietario (hacia enero de 2022). 0,00 con
+    evidencia, no por defecto: un barrido de 12 meses de su voz propia
+    (15 piezas) muestra la misma conducta con Petro y con De la
+    Espriella, fiscaliza al que manda y no celebra a ninguno (fuera de
+    la ventana, hizo lo mismo con Duque). Valor firmado el 2026-10-10,
+    aunque falta saber de quién es. Tensión declarada: una columna de
+    izquierda nacionalista de quien lo coordina (20-07-2026) y la
+    reimpresión de un columnista de terceros contra el ganador en
+    junio de 2026 — ver fichas/choco-7-dias.md.
+
+  El Manduco  ·  sesgo +0.00  ·  factualidad sin medir
+    elmanduco.com.co · Manduco Media Group · CO · RSS propio · revisado 2026-10-10
+    Digital de Quibdó (Chocó), editado por MANDUCO MEDIA GROUP S.A.S.
+    (NIT 901563146, ACTIVA), cuyo representante legal es su director.
+    Los siete cargos de sus créditos son de apellido Díaz, y no
+    constan los socios. La sociedad vende publicidad a DISPAC y a la
+    Cámara de Comercio del Chocó, y el director es contratista vigente
+    de CODECHOCÓ. El medio publica a DISPAC y a CODECHOCÓ sin rótulo,
+    y eso queda como tensión declarada. 0,00 por ausencia de
+    evidencia: su voz propia es de identidad regional y no cumple la
+    regla de evidencia editorial histórica. Firmado el 2026-10-10 —
+    ver fichas/el-manduco.md.
+
+  MiPutumayo  ·  sesgo +0.00  ·  factualidad sin medir
+    miputumayo.com.co · Regional Putumayo · CO · RSS propio · revisado 2026-10-10
+    Magazín digital de Mocoa fundado y dirigido por la misma persona
+    desde 2004. Propiedad sin documentar; su publicidad y contenido
+    patrocinado los comercializa Publimayo SAS, ligada al director.
+    0,00 por las reglas 2 y 3: replica a medios de signos distintos,
+    no consta endoso y nadie ha barrido todavía su voz propia con la
+    regla de evidencia editorial histórica — ver fichas/miputumayo.md.
+
+  El Morichal  ·  sesgo +0.00  ·  factualidad sin medir
+    elmorichal.com · Corporación El Morichal · CO · RSS propio · revisado 2026-10-10
+    Corporación sin ánimo de lucro de Puerto Carreño, de seis
+    fundadores con aportes iguales, que cubre Vichada y Guainía. En 12
+    meses no publicó editoriales —el último es del 31-07-2023— y su
+    opinión es de columnistas invitados; la Redacción fiscaliza a
+    gobiernos de ambos signos sin rótulos ni postura en el eje, así
+    que la regla de evidencia histórica no tiene piezas que contar.
+    Orientación mixta — ver fichas/el-morichal.md.
+
+  LeticiaHoy  ·  sesgo +0.00  ·  factualidad sin medir
+    taleoi.com · null · CO · RSS propio · PROVISIONAL
+    Medio digital de Leticia (sitio taleoi.com, dominio de 2012) con
+    notas locales cortas, firmadas por la cuenta de la casa y sin
+    fuentes citadas. Sin dueño documentado. Orientación mixta
+    provisional por ausencia de evidencia — ver
+    COBERTURA_DEPARTAMENTAL.md.
+
+  Boyacá Digital  ·  sesgo +0.00  ·  factualidad sin medir
+    boyacadigital.com · Holding Consultants · CO · RSS propio · revisado 2026-10-10
+    Medio digital de Boyacá operado por una redacción de agentes de
+    inteligencia artificial bajo supervisión editorial, según él mismo
+    declara (no dice si esa supervisión es humana). Orientación mixta
+    provisional: su línea no es una propiedad de la casa sino de su
+    configuración — ver fichas/boyaca-digital.md.
+
+  La Razón.co (Montería)  ·  sesgo +0.00  ·  factualidad sin medir
+    larazon.co · Regional Córdoba · CO · RSS propio · revisado 2026-10-10
+    Diario nativo digital de Montería, activo desde 2014 y de los que
+    más publican en Córdoba. Orientación mixta provisional, y por
+    ausencia de evidencia y no por evidencia de equilibrio: se conoce
+    la sociedad editora (A & J Medios S.A.S.) y su representante
+    legal, no sus socios, y nada de lo observable lo sitúa en el eje.
+    La regla del protocolo manda entonces la banda más cercana a la
+    mixta — ver fichas/la-razon-cordoba.md.
+
+  EL DIARIO (Boyacá)  ·  sesgo +0.00  ·  factualidad sin medir
+    eldiarioboyaca.com · Regional Boyacá · CO · RSS propio · revisado 2026-10-10
+    Diario de Tunja con edición impresa y digital, el más activo de
+    los candidatos de Boyacá. Sociedad: Periódico El Diario de Boyacá
+    S.A.S.; socios sin documentar; contratista del Municipio de
+    Samacá, que cubre. 0,00 provisional por la banda mixta, con nivel
+    5 en el mismo sentido: fiscaliza al gobierno saliente y al
+    entrante con el mismo encuadre, no endosó en la segunda vuelta y
+    declara no tener compromisos partidistas. Falta un barrido de sus
+    editoriales de 12 meses con la regla de evidencia editorial
+    histórica, que puede hacerse ya — ver fichas/el-diario-boyaca.md.
+
+  Lente Regional  ·  sesgo +0.00  ·  factualidad sin medir
+    lenteregional.com · Regional Caquetá · CO · RSS propio · revisado 2026-10-10
+    Informativo web de Florencia, primero del Caquetá en el catálogo.
+    Se declara de «periodismo equilibrado» con la fórmula de destacar
+    lo positivo sin esconder lo negativo. Orientación mixta
+    provisional por ausencia de evidencia, con una tensión declarada:
+    su sociedad editora (LENTE REGIONAL S.A.S., NIT 901001555) fue
+    contratista de la Gobernación del Caquetá en 2024 (central de
+    medios), cuya administración sigue en el cargo y a la que cubre en
+    tono institucional en 2026 — ver fichas/lente-regional.md.
+
+  El Nuevo Día (Ibagué)  ·  sesgo +0.00  ·  factualidad sin medir
+    elnuevodia.com.co · Regional Tolima · CO · RSS propio · revisado 2026-10-10
+    Diario de Ibagué, digital desde que cerró su rotativa en octubre
+    de 2023, y el medio más activo del Tolima. Orientación mixta
+    provisional por ausencia de evidencia y no por evidencia de
+    equilibrio: la sociedad que lo edita hoy no publica socios (NIT
+    901828390, RUES), y el vínculo histórico con la familia Galvis se
+    refiere a una sociedad hoy cancelada, con la que hay continuidad
+    de gerencia pero no consta la de propiedad. Contrata con la
+    Alcaldía de Ibagué y con empresas públicas que cubre, y eso se
+    declara como dependencia, no como posición en el eje — ver
+    fichas/el-nuevo-dia.md.
+
+  Periodismo Público  ·  sesgo +0.00  ·  factualidad sin medir
+    periodismopublico.com · Regional Cundinamarca · CO · RSS propio · revisado 2026-10-10
+    Portal de Soacha (PERIODISMO PUBLICO SAS, NIT 901171544), primero
+    de Cundinamarca en el catálogo; en 2011 y 2014 se declaraba
+    propiedad de la Corporación Humanista. Se declara sobre denuncia
+    ciudadana e investigación, que describe un método y no un bando.
+    Orientación mixta provisional por la regla 2: sin editoriales
+    desde abril de 2025 y sin endoso en 2026; una pieza laudatoria,
+    sin firma ni etiqueta, del coordinador en Cundinamarca de la
+    campaña ganadora (27-06-2026), como nivel 5 aislado, y notas de
+    septiembre que toman distancia del gobierno entrante. Medio
+    hiperlocal; su pauta documentada es de entidades públicas de
+    Soacha y Cundinamarca, contratada a nombre de su representante
+    legal — ver fichas/periodismo-publico.md.
+
+  Seguimiento.co  ·  sesgo +0.00  ·  factualidad sin medir
+    seguimiento.co · Regional Magdalena · CO · RSS propio · revisado 2026-10-10
+    Digital de Santa Marta, primero del Magdalena en el catálogo,
+    publicando desde 2010; se declara vigilante de los servidores
+    públicos del departamento, que es oficio y no orientación. Mixta,
+    0,00, por la regla 2 tras el barrido de su archivo (09-10-2026).
+    TENSIÓN: en la voz de la casa hay una dirección de centroderecha,
+    12 piezas D a 2 C con el criterio declarado (9 antes del 07-08 y 3
+    después), pero con el recuento estricto no llega al mínimo (9; 2
+    tras el cambio) y después del cambio se leyó como mucho la mitad
+    de lo publicado. Contrapeso: 19 piezas de promoción de campaña sin
+    rótulo de publicidad, 12 a candidaturas de izquierda o afines a
+    Petro y 7 de derecha. Posible confusión local: su principal
+    cliente público es la Alcaldía del alcalde Pinedo (SECOP), y las
+    burlas a Caicedo, su rival, pueden venir de ahí. Firmado el
+    2026-10-10 — ver fichas/seguimiento.md.
+
+  Prensa Libre Casanare  ·  sesgo +0.00  ·  factualidad sin medir
+    prensalibrecasanare.com · Regional Casanare · CO · RSS propio · revisado 2026-10-10
+    Digital de Yopal, primero del Casanare en el catálogo. Lo explota
+    una persona natural, su editor (RUES); contratación pública
+    mínima, casi toda de la Cámara de Comercio de Casanare y nada de
+    la Gobernación ni de Yopal en SECOP, aunque mantiene una
+    subsección con piezas de la Alcaldía de Yopal. No tiene editorial.
+    Su sección comercial vendió en 2026 propaganda electoral, sobre
+    todo del Centro Democrático, casi sin rótulo: espacio vendido, no
+    voz de la casa. Una leve asimetría de titulares a través del
+    cambio de gobierno, atribuida a fuentes y confundida con la de su
+    región, se vigila (Capresoca). Mixta provisional por la regla 2:
+    no hay evidencia de nivel 1 a 3, y la regla de evidencia editorial
+    histórica no alcanza porque no hay voz editorial propia que contar
+    — ver fichas/prensa-libre-casanare.md.
+
+  Quindío Noticias  ·  sesgo +0.00  ·  factualidad sin medir
+    quindionoticias.com · Regional Quindío · CO · RSS propio · revisado 2026-10-10
+    Digital de Armenia, primero del Quindío en el catálogo y activo
+    desde 2011. Opera como persona natural (Daniel Andrés Hincapié
+    Ramírez, según SECOP), contratista de entidades del Quindío.
+    Orientación mixta provisional por Regla 2: sus titulares favorecen
+    al presidente y al gobernador, pero son 38 días de corpus, medidos
+    solo en titulares — ver fichas/quindio-noticias.md.
+
+  El Isleño  ·  sesgo +0.00  ·  factualidad sin medir
+    elisleño.com · Regional Archipiélago · CO · sin feed (solo referencia) · revisado 2026-10-10
+    Diario digital e impreso del Archipiélago de San Andrés, segundo
+    del departamento en el catálogo. Lo edita Casa Editorial Welcome
+    S.A.S. (NIT 900475712, activa), cuyo representante legal consta en
+    el RUES; no constan los socios. Su contratante público recurrente
+    es la Cámara de Comercio de San Andrés (14 contratos desde 2019).
+    Tiene editorial semanal propio, de agenda local y cívica: en 12
+    meses, 0 piezas con postura en el eje nacional, ningún editorial
+    electoral, y la misma exigencia sobre Managua al gobierno saliente
+    y al entrante. Orientación mixta provisional por ausencia de
+    evidencia, no por evidencia de equilibrio — ver
+    fichas/el-isleno.md.
+
+  Abra Noticias  ·  sesgo +0.00  ·  factualidad sin medir
+    abranoticias.com · Regional Nariño · CO · RSS propio · revisado 2026-10-10
+    Digital de Nariño, primero del departamento en el catálogo, con
+    cobertura de Pasto e Ipiales. No publica dueño, director ni
+    contacto real: su página de contacto es la de la plantilla. 0,00
+    por la regla 2, no por ausencia de evidencia. Su voz propia se
+    inclina a la izquierda a los dos lados del cambio de gobierno:
+    rótulos solo a un lado, ninguna crítica propia al gobierno Petro,
+    y el presidente entrante llamado «fantoche y payaso» en una pieza
+    de Opinión sin firma (01-09-2026). Son 7 piezas en 12 meses, por
+    debajo de las 10 que pide la regla de evidencia editorial
+    histórica. Se declara como tensión, con sus contrapesos — ver
+    fichas/abra-noticias.md.
+
+  Al Aire Noticias  ·  sesgo +0.00  ·  factualidad sin medir
+    alairenoticias.com · Regional Arauca · CO · RSS propio · revisado 2026-10-10
+    Digital de Arauca, primero del departamento en el catálogo, con
+    cobertura de los siete municipios. Lo edita AL AIRE COMUNICAR SAS
+    (NIT 901856069, ACTIVA), cuyo representante legal es su director;
+    se conoce al representante legal, no a los socios. Declara
+    sostenerse con donaciones de lectores, y además contrató con la
+    Cámara de Comercio de Arauca (2025) y publica avisos de ENELAR.
+    Sin opinión ni editoriales propios, y con redacción política
+    atributiva a los dos lados del 07-08-2026: no hay voz de la casa
+    que medir. Orientación mixta provisional por ausencia de evidencia
+    y no por evidencia de equilibrio — ver fichas/al-aire-noticias.md.
+
+  Sucre Noticias  ·  sesgo +0.00  ·  factualidad sin medir
+    sucrenoticias.com · null · CO · RSS propio · revisado 2026-10-10
+    Medio digital de Sincelejo (sucrenoticias.com, dominio de 2018),
+    primero de Sucre en el catálogo, con agenda local propia y la
+    mayoría de las piezas firmadas por un mismo periodista. Sin dueño
+    ni director publicados. No tiene voz editorial desde 2021, y su
+    sección «Especial» publica informes de gestión y contenidos
+    corporativos marcados como tales, no como publicidad (Gobierno
+    nacional, Afinia/EPM, Veolia). Publica de forma esporádica: si
+    pasa más de 30 días sin publicar, se decide la baja. Orientación
+    mixta provisional por ausencia de evidencia de nivel 1-3 — ver
+    fichas/sucre-noticias.md.
+
+  La Nación (Neiva)  ·  sesgo +0.00  ·  factualidad sin medir
+    lanacion.com.co · Comunicaciones Olave · CO · RSS propio · revisado 2026-10-10
+    Diario de Neiva, segunda voz del Huila en el catálogo. Su mancheta
+    declara la editora COMUNICACIONES OLAVE S.A.S. y tres cargos, y el
+    empresario Felipe Olave Blackburn consta como comprador del diario
+    en 2024. NIT 901843223-1 en el RUES; socios sin documentar.
+    Orientación mixta provisional por Regla 2: 37 días de corpus, sin
+    endoso ni asimetría medida, y no por evidencia de equilibrio — ver
+    fichas/la-nacion-neiva.md.
+
+  Pulzo  ·  sesgo +0.00  ·  factualidad sin medir
+    pulzo.com · INQLAB S.A.S. · CO · RSS propio · revisado 2026-10-10
+    Nativo digital de alto alcance —cuarto medio más consumido del
+    país— con mezcla de agregación, virales y nación. Orientación
+    mixta provisional: su volumen es de titular rápido y no de línea
+    editorial declarada, y nada de la evidencia admisible lo mueve del
+    centro. Sin factualidad medida — ver fichas/pulzo.md.
+
+  El Tiempo  ·  sesgo +0.05  ·  factualidad 88%
+    eltiempo.com · Grupo Sarmiento Angulo · CO · RSS propio · revisado 2026-10-10
+    Diario de mayor circulación; cobertura institucional amplia y
+    encuadre predominantemente descriptivo.
+
+  La Patria  ·  sesgo +0.10  ·  factualidad 85%
+    lapatria.com · Regional Eje Cafetero · CO · RSS propio · revisado 2026-10-12
+    Diario de Manizales, de la familia Restrepo desde 1940. +0,10 por
+    la regla de evidencia editorial histórica: el barrido de 12 meses
+    de sus editoriales sin firma (360, todos leídos) encuentra 18 con
+    dirección, 14 hacia la derecha y 4 hacia la izquierda (3,5 a 1): 9
+    a la derecha antes del 07-08-2026 y 5 después. Sin las leves
+    quedan 3 a 0. Polo fijo: unos 80 editoriales críticos con el
+    Gobierno Petro en 43 semanas y 12 con el de De la Espriella en 9,
+    con la misma dureza («actitud macartista», «aporofobia»). Rama de
+    la precisión del 2026-10-10: cumple las cinco condiciones, pero
+    solo con las leves y por poco en la proporción, sin endoso → valor
+    del barrido con tope de ±0,30; el contrapeso de la fiscalización
+    del entrante lo deja en la banda mixta. Firmado el 2026-10-12 —
+    ver fichas/la-patria.md y revision-externa/barridos/la-patria.md.
+
+  La República  ·  sesgo +0.15  ·  factualidad 88%
+    larepublica.co · Editorial La República · CO · RSS propio · revisado 2026-08-18
+    Orientación mixta (+0,15) con acento de centroderecha en lo
+    económico, documentado en su editorial del 17-12-2025: crítica
+    dura de la gestión de reformas del gobierno saliente con
+    reconocimiento explícito de sus aciertos fiscales. Con un patrón
+    documentado de cobertura exclusivamente favorable de su accionista
+    Postobón —seis piezas entre 2025 y 2026, ninguna crítica— y
+    silencio sobre el impuesto saludable que le afecta.
+
+  Noticias RCN  ·  sesgo +0.15  ·  factualidad 82%
+    noticiasrcn.com · Organización Ardila Lülle · CO · RSS propio · revisado 2026-10-12
+    Noticiero de televisión nacional de la Organización Ardila Lülle.
+    +0,15 por la regla de evidencia editorial histórica: el barrido de
+    12 meses de su portal (1.330 piezas de política nacional leídas
+    por el titular, todas firmadas «Noticias RCN»; no publica
+    editoriales y sus columnas son de terceros) encuentra 26 piezas
+    con postura en voz propia, 22 hacia la derecha y 4 hacia la
+    izquierda (5,5 a 1): 10 hacia la derecha antes del 07-08-2026 y 12
+    después (6 sin las que critican al gobierno ya saliente). Polo
+    fijo: fiscalizó en voz propia a Petro 27 veces en 10 meses, sin
+    elogiarlo nunca, y a De la Espriella 2 veces en 2 meses, con 6
+    elogios o disculpas por herencia. Rama de la precisión del
+    2026-10-10: cumple las cinco condiciones, sin endoso ni nivel 1
+    con posición → valor del barrido con tope de ±0,30. La magnitud es
+    baja porque casi toda la postura está en una palabra del titular
+    (2 % de lo leído) y porque sin las piezas leves no se llega al
+    mínimo de 10. Contrapesos: rótulos al entrante («ultraderecha» el
+    día de la posesión), formatos simétricos para los finalistas. Se
+    firma la propuesta principal; no se toma la lectura alternativa de
+    +0,20. Firmado el 2026-10-12 — ver fichas/noticias-rcn.md y
+    revision-externa/barridos/noticias-rcn.md.
+
+----------------------------------------------------------------------
+DERECHA MODERADA  [+0.20 a +0.60)  —  19 medios
+----------------------------------------------------------------------
+
+  El Heraldo  ·  sesgo +0.20  ·  factualidad 84%
+    elheraldo.co · Regional Caribe · CO · RSS propio · revisado 2026-08-18
+    Respaldó por editorial firmado la candidatura presidencial de
+    Abelardo De la Espriella (24-05-2026), una semana antes de la
+    primera vuelta, y celebró su triunfo en editoriales del 01-06 y el
+    22-06-2026. Es uno de los medios del catálogo con un endoso
+    presidencial documentado (también El Informador, en editorial, y
+    VOZ, en piezas firmadas).
+
+  El Universal  ·  sesgo +0.20  ·  factualidad 86%
+    eluniversal.com.co · Regional Cartagena · CO · RSS propio · revisado 2026-10-10
+    Diario regional de Cartagena; cobertura local con línea editorial
+    conservadora moderada.
+
+  El Pilón  ·  sesgo +0.20  ·  factualidad sin medir
+    elpilon.com.co · Regional Cesar · CO · RSS propio · revisado 2026-10-10
+    Diario de Valledupar; sociedad anónima con agenda regional. +0,20
+    provisional por la banda regional, ahora con un barrido de 290
+    editoriales de 12 meses (2026-10-09) que apunta a la derecha —22
+    piezas a 10: seguridad, minería, desregulación ambiental y
+    tributaria— sin alcanzar el 3 a 1 de la regla «Evidencia editorial
+    histórica», así que conserva el valor que tenía. Contrapesos:
+    reconoce cuatro programas del Gobierno Petro y pide su
+    continuidad, y por política escrita desde 2010, reiterada el
+    25-05-2026, no endosa candidaturas. Firmado el 2026-10-10.
+    Contratista de la Alcaldía de Valledupar, que le contrata además
+    la feria del libro FELVA que el diario organiza — ver
+    fichas/el-pilon.md.
+
+  Diario del Huila  ·  sesgo +0.20  ·  factualidad sin medir
+    diariodelhuila.com · Regional Huila · CO · RSS propio · revisado 2026-10-10
+    Diario de Neiva, casa familiar dirigida por la familia fundadora.
+    Valor provisional: la banda regional, con editoriales de 2026
+    (nivel 5) en el mismo sentido y 38 días de corpus. Lo edita Diario
+    del Huila Digital S.A.S.; la Editora histórica está en liquidación
+    y los socios siguen sin documentar — ver
+    fichas/diario-del-huila.md.
+
+  Diario del Norte  ·  sesgo +0.20  ·  factualidad sin medir
+    diariodelnorte.net · Sistema Cardenal · CO · RSS propio · revisado 2026-10-10
+    Diario de Riohacha de Sistema Cardenal (Gámez Editores, NIT
+    900270026), con radio en Valledupar y Riohacha. Es el único
+    candidato regional que publica su accionariado con porcentajes.
+    Valor provisional: la banda regional, con editoriales de 2026 en
+    el mismo sentido y 38 días de corpus — ver
+    fichas/diario-del-norte.md.
+
+  Diario La Libertad  ·  sesgo +0.20  ·  factualidad sin medir
+    diariolalibertad.com · Regional Caribe · CO · RSS propio · revisado 2026-10-10
+    Diario de Barranquilla fundado en 1979, segunda voz del Atlántico
+    en el catálogo. Su valor sale de la voz editorial de la casa, por
+    la regla de evidencia editorial histórica: en un barrido de 198
+    editoriales sin firma personal de los últimos doce meses, 27
+    tienen postura nacional, 21 hacia la derecha y 6 en contra (3,5 a
+    1). Con Petro en el poder, 7 lo controlan y 1 le es favorable,
+    leve; con De la Espriella, contando sus semanas de presidente
+    electo, 15 lo favorecen o lo celebran y 4 lo controlan por
+    escrito. Desde el cambio de gobierno del 07-08-2026 la proporción
+    baja a 2,75 a 1, y se declara. La magnitud es un juicio: entre
+    +0,20 y +0,25 se queda el valor más cercano a la mixta, el mismo
+    de El Heraldo y El Pilón. No publica mancheta ni sociedad editora,
+    y la entrada anunciada de un socio controlante en 2025 no consta
+    cerrada. Firmado el 2026-10-10, aunque falta el certificado de la
+    Cámara de Comercio — ver fichas/diario-la-libertad.md.
+
+  Vanguardia  ·  sesgo +0.25  ·  factualidad 85%
+    vanguardia.com · Regional Santander · CO · RSS propio · revisado 2026-10-10
+    Diario de Santander; cobertura regional con encuadre empresarial.
+
+  La FM  ·  sesgo +0.25  ·  factualidad 83%
+    lafm.com.co · Organización Ardila Lülle · CO · RSS propio · revisado 2026-10-12
+    Radio informativa de RCN Radio, Organización Ardila Lülle. +0,25
+    por la regla de evidencia editorial histórica: el barrido de 12
+    meses de la «Carta del director» (186 ediciones, casi todas el
+    resumen escrito de «Las seis de las 6» con el que el director abre
+    la emisión) encuentra 12 piezas con postura que cuentan, 11 hacia
+    la derecha y 1 en sentido contrario (11 a 1), más 5 mixtas: 8
+    hacia la derecha antes del 07-08-2026 y 3 después. Polo fijo: con
+    Petro en el poder, fiscalización casi diaria y un solo
+    reconocimiento (la visita a Washington); con De la Espriella, 3
+    piezas que destacan su gestión, ninguna crítica a una política y
+    un reparo de principio. Rama de la precisión del 2026-10-10:
+    cumple las cinco condiciones, sin endoso → valor del barrido con
+    tope de ±0,30. No llega al tope: el lado posterior solo llega a 3
+    con dos piezas leves (sin ellas quedan 3 antes y 1 después, y la
+    lectura estricta sería «sin medir» con la dirección como tensión),
+    los textos son resúmenes de la emisión y no su voz literal, y no
+    hay endoso. Noticias RCN, de la misma casa, queda en +0,15 el
+    mismo día: no publica editoriales y su postura está en la palabra
+    del titular. Firmado el 2026-10-12 — ver fichas/la-fm.md y
+    revision-externa/barridos/la-fm.md.
+
+  El Diario (Pereira)  ·  sesgo +0.25  ·  factualidad sin medir
+    eldiario.com.co · Regional Risaralda · CO · RSS propio · revisado 2026-10-10
+    Único diario de Pereira desde que el Diario del Otún absorbió La
+    Tarde en 2016; hoy publica como Diario del Otún y la misma casa
+    opera Q'hubo Pereira. +0,25 por evidencia editorial histórica
+    (2026-10-09): un barrido de los 12 meses de sus editoriales sin
+    firma halla 80 piezas con postura, 70 a la derecha y 10 en contra
+    (7 a 1), con críticas al modelo de Petro, tres editoriales de
+    campaña contra «la opción de izquierda» y celebración del programa
+    de De la Espriella. Declarado: desde el 07-08 son 9 a 7, y casi
+    todas las críticas reclaman atención a Pereira tras el terremoto.
+    Sin endoso con nombre, bajo el tope de ±0,30; la magnitud es un
+    juicio contra los vecinos: El Pilón +0,20, Vive el Meta +0,25,
+    Archipiélago Press +0,30. Firmado el 2026-10-10 — ver
+    fichas/el-diario-pereira.md.
+
+  Vive el Meta  ·  sesgo +0.25  ·  factualidad sin medir
+    viveelmeta.com · Grupo La Independencia S.A.S. · CO · RSS propio · revisado 2026-10-10
+    Periódico digital de Villavicencio, primero del Meta en el
+    catálogo. Sociedad: Grupo La Independencia S.A.S., agencia de
+    publicidad (CIIU 7310) con matrícula activa y socios sin
+    documentar, contratista de entidades del Meta y de Villavicencio
+    que cubre (13 contratos por $712 M desde 2022; el último, con la
+    Agencia para la Infraestructura del Meta). +0,25 por la regla de
+    evidencia editorial histórica: un barrido de 12 meses encuentra 12
+    piezas con postura en voz de la casa hacia la derecha y 1 en
+    contra. Antes del cambio de gobierno, encuadre asimétrico entre
+    candidatos —análisis propio adverso del programa de Cepeda sin
+    equivalente para De la Espriella— y un editorial que elogia al
+    sector del alcalde frente a la oposición del Pacto; después,
+    ninguna crítica propia al gobierno entrante y titulares de burla
+    al expresidente. Contrapesos: fiscaliza con trabajo propio a
+    alcaldías del Meta y da voz a críticos. La magnitud es juicio:
+    fuera del borde de +0,20 y por debajo del tope de +0,30, sin
+    endoso ni propiedad conocida, y con un margen estrecho sobre el
+    mínimo de la regla — ver fichas/vive-el-meta.md y
+    revision-externa/barridos/vive-el-meta.md.
+
+  RTVC Noticias  ·  sesgo +0.30  ·  factualidad 82%
+    rtvcnoticias.com · Medio público nacional · CO · RSS propio · revisado 2026-10-10
+    GUBERNAMENTAL (excepción del protocolo para medios del Gobierno
+    nacional, decisión editorial del 2026-10-10). Sistema de medios
+    públicos nacional (Inravisión): el Gobierno nombra a su gerente
+    por decreto y no hay salvaguarda vinculante de independencia
+    editorial. Es oficialista con los dos gobiernos y sin línea
+    propia: su voz celebró al Gobierno Petro hasta el 06-08-2026 (34
+    piezas con postura) y al Gobierno De la Espriella desde el 07-08
+    (8 piezas), según un barrido de 622 piezas del 2026-10-10. Por eso
+    toma la dirección del gobierno que lo controla, con la magnitud
+    tope: hoy, De la Espriella, a la derecha (+0,30). No mide una
+    línea propia del medio. Se revisa en cada cambio de gobierno, y el
+    número cambia de signo si el gobierno lo hace. Ver fichas/rtvc.md.
+
+  La Opinión  ·  sesgo +0.30  ·  factualidad 87%
+    laopinion.co · Regional Norte de Santander · CO · RSS propio · revisado 2026-10-10
+    Diario de Cúcuta; cobertura fronteriza con énfasis en seguridad y
+    migración.
+
+  El País (Cali)  ·  sesgo +0.30  ·  factualidad 85%
+    elpais.com.co · Regional Valle · CO · RSS propio · revisado 2026-08-18
+    Línea regional-conservadora documentada en editoriales de casa
+    bajo la propiedad actual: encuadre electoral asimétrico a favor de
+    De la Espriella en la víspera de la segunda vuelta (20-06-2026),
+    sin endoso formal, y balance del gobierno saliente que reconoce
+    sus logros sociales antes de listar sus fracasos (01-08-2026).
+
+  KienyKe  ·  sesgo +0.30  ·  factualidad 75%
+    kienyke.com · Digital · CO · RSS propio · revisado 2026-10-12
+    Portal digital de actualidad y entretenimiento de Kieneskien
+    Editorial S.A.S.; menor densidad de verificación. +0,30 por la
+    regla de evidencia editorial histórica: el barrido de 12 meses de
+    Radar K, su sección de análisis propio sin firma (128 piezas,
+    leídas todas), encuentra 20 piezas con dirección, 18 hacia la
+    derecha y 2 hacia la izquierda (9 a 1; 10 a 2 sin las leves): 12
+    hacia la derecha antes del 07-08-2026 y 6 después. Polo fijo: con
+    Petro en el poder, 6 piezas que solo lo fiscalizan, 2 elogios a su
+    coalición o su diplomacia y ninguna disculpa; con De la Espriella,
+    1 que lo fiscaliza y 6 que lo elogian o lo disculpan. Rama de la
+    precisión del 2026-10-10: cumple las cinco condiciones, sin endoso
+    → valor del barrido con tope de ±0,30. El barrido proponía +0,25
+    (la dirección aparece con la victoria: 11 de las 18 piezas son del
+    21-06 al 21-07). El responsable editorial lo sube al tope por su
+    lectura de la portada del 2026-10-12: una foto de la primera dama,
+    dos columnas con imágenes generadas por IA de De la Espriella,
+    otra de Restrepo, una videocolumna con Daniel Briceño, una noticia
+    de apoyo de EE. UU. y dos piezas de De la Espriella sobre su
+    gestión. «La Sala de Salas» se trata como columna de autor y no
+    como voz de la casa: no hay endoso, y rige el tope. La propiedad
+    no entra en el número. Sin barrer: los titulares de las secciones
+    de noticias. Firmado el 2026-10-12 — ver fichas/kienyke.md y
+    revision-externa/barridos/kienyke.md.
+
+  NTN24  ·  sesgo +0.30  ·  factualidad 82%
+    ntn24.com · Organización Ardila Lülle · CO · RSS propio · revisado 2026-10-12
+    Canal internacional de noticias de la Organización Ardila Lülle
+    (casa RCN). +0,30 por la regla de evidencia editorial histórica:
+    el barrido de 12 meses de su sitio (1.551 piezas de política
+    colombiana leídas por el titular; no publica editoriales ni firma
+    con nombre propio, y sus columnas son de terceros) encuentra 78
+    piezas con postura en voz propia: 77 hacia la derecha, 0 hacia la
+    izquierda y 1 mixta. Antes del 07-08-2026, 13 (5 plenas y 8
+    leves); después, 64 (27 plenas y 37 leves). Sin las leves, 32 a 0.
+    Polo fijo: fiscalizó en voz propia a Petro 41 veces mientras
+    gobernaba y a De la Espriella ninguna desde que gobierna, con 64
+    piezas que destacan sus resultados o rotulan al gobierno anterior.
+    Rama de la precisión del 2026-10-10: cumple las cinco condiciones,
+    sin endoso ni nivel 1 con posición → valor del barrido, en el tope
+    de ±0,30. Contrapesos: informa de los controles judiciales y del
+    Congreso al nuevo gobierno en titulares neutros; muchas leves son
+    léxico corriente de orden público. La selección de invitados no se
+    midió. Firmado el 2026-10-12 — ver fichas/ntn24.md y
+    revision-externa/barridos/ntn24.md.
+
+  The Archipielago Press  ·  sesgo +0.30  ·  factualidad sin medir
+    thearchipielagopress.co · Regional Archipiélago · CO · RSS propio · revisado 2026-10-10
+    Digital del Archipiélago de San Andrés y Providencia, primero del
+    departamento en el catálogo. Lo dirige su fundador, César Augusto
+    Pizarro Barcasnegras, contratista público entre 2018 y 2023 —de la
+    Gobernación que cubre entre 2020 y 2023, y en 2018 de la Alcaldía
+    de Providencia—; no tiene sociedad editora conocida. Derecha
+    moderada por la regla «Evidencia editorial histórica»
+    (2026-10-09): su voz propia es hostil a Petro en el poder y fuera
+    de él, y favorable a De la Espriella como candidato y como
+    presidente, con un editorial sin firma que lo defiende (26 piezas
+    a 2 en un barrido de 12 meses). El +0,30 es un juicio declarado y
+    el tope de la regla: más que El Pilón (+0,20), porque la asimetría
+    cruza el cambio de gobierno con voz propia; menos que El
+    Colombiano (+0,35), porque no hay endoso ni propiedad con posición
+    y la voz de la casa es escasa. Firmado el 2026-10-10 — ver
+    fichas/archipielago-press.md.
+
+  El Colombiano  ·  sesgo +0.35  ·  factualidad 86%
+    elcolombiano.com · Regional Antioquia · CO · RSS propio · revisado 2026-08-18
+    Línea editorial documentada en piezas de casa de los últimos 12
+    meses: editoriales del 13-01-2026, 22-06-2026 y 06-08-2026, y un
+    titular informativo del 20-06-2026. Adversa al gobierno saliente
+    en lo económico, celebra la victoria de De la Espriella y recibe
+    con favor al gobierno entrante. Es una derecha liberal de mercado:
+    en lo cultural no se alinea con el conservadurismo.
+
+  El Informador  ·  sesgo +0.45  ·  factualidad sin medir
+    elinformador.com.co · Regional Magdalena · CO · RSS propio · revisado 2026-10-10
+    Diario de Santa Marta, impreso y digital, segundo del Magdalena en
+    el catálogo. Lo edita EDITORIAL MAGDALENA S.A. (NIT 819003317,
+    ACTIVA); no constan sus socios. Derecha moderada, +0,45, por el
+    barrido de sus editoriales sin firma (10-10-2026): 100 piezas con
+    postura en la misma dirección frente a 5 contrapesos, 67 antes del
+    07-08 y 33 después; rótulos al Gobierno Petro mientras gobernaba y
+    celebración del Gobierno De la Espriella. Endoso explícito el día
+    de la segunda vuelta (21-06-2026) y petición de voto por De la
+    Espriella el 11-05, que por el protocolo levantan el tope de
+    ±0,30. TENSIÓN: su mayor contratante es la Alcaldía Distrital de
+    Santa Marta, y dos editoriales elogian al alcalde sin declarar la
+    relación; desvelamiento, no acusación. Firmado el 2026-10-10,
+    aunque faltan los accionistas — ver fichas/el-informador.md.
+
+  El Nuevo Siglo  ·  sesgo +0.55  ·  factualidad 80%
+    elnuevosiglo.com.co · Conservador · CO · RSS propio · revisado 2026-10-10
+    Su editorial del 19-06-2026, dos días antes del balotaje, pide el
+    «Sí» contra la «perpetuación petrista en el poder», sin decir
+    «vote por» ni nombrar candidato. Tras el cambio de gobierno culpa
+    de forma sostenida al saliente y acompaña al entrante, con una
+    sola pieza de fiscalización, suave. Valor derivado de esa conducta
+    del presente, no del vínculo histórico con el Partido Conservador,
+    que no consta como orgánico hoy.
+
+----------------------------------------------------------------------
+DERECHA  [+0.60 a +1.00)  —  1 medio
+----------------------------------------------------------------------
+
+  Semana  ·  sesgo +0.70  ·  factualidad 78%
+    semana.com · Grupo Gilinski · CO · RSS propio · revisado 2026-10-07
+    Revista de actualidad con participación documentada en la campaña
+    presidencial de 2026, no solo afinidad editorial. Publicaciones
+    Semana y GGKB Investments, el vehículo de Gabriel Gilinski,
+    pusieron el 88 % de lo que gastó la recolección de firmas de Vicky
+    Dávila, hoy presidenta de su junta con la máxima autoridad
+    editorial por estatuto. Entre la primera y la segunda vuelta
+    publicó al menos 133 videos de campaña de De la Espriella sin
+    marcarlos como propaganda, y ninguno de Cepeda: es una sola
+    fuente, primaria y con método replicable, no recontada. Su
+    director responde que el medio no recibe órdenes de ninguna
+    campaña. +0,60 era defendible ante la duda; ver fichas/semana.md.
+
+----------------------------------------------------------------------
+SIN MEDIR  —  18 medios
+----------------------------------------------------------------------
+
+  Estos medios están en el catálogo y se ingieren como cualquier
+  otro, pero su línea editorial NO tiene valor asignado. No es un
+  olvido ni un valor intermedio: es la constancia de que la
+  evidencia disponible no alcanza para firmar un número. Mientras
+  sigan aquí no cuentan en el reparto por espectro ni pueden
+  sostener —ni desmentir— un punto ciego.
+
+  Vorágine  ·  sesgo sin medir  ·  factualidad 90%
+    voragine.co · Investigación independiente · CO · RSS propio
+    SIN MEDIR. Periodismo de investigación centrado en poder
+    económico, conflicto armado y derechos humanos; lo publica una
+    fundación sin accionistas que no contrata con el Estado. Barrido
+    de sus 93 piezas de 12 meses (10-10-2026): fiscaliza al Gobierno
+    Petro antes del 07-08 y al de De la Espriella después, sin
+    editoriales y con solo 3 rótulos leves en voz propia; la asimetría
+    de blancos en la campaña (12 investigaciones sobre la derecha, 0
+    sobre Cepeda) se declara como tensión. No llega a los mínimos de
+    la evidencia editorial histórica — ver fichas/voragine.md.
+
+  Cuestión Pública  ·  sesgo sin medir  ·  factualidad 89%
+    cuestionpublica.com · Investigación independiente · CO · RSS propio
+    SIN MEDIR. Periodismo de investigación sobre poder político,
+    corrupción y derechos de las mujeres; se declara «medio digital
+    feminista e investigativo» y defiende el aborto legal (Nosotros,
+    2026). Barrido de sus 340 piezas de 12 meses (2025-10-10 →
+    2026-10-10): fiscaliza al gobierno de turno a los dos lados del
+    07-08 —Petro antes, De la Espriella después—, que es oficio. Su
+    voz propia se inclina a la izquierda: rótulos ideológicos solo a
+    la derecha («ultraderecha», «autoritario») y una columna de la
+    directora que niega toda equivalencia entre los candidatos de la
+    segunda vuelta (16-06-2026) sin endosar a ninguno. Son 5 a 10
+    piezas con postura frente a 3 a 6 contrapesos, por debajo de la
+    proporción de 3 a 1 que pide la regla: se declara como tensión y
+    no fija número — ver fichas/cuestion-publica.md.
+
+  Razón Pública  ·  sesgo sin medir  ·  factualidad 92%
+    razonpublica.com · Fundación académica · CO · RSS propio
+    SIN MEDIR (2026-10-10). Fundación de análisis académico; no
+    publica editoriales sin firma. La voz de la casa —las 31 columnas
+    y análisis del director y editor general en 12 meses— se declara
+    de centro, recomienda a la vez a una candidata de centroizquierda
+    y a un candidato de centroderecha, no endosa en la segunda vuelta
+    y fiscaliza a Petro y a De la Espriella; el tono es más duro con
+    la derecha. No llega a los mínimos de la evidencia editorial
+    histórica (2 piezas con dirección, ninguna después del 07-08), y
+    el −0,40 heredado no tenía fuente — ver fichas/razon-publica.md y
+    revision-externa/barridos/razon-publica.md.
+
+  Cambio  ·  sesgo sin medir  ·  factualidad 88%
+    cambiocolombia.com · Independiente · CO · RSS propio
+    SIN MEDIR (2026-10-12). Revista digital de investigación,
+    relanzada en 2022, que dirige y preside su mayor accionista. Hasta
+    el 2026-10-12 figuraba en −0,40; su ficha concluye que las piezas
+    documentadas (un perfil de Cepeda del 12-04-2026, firmado por un
+    autor externo, y una investigación de redacción sobre la campaña
+    de De la Espriella del 16-06-2026) no sostienen una posición fuera
+    de la banda mixta. No se puede medir con IA: el robots.txt de
+    cambiocolombia.com excluye a ClaudeBot, y el proyecto respeta esa
+    negativa a la lectura por IA, también sobre lo que ya entra por su
+    feed. Sin medir de forma permanente (decisión firmada el
+    2026-10-12): DobleFoco ubica a los medios leyendo sus piezas con
+    sistemas automáticos, este medio no autoriza esa lectura por IA en
+    su robots.txt, y no habrá lectura humana; no tiene lugar en el
+    eje. Si el medio autoriza la lectura, se medirá. Sus titulares
+    siguen en el agregador con enlace: el feed se mantiene — ver
+    fichas/cambio.md.
+
+  La Silla Vacía  ·  sesgo sin medir  ·  factualidad 92%
+    lasillavacia.com · Independiente · CO · RSS propio
+    SIN MEDIR (2026-10-12). Medio digital de análisis político que
+    dirige desde su fundación Juanita León, socia fundadora. Hasta el
+    2026-10-12 figuraba en −0,10, un valor apoyado en una descripción
+    de su método («análisis de poder político con verificación factual
+    sistemática; encuadre analítico más que militante») y no en piezas
+    leídas y contadas; lo único leído del presente son dos piezas de
+    la campaña de 2026. No se mide con IA: lasillavacia.com está en la
+    lista de dominios que los revisores con IA no tocan, y el proyecto
+    respeta esa negativa a la lectura por IA, también sobre lo que ya
+    entra por su feed. Sin medir de forma permanente (decisión firmada
+    el 2026-10-12): DobleFoco ubica a los medios leyendo sus piezas
+    con sistemas automáticos, no lee el contenido de este medio con
+    sistemas de IA, y no habrá lectura humana; no tiene lugar en el
+    eje. Sus titulares siguen en el agregador con enlace: el feed se
+    mantiene — ver fichas/la-silla-vacia.md.
+
+  Noticias Caracol  ·  sesgo sin medir  ·  factualidad 86%
+    noticiascaracol.com · Grupo Valorem · CO · sitemap de noticias propio
+    SIN MEDIR (2026-10-12). Noticiero de televisión abierta de Caracol
+    Televisión S.A. (Valorem), la misma sociedad que opera Blu Radio.
+    Hasta el 2026-10-12 figuraba en +0,10, sin evidencia propia: la
+    frase que lo justificaba describía temario. El barrido de 12 meses
+    de su portal (336 piezas leídas y 1.797 titulares) encuentra 4
+    piezas con postura en voz propia en un año —3 hacia la derecha,
+    dos de ellas críticas al gobierno saliente, y 1 hacia la
+    izquierda— y 1 mixta: la voz del portal es casi toda atribuida.
+    Fiscalizó al Gobierno Petro con 6 investigaciones de fondo en 10
+    meses y al de De la Espriella con 2 titulares leves en 2. Rama de
+    la precisión del 2026-10-10: no hay piezas suficientes para juzgar
+    → sin medir. La emisión, donde está su audiencia, no se leyó. Sus
+    titulares siguen en el agregador. Firmado el 2026-10-12 — ver
+    fichas/noticias-caracol.md y
+    revision-externa/barridos/noticias-caracol.md.
+
+  Portafolio  ·  sesgo sin medir  ·  factualidad 89%
+    portafolio.co · Grupo Sarmiento Angulo · CO · RSS propio
+    SIN MEDIR (2026-10-12), de forma permanente. Diario de economía y
+    negocios de Casa Editorial El Tiempo. Hasta el 2026-10-12 figuraba
+    en +0,10, apoyado en una frase («encuadre desde indicadores y
+    perspectiva empresarial») y en fuentes de historia y propiedad,
+    sin piezas leídas. DobleFoco ubica a los medios leyendo sus piezas
+    con sistemas automáticos, y el robots.txt de portafolio.co excluye
+    la lectura por IA (ClaudeBot, Claude-Web y anthropic-ai, todo el
+    sitio): no tiene lugar en el eje. Su robots.txt prohíbe además el
+    uso automatizado de su contenido sin permiso escrito; DobleFoco
+    muestra solo titular y enlace, con un rastreador identificado, y
+    lo declara. El feed se mantiene por decisión del responsable
+    editorial. Si el medio autoriza la lectura, se medirá. Firmado el
+    2026-10-12 — ver fichas/portafolio.md y
+    revision-externa/barridos/portafolio.md.
+
+  Cablenoticias  ·  sesgo sin medir  ·  factualidad sin medir
+    cablenoticias.com · Cable Noticias TV · CO · RSS propio
+    Canal de noticias por suscripción con redacción propia en Bogotá y
+    agenda nacional. Su sociedad es Cable Noticias TV S.A.S. (NIT
+    900460715-5, matrícula activa); el MOM afirma, sin nombrarla, que
+    la empresa propietaria está registrada en Panamá, y los
+    accionistas que documenta —venezolanos— constan en actas de
+    2013-2015; ninguna fuente acredita quién lo controla hoy. SIN
+    MEDIR (2026-10-12), de forma permanente. Hasta el 2026-10-12
+    figuraba en 0,00, orientación mixta provisional por ausencia de
+    evidencia (Regla 2), sin piezas leídas. DobleFoco ubica a los
+    medios leyendo sus piezas con sistemas automáticos, y el
+    robots.txt de cablenoticias.com excluye la lectura por IA
+    (ClaudeBot y anthropic-ai): no tiene lugar en el eje, y no habrá
+    lectura humana. Sus titulares siguen en el agregador con enlace:
+    el feed se mantiene por decisión del responsable editorial. Si el
+    medio autoriza la lectura, se medirá. Firmado el 2026-10-12 — ver
+    fichas/cablenoticias.md.
+
+  BBC Mundo  ·  sesgo sin medir  ·  factualidad 92%
+    bbc.com · Servicio público británico · GB · RSS propio
+    SIN MEDIR (2026-10-12), de forma permanente. Servicio en español
+    del BBC World Service. Hasta el 2026-10-12 figuraba en −0,05,
+    apoyado en su obligación estatutaria de imparcialidad, una regla
+    del servicio, sin piezas leídas. DobleFoco ubica a los medios
+    leyendo sus piezas con sistemas automáticos, y el robots.txt de
+    bbc.com excluye la lectura por IA (ClaudeBot, Claude-Web y
+    anthropic-ai, todo el sitio): no tiene lugar en el eje. Su
+    robots.txt prohíbe además el uso automatizado de su contenido sin
+    permiso («No scraping, crawling, or systematic extraction of
+    content»); DobleFoco muestra solo titular y enlace, con un
+    rastreador identificado, y lo declara. Sus titulares siguen en el
+    agregador con enlace: el feed se mantiene por decisión del
+    responsable editorial, como ejercicio de transparencia. Si el
+    medio autoriza la lectura, se medirá. Firmado el 2026-10-12 — ver
+    fichas/bbc-mundo.md y revision-externa/barridos/bbc-mundo.md.
+
+  DW Español  ·  sesgo sin medir  ·  factualidad 93%
+    dw.com · Servicio público alemán · DE · RSS propio
+    SIN MEDIR (2026-10-12), de forma permanente. Servicio en español
+    de Deutsche Welle, la radiodifusora exterior pública de Alemania.
+    Hasta el 2026-10-12 figuraba en −0,05, apoyado en una descripción
+    del perfil («encuadre institucional europeo»), sin piezas leídas.
+    DobleFoco ubica a los medios leyendo sus piezas con sistemas
+    automáticos, y el robots.txt de dw.com excluye la lectura por IA
+    (los tres agentes de Anthropic, entre 53, todo el sitio): no tiene
+    lugar en el eje. Sus titulares siguen en el agregador con enlace:
+    el feed se mantiene por decisión del responsable editorial, como
+    ejercicio de transparencia. Si el medio autoriza la lectura, se
+    medirá. Firmado el 2026-10-12 — ver fichas/dw-es.md y
+    revision-externa/barridos/dw-es.md.
+
+  France 24 Español  ·  sesgo sin medir  ·  factualidad 90%
+    france24.com · Servicio público francés · FR · RSS propio
+    SIN MEDIR (2026-10-12), de forma permanente. Servicio en español
+    de la cadena internacional pública francesa (France Médias Monde).
+    Hasta el 2026-10-12 figuraba en 0,00, apoyado en una descripción
+    («encuadre descriptivo»), un 0,00 por defecto, sin piezas leídas.
+    DobleFoco ubica a los medios leyendo sus piezas con sistemas
+    automáticos, y el robots.txt de france24.com excluye la lectura
+    por IA (seis agentes de Anthropic, entre 326, todo el sitio): no
+    tiene lugar en el eje. Sus titulares siguen en el agregador con
+    enlace: el feed se mantiene por decisión del responsable
+    editorial, como ejercicio de transparencia. Si el medio autoriza
+    la lectura, se medirá. Firmado el 2026-10-12 — ver
+    fichas/france24-es.md y revision-externa/barridos/france24-es.md.
+
+  Agencia EFE  ·  sesgo sin medir  ·  factualidad 92%
+    efe.com · Agencia de noticias · ES · vía Google News
+    SIN MEDIR (2026-10-12), de forma permanente. Agencia estatal
+    española de noticias (capital de la SEPI). Hasta el 2026-10-12
+    figuraba en 0,00, apoyado en una descripción del oficio
+    («despachos factuales destinados a ser reutilizados»), sin piezas
+    leídas. DobleFoco ubica a los medios leyendo sus piezas con
+    sistemas automáticos, y el sitio de efe.com no ofrece un
+    robots.txt legible (responde con una verificación anti-bots que
+    exige JavaScript), así que no consta que autorice la lectura por
+    IA: no tiene lugar en el eje. Sus titulares siguen en el agregador
+    con enlace, por Google News: el feed se mantiene por decisión del
+    responsable editorial, como ejercicio de transparencia. Si el
+    medio ofrece un robots.txt legible que autorice la lectura, se
+    medirá. Firmado el 2026-10-12 — ver fichas/efe.md y
+    revision-externa/barridos/efe.md.
+
+  Reuters  ·  sesgo sin medir  ·  factualidad 95%
+    reuters.com · Agencia de noticias · GB · sin feed (solo referencia)
+    SIN MEDIR (2026-10-12), de forma permanente. Agencia internacional
+    de noticias de Thomson Reuters. Hasta el 2026-10-12 figuraba en
+    0,00, apoyado en sus «estándares de neutralidad codificados»
+    (Trust Principles), una norma de la agencia, sin piezas leídas.
+    DobleFoco ubica a los medios leyendo sus piezas con sistemas
+    automáticos, y el robots.txt de reuters.com cierra todo el sitio a
+    cualquier agente que no esté en su lista, y en ella no están los
+    de IA de Anthropic (ni el nuestro): no tiene lugar en el eje. Su
+    robots.txt prohíbe además el uso automatizado de su contenido sin
+    permiso escrito de Reuters; DobleFoco no recoge sus titulares y lo
+    declara. No se ingiere (feed: null): está en el catálogo para
+    resolverse cuando se le cita. Si el medio autoriza la lectura, se
+    medirá. Firmado el 2026-10-12 — ver fichas/reuters.md y
+    revision-externa/barridos/reuters.md.
+
+  CNN en Español  ·  sesgo sin medir  ·  factualidad 84%
+    cnnespanol.cnn.com · Warner Bros. Discovery · US · sitemap de noticias propio
+    SIN MEDIR (2026-10-12), de forma permanente. Cadena internacional
+    de Warner Bros. Discovery. Hasta el 2026-10-12 figuraba en −0,15,
+    apoyado en «encuadre editorial estadounidense de
+    centro-izquierda», una frase sobre su posición en el sistema
+    político de Estados Unidos, sin piezas leídas. DobleFoco ubica a
+    los medios leyendo sus piezas con sistemas automáticos, y el
+    robots.txt de cnnespanol.cnn.com excluye la lectura por IA
+    (ClaudeBot, Claude-Web y anthropic-ai, entre 56 agentes, de todo
+    el sitio): no tiene lugar en el eje. Sus titulares siguen en el
+    agregador con enlace: el feed se mantiene por decisión del
+    responsable editorial, como ejercicio de transparencia. Si el
+    medio autoriza la lectura, se medirá. Firmado el 2026-10-12 — ver
+    fichas/cnn-es.md y revision-externa/barridos/cnn-es.md.
+
+  The New York Times  ·  sesgo sin medir  ·  factualidad 90%
+    nytimes.com · The New York Times Company · US · sin feed (solo referencia)
+    SIN MEDIR (2026-10-12), de forma permanente. Diario estadounidense
+    de The New York Times Company. Hasta el 2026-10-12 figuraba en
+    −0,25, apoyado en una descripción de su línea editorial sobre el
+    eje de Estados Unidos, sin piezas leídas. DobleFoco ubica a los
+    medios leyendo sus piezas con sistemas automáticos, y el
+    robots.txt de nytimes.com excluye la lectura por IA (anthropic-ai,
+    ClaudeBot, Claude-SearchBot, Claude-User y Claude-Web, todo el
+    sitio) y su cabecera prohíbe el uso del contenido para IA: no
+    tiene lugar en el eje. No se ingiere (feed: null): está en el
+    catálogo para resolverse cuando se le cita. Si el medio autoriza
+    la lectura, se medirá. Firmado el 2026-10-12 — ver fichas/nyt.md y
+    revision-externa/barridos/nyt.md.
+
+  The Wall Street Journal  ·  sesgo sin medir  ·  factualidad 89%
+    wsj.com · News Corp · US · sin feed (solo referencia)
+    SIN MEDIR (2026-10-12), de forma permanente. Diario económico
+    estadounidense de Dow Jones & Company (News Corp). Hasta el
+    2026-10-12 figuraba en +0,30, apoyado en una descripción de su
+    página editorial sobre el eje de Estados Unidos, sin piezas
+    leídas. DobleFoco ubica a los medios leyendo sus piezas con
+    sistemas automáticos, y el robots.txt de wsj.com cierra todo el
+    sitio a cualquier agente que no esté en su lista, y en ella no
+    están los de IA de Anthropic (ni el nuestro): no tiene lugar en el
+    eje. Su robots.txt prohíbe además el uso automatizado de su
+    contenido sin permiso escrito de Dow Jones; DobleFoco no recoge
+    sus titulares y lo declara. No se ingiere (feed: null): está en el
+    catálogo para resolverse cuando se le cita. Si el medio autoriza
+    la lectura, se medirá. Firmado el 2026-10-12 — ver fichas/wsj.md y
+    revision-externa/barridos/wsj.md.
+
+  Financial Times  ·  sesgo sin medir  ·  factualidad 91%
+    ft.com · Nikkei · GB · sin feed (solo referencia)
+    SIN MEDIR (2026-10-12), de forma permanente. Diario económico
+    británico del grupo japonés Nikkei. Hasta el 2026-10-12 figuraba
+    en +0,15, apoyado en una descripción («encuadre desde mercados y
+    liberalismo económico»), sin piezas leídas. DobleFoco ubica a los
+    medios leyendo sus piezas con sistemas automáticos, y el
+    robots.txt de ft.com excluye la lectura por IA (los agentes de
+    Anthropic, todo el sitio) y su cabecera prohíbe cualquier uso del
+    contenido con fines de IA: no tiene lugar en el eje. No se ingiere
+    (feed: null): está en el catálogo para resolverse cuando se le
+    cita. Si el medio autoriza la lectura, se medirá. Firmado el
+    2026-10-12 — ver fichas/financial-times.md y
+    revision-externa/barridos/financial-times.md.
+
+  La Vanguardia  ·  sesgo sin medir  ·  factualidad 86%
+    lavanguardia.com · Grupo Godó · ES · RSS propio
+    SIN MEDIR (2026-10-12), de forma permanente. Diario de Barcelona
+    del Grupo Godó (no es Vanguardia, de Bucaramanga). Hasta el
+    2026-10-12 figuraba en +0,10, apoyado en una descripción de su
+    trayectoria («tradición liberal-conservadora moderada»), sin
+    piezas leídas. DobleFoco ubica a los medios leyendo sus piezas con
+    sistemas automáticos, y el robots.txt de lavanguardia.com excluye
+    la lectura por IA (ClaudeBot, todo el sitio): no tiene lugar en el
+    eje. Sus titulares siguen en el agregador con enlace: el feed se
+    mantiene por decisión del responsable editorial, como ejercicio de
+    transparencia. Si el medio autoriza la lectura, se medirá. Firmado
+    el 2026-10-12 — ver fichas/la-vanguardia-es.md y
+    revision-externa/barridos/la-vanguardia-es.md.
+
+----------------------------------------------------------------------
+CÓMO LEER ESTOS NÚMEROS
+----------------------------------------------------------------------
+
+El sesgo describe la línea editorial histórica de una organización, no
+la calidad ni la veracidad de una noticia concreta. Un medio con sesgo
+marcado puede ser riguroso, y uno de centro puede equivocarse.
+
+La factualidad es el historial de rigor del medio: correcciones
+publicadas, rectificaciones, contraste con verificadores. Tampoco
+evalúa la noticia que usted está leyendo.
+
+Si cree que una clasificación está mal, escríbanos con ejemplos
+concretos de cobertura. Los valores están pensados para ser
+discutidos, y por eso cada uno lleva su justificación al lado.
